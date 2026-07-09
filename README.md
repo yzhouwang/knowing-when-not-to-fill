@@ -13,9 +13,8 @@ abstain instruction, and a prompt-independent intent-consistency gate — turns
 that silent substitution into an honest, typed abstention. **The Gauntlet** is
 the accompanying record/replay evaluation: four arms x four models, replayed
 entirely offline from committed cassettes, no API key. This repo backs the
-EMNLP 2026 demo-track paper *"Knowing When Not to Fill: A Typed-Abstention
-Guardrail for High-Stakes Structured Generation on the Accord Contract
-Standard."*
+EMNLP 2026 demo-track paper *"Knowing When Not to Fill: Contract Drafting on
+the Accord Standard."*
 
 ## Requirements
 
