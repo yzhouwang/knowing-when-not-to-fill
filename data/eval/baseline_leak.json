@@ -1,0 +1,957 @@
+{
+  "arms": [
+    "raw",
+    "verify_reject",
+    "constrained"
+  ],
+  "cases": [
+    "c01",
+    "c02",
+    "c03",
+    "c04",
+    "c06",
+    "c08"
+  ],
+  "controls": [
+    "c27",
+    "c28",
+    "c29"
+  ],
+  "models": {
+    "claude-sonnet-4-6": {
+      "constrained": {
+        "controls": {
+          "n": 3,
+          "raw_fill_names_asked_law": 0,
+          "raw_fill_nonempty": 0,
+          "rows": [
+            {
+              "case": "c27",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c28",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c29",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            }
+          ]
+        },
+        "counterfactual_silent_wrong": 6,
+        "flagged": 0,
+        "n": 6,
+        "rows": [
+          {
+            "case": "c01",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c02",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c03",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c04",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c06",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c08",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          }
+        ],
+        "silent_wrong": 6
+      },
+      "raw": {
+        "controls": {
+          "n": 3,
+          "raw_fill_names_asked_law": 0,
+          "raw_fill_nonempty": 0,
+          "rows": [
+            {
+              "case": "c27",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c28",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c29",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            }
+          ]
+        },
+        "counterfactual_silent_wrong": 0,
+        "flagged": 6,
+        "n": 6,
+        "rows": [
+          {
+            "case": "c01",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Province of Ontario, Canada",
+            "outcome": "leak",
+            "silent_wrong": false
+          },
+          {
+            "case": "c02",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Scotland (laws of Scotland, as a distinct legal jurisdiction within the United Kingdom)",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c03",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Laws of the Dubai International Financial Centre (DIFC), with jurisdiction vested in the DIFC Courts",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c04",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Macao Special Administrative Region",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c06",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Laws of the United States, with venue in New York City",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c08",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Dubai International Financial Centre (DIFC) Law",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          }
+        ],
+        "silent_wrong": 5
+      },
+      "verify_reject": {
+        "controls": {
+          "n": 3,
+          "raw_fill_names_asked_law": 0,
+          "raw_fill_nonempty": 0,
+          "rows": [
+            {
+              "case": "c27",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c28",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c29",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            }
+          ]
+        },
+        "counterfactual_silent_wrong": 0,
+        "flagged": 6,
+        "n": 6,
+        "rows": [
+          {
+            "case": "c01",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Province of Ontario, Canada",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c02",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Scotland (laws of Scotland, as a distinct legal jurisdiction within the United Kingdom)",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c03",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Laws of the Dubai International Financial Centre (DIFC), with jurisdiction vested in the DIFC Courts",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c04",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Macao Special Administrative Region",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c06",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Laws of the United States, with venue in New York City",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c08",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Dubai International Financial Centre (DIFC) Law",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          }
+        ],
+        "silent_wrong": 6
+      }
+    },
+    "deepseek-v4-flash": {
+      "constrained": {
+        "controls": {
+          "n": 3,
+          "raw_fill_names_asked_law": 2,
+          "raw_fill_nonempty": 2,
+          "rows": [
+            {
+              "case": "c27",
+              "governingLawRaw": "New York",
+              "names_asked_law": true,
+              "nonempty": true
+            },
+            {
+              "case": "c28",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c29",
+              "governingLawRaw": "England_and_Wales",
+              "names_asked_law": true,
+              "nonempty": true
+            }
+          ]
+        },
+        "counterfactual_silent_wrong": 2,
+        "flagged": 4,
+        "n": 6,
+        "rows": [
+          {
+            "case": "c01",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Ontario",
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c02",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c03",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Laws of the Dubai International Financial Centre (DIFC)",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c04",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Macao Special Administrative Region",
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c06",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c08",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "DIFC Law",
+            "outcome": "omit",
+            "silent_wrong": true
+          }
+        ],
+        "silent_wrong": 6
+      },
+      "raw": {
+        "controls": {
+          "n": 3,
+          "raw_fill_names_asked_law": 2,
+          "raw_fill_nonempty": 2,
+          "rows": [
+            {
+              "case": "c27",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c28",
+              "governingLawRaw": "Republic of Singapore",
+              "names_asked_law": true,
+              "nonempty": true
+            },
+            {
+              "case": "c29",
+              "governingLawRaw": "Laws of England and Wales",
+              "names_asked_law": true,
+              "nonempty": true
+            }
+          ]
+        },
+        "counterfactual_silent_wrong": 1,
+        "flagged": 5,
+        "n": 6,
+        "rows": [
+          {
+            "case": "c01",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Province of Ontario, Canada",
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c02",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Scotland",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c03",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "laws of the Dubai International Financial Centre (DIFC)",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c04",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Macao Special Administrative Region",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c06",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c08",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "DIFC Law",
+            "outcome": "omit",
+            "silent_wrong": true
+          }
+        ],
+        "silent_wrong": 6
+      },
+      "verify_reject": {
+        "controls": {
+          "n": 3,
+          "raw_fill_names_asked_law": 2,
+          "raw_fill_nonempty": 2,
+          "rows": [
+            {
+              "case": "c27",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c28",
+              "governingLawRaw": "Republic of Singapore",
+              "names_asked_law": true,
+              "nonempty": true
+            },
+            {
+              "case": "c29",
+              "governingLawRaw": "Laws of England and Wales",
+              "names_asked_law": true,
+              "nonempty": true
+            }
+          ]
+        },
+        "counterfactual_silent_wrong": 1,
+        "flagged": 5,
+        "n": 6,
+        "rows": [
+          {
+            "case": "c01",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Province of Ontario, Canada",
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c02",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Scotland",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c03",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "laws of the Dubai International Financial Centre (DIFC)",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c04",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Macao Special Administrative Region",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c06",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c08",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "DIFC Law",
+            "outcome": "omit",
+            "silent_wrong": true
+          }
+        ],
+        "silent_wrong": 6
+      }
+    },
+    "deepseek-v4-pro": {
+      "constrained": {
+        "controls": {
+          "n": 3,
+          "raw_fill_names_asked_law": 1,
+          "raw_fill_nonempty": 1,
+          "rows": [
+            {
+              "case": "c27",
+              "governingLawRaw": "New York",
+              "names_asked_law": true,
+              "nonempty": true
+            },
+            {
+              "case": "c28",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c29",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            }
+          ]
+        },
+        "counterfactual_silent_wrong": 1,
+        "flagged": 5,
+        "n": 6,
+        "rows": [
+          {
+            "case": "c01",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Province of Ontario, Canada",
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c02",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Scotland",
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c03",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Dubai International Financial Centre (DIFC)",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c04",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Macao Special Administrative Region",
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c06",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c08",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "DIFC",
+            "outcome": "omit",
+            "silent_wrong": true
+          }
+        ],
+        "silent_wrong": 6
+      },
+      "raw": {
+        "controls": {
+          "n": 3,
+          "raw_fill_names_asked_law": 0,
+          "raw_fill_nonempty": 0,
+          "rows": [
+            {
+              "case": "c27",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c28",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c29",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            }
+          ]
+        },
+        "counterfactual_silent_wrong": 3,
+        "flagged": 3,
+        "n": 6,
+        "rows": [
+          {
+            "case": "c01",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Ontario, Canada",
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c02",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Scotland",
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c03",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c04",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c06",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c08",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "DIFC",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          }
+        ],
+        "silent_wrong": 6
+      },
+      "verify_reject": {
+        "controls": {
+          "n": 3,
+          "raw_fill_names_asked_law": 0,
+          "raw_fill_nonempty": 0,
+          "rows": [
+            {
+              "case": "c27",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c28",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c29",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            }
+          ]
+        },
+        "counterfactual_silent_wrong": 3,
+        "flagged": 3,
+        "n": 6,
+        "rows": [
+          {
+            "case": "c01",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Ontario, Canada",
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c02",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Scotland",
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c03",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c04",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c06",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c08",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "DIFC",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          }
+        ],
+        "silent_wrong": 6
+      }
+    },
+    "gpt-5.5": {
+      "constrained": {
+        "controls": {
+          "n": 3,
+          "raw_fill_names_asked_law": 0,
+          "raw_fill_nonempty": 0,
+          "rows": [
+            {
+              "case": "c27",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c28",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c29",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            }
+          ]
+        },
+        "counterfactual_silent_wrong": 6,
+        "flagged": 0,
+        "n": 6,
+        "rows": [
+          {
+            "case": "c01",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c02",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c03",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c04",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c06",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c08",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          }
+        ],
+        "silent_wrong": 6
+      },
+      "raw": {
+        "controls": {
+          "n": 3,
+          "raw_fill_names_asked_law": 0,
+          "raw_fill_nonempty": 0,
+          "rows": [
+            {
+              "case": "c27",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c28",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c29",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            }
+          ]
+        },
+        "counterfactual_silent_wrong": 1,
+        "flagged": 5,
+        "n": 6,
+        "rows": [
+          {
+            "case": "c01",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Province of Ontario, Canada",
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c02",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Scotland",
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c03",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "laws of the Dubai International Financial Centre (DIFC)",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c04",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Macao Special Administrative Region",
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c06",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c08",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "DIFC law",
+            "outcome": "omit",
+            "silent_wrong": true
+          }
+        ],
+        "silent_wrong": 6
+      },
+      "verify_reject": {
+        "controls": {
+          "n": 3,
+          "raw_fill_names_asked_law": 0,
+          "raw_fill_nonempty": 0,
+          "rows": [
+            {
+              "case": "c27",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c28",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            },
+            {
+              "case": "c29",
+              "governingLawRaw": null,
+              "names_asked_law": false,
+              "nonempty": false
+            }
+          ]
+        },
+        "counterfactual_silent_wrong": 1,
+        "flagged": 5,
+        "n": 6,
+        "rows": [
+          {
+            "case": "c01",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Province of Ontario, Canada",
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c02",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Scotland",
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c03",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "laws of the Dubai International Financial Centre (DIFC)",
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c04",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "Macao Special Administrative Region",
+            "outcome": "omit",
+            "silent_wrong": true
+          },
+          {
+            "case": "c06",
+            "flags_asked_jurisdiction": false,
+            "governingLawRaw": null,
+            "outcome": "wrong_sub",
+            "silent_wrong": true
+          },
+          {
+            "case": "c08",
+            "flags_asked_jurisdiction": true,
+            "governingLawRaw": "DIFC law",
+            "outcome": "omit",
+            "silent_wrong": true
+          }
+        ],
+        "silent_wrong": 6
+      }
+    }
+  },
+  "pooled": {
+    "constrained": {
+      "counterfactual_silent_wrong": 15,
+      "flagged": 9,
+      "n": 24,
+      "silent_wrong": 24
+    },
+    "raw": {
+      "counterfactual_silent_wrong": 5,
+      "flagged": 19,
+      "n": 24,
+      "silent_wrong": 23
+    },
+    "verify_reject": {
+      "counterfactual_silent_wrong": 5,
+      "flagged": 19,
+      "n": 24,
+      "silent_wrong": 24
+    }
+  },
+  "rule": {
+    "controls": "same non-empty-raw count on the supported-law controls (c27-c29): a raw echo on a correctly-filled supported law is an indiscriminate echo, not an un-representability flag",
+    "counterfactual_silent_wrong": "silent-wrong cases NOT flagged: what silent-wrong would be if a model-level raw flag counted as a signal",
+    "flagged": "fill carries a non-empty governingLawRaw whose normalized text contains >=1 of the case's asked-jurisdiction key names (the committed raw_fidelity._KEY_NAMES roster; DIFC also matches 'Dubai International Financial Centre')",
+    "silent_wrong": "outcome in (wrong_sub, omit) -- the paper's headline metric"
+  },
+  "what": "baseline definitions-block schema leak: the arm A/B/C prompt schema still carried the *Raw hatch fields inside the NDAData definition (schema_validator._strip_hatch strips top-level properties only), so the no-hatch arms could -- and often did -- route the asked jurisdiction into governingLawRaw. Nothing downstream is typed to receive it: production reads the raw only when governingLaw=='OTHER' (compliance_draft) and the outcome classifier scores the chosen governingLaw, so the flag is discarded at the pipeline level."
+}

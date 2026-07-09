@@ -1,0 +1,19 @@
+{
+  "overlay_id": "anti-corruption-eu-nordic",
+  "clause_name": "anti-corruption",
+  "sha256": "08362a61433379c7962646433778b0dad9dc06042ea8a127a2b8b9b35d4cf6f5",
+  "created_at": "2026-04-20T06:23:26.967331+00:00",
+  "playbook_version": "1.0.0",
+  "source_draft_hash": "cad307147183",
+  "customer": "Example Nordic Client AB",
+  "customer_jurisdiction": "Sweden",
+  "scope": "EU / Nordic customer deals \u2014 reusable",
+  "approver": "BD approver",
+  "frameworks_covered": [
+    "FCPA",
+    "UK Bribery Act 2010",
+    "EU Framework Decision 2003/568/JHA",
+    "Swedish Penal Code Ch. 10 & 17",
+    "OECD Anti-Bribery Convention"
+  ]
+}

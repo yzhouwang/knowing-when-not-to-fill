@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "useFormalGoverningLaw": false,
+    "useNegotiationFirst": true
+  }
+}

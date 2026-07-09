@@ -1,0 +1,71 @@
+namespace org.openclaw.jv@1.0.0
+
+@template
+concept JointVentureData {
+  // Party A (illustrative defaults — override for your own JVs)
+  o String partyAName default="Acme AI Inc." length=[1,]
+  o String partyALegalRep
+  o String partyAAddress default="1 Example Way, #01-01 Example Tower, Singapore 000000"
+  o String partyAContact default="+65 0000 0000"
+
+  // Party B
+  o String partyBName length=[1,]
+  o String partyBLegalRep
+  o String partyBAddress
+  o String partyBContact
+
+  // JV Company Details
+  o String jvCompanyName
+  o String registeredCapital
+  o String registrationPlace default="Singapore"
+  o String businessScope
+  o Integer operationTermYears default=5
+
+  // Equity Split
+  o Integer partyAEquityPercent default=40
+  o Integer partyBEquityPercent default=60
+  o String partyAContributionAmount
+  o String partyBContributionAmount
+  o String contributionCurrency default="SGD"
+  o Integer initialContributionPercent default=100
+  o Integer contributionDeadlineDays default=15
+  // First-payment fields (counsel golden v2): trigger event + percentage
+  o Integer firstPaymentPercent default=20
+  o String firstPaymentTrigger default="the issuance of the business license"
+
+  // Governance
+  o Integer totalDirectors default=3
+  o Integer partyADirectors default=1
+  o Integer partyBDirectors default=2
+  o String chairmanNominatedBy default="Party B"
+  o Integer profitDistributionDays default=30
+
+  // Breach Penalties
+  o String dailyPenaltyRate default="0.5"
+  o Integer breachCurePeriodDays default=30
+  o String confidentialityPenaltyAmount
+
+  // Jurisdiction
+  @description("Governing law jurisdiction")
+  o String governingLaw default="Republic of Singapore"
+  o String arbitrationBody default="Singapore International Arbitration Centre (SIAC)"
+  o String disputeResolutionRules default="SIAC Arbitration Rules"
+
+  // Operating scope
+  o String operatingRegion default="Middle East and North Africa (MENA)"
+  @description("Company registration law")
+  o String applicableCompanyLaw default="Singapore Companies Act"
+
+  // Notices (counsel golden v2: dedicated section)
+  o Integer noticeChangeBusinessDays default=5
+
+  // Compliance — additive list of jurisdiction-specific laws (renders into both
+  // anti-corruption and compliance shared clauses via _normalize_array_fields).
+  o String[] localComplianceLaws optional
+
+  // Forward-compat: bilingual variant flag (unused in v0.7, enabled in v0.8)
+  o Boolean bilingualEnglishPrevails default=false
+
+  // Dates
+  o String effectiveDate regex=/^\d{4}-\d{2}-\d{2}$/
+}

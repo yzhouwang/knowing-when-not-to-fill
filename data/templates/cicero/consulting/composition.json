@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "useFormalGoverningLaw": true,
+    "useNegotiationFirst": false,
+    "includeAuditClause": false,
+    "useNonExclusive": true,
+    "bilingualEnglishPrevails": false
+  }
+}

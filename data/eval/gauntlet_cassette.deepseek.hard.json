@@ -1,0 +1,3520 @@
+{
+  "01c653f006d140c8eb0f82038a1c3afe6534fe6194d6d9d700f7846f7a1ba01c": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Hudson Yards Media, Inc.\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingParty\": \"Brandt Industrie GmbH\",\n  \"receivingEntityType\": \"limited_liability_company\",\n  \"effectiveDate\": \"2026-07-01\",\n  \"mutual\": true,\n  \"termMonths\": 24,\n  \"governingLaw\": \"New_York\",\n  \"purpose\": \"evaluating a media-tech partnership\"\n}"
+  },
+  "022a7da6c769b8918f6429796735bf7e9fb12ba523c718c17976210daf42de9c": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "ad-hoc arbitration seated in London with party-appointed arbitrators and no arbitral institution",
+      "effectiveDate": "2026-07-02",
+      "governingLaw": "England_and_Wales",
+      "governingLawRaw": "England and Wales",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "040a679a5189f79f95a47749096165adfd25ad0b646c48d1d33b76ae60d0415e": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Hudson Yards Media, Inc.\",\n  \"receivingParty\": \"Northwind Robotics, LLC\",\n  \"effectiveDate\": \"2026-07-01\",\n  \"mutual\": true,\n  \"termMonths\": 24,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"governingLaw\": \"New_York\",\n  \"purpose\": \"partnership evaluation\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"limited_liability_company\"\n}"
+  },
+  "04178ecfee34c1c90a68422e2168982b1b6a6ab84f5d32ca75f462897f93316e": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingParty": "Gulf Capital Partners DIFC Limited",
+      "disputeForumRaw": "DIFC Courts",
+      "effectiveDate": "2026-09-10",
+      "governingLaw": "United_Arab_Emirates",
+      "governingLawRaw": "Dubai International Financial Centre (DIFC)",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential investment",
+      "receivingEntityType": "limited_liability_company",
+      "receivingParty": "Levant Fintech FZ-LLC",
+      "survivalYears": 3,
+      "termMonths": 36
+    }
+  },
+  "04d6c457418a48a9de3bf8908d88c0272793cf9fabff4f9a2353e48fcbb85d67": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "effectiveDate": "2026-07-07",
+      "governingLaw": "Republic_of_Korea",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "05b9a17d893528657133e2905322ca72ebdcb836790fddbdd0b798e4b47326e3": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "",
+      "disclosingParty": "Cobalt Health Systems, Inc.",
+      "effectiveDate": "2026-08-15",
+      "governingLaw": "New_York",
+      "governingLawRaw": "",
+      "hasNonSolicitation": false,
+      "mutual": true,
+      "nonSolicitationMonths": 12,
+      "purpose": "During and for 12 months after the evaluation neither party will hire or approach the other's clinical staff or named customers introduced during the engagement.",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "",
+      "receivingParty": "Ardent Care Partners, Inc.",
+      "termMonths": 36
+    }
+  },
+  "05c5ef685ce59564eddf5c5018bae6a4a6b5f96a4fc6f032d60fa32efab43a73": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Cairo Regional Centre for International Commercial Arbitration (CRCICA)",
+      "effectiveDate": "2026-07-11",
+      "governingLaw": "England_and_Wales",
+      "governingLawRaw": "England and Wales",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 18
+    }
+  },
+  "067f69941a4bfc1faabcdcffefbe50ec0fe05b72b96946851a8cb7458f078856": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Lotus Gaming Holdings (Macau) Limited",
+      "effectiveDate": "2026-10-05",
+      "governingLawRaw": "Macao Special Administrative Region",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "discussions about a casino-resort technology pilot",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Pearl River Hospitality Group",
+      "survivalYears": 3,
+      "termMonths": 36
+    }
+  },
+  "06c5082cc41667b72d056d7d73cb4eb3838f9301942b3992650d8dd74dc8637f": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "public limited company",
+      "disclosingParty": "Caledonian BioSciences plc",
+      "effectiveDate": "2026-07-06",
+      "governingLaw": "England_and_Wales",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Hudson Yards Media, Inc.",
+      "survivalYears": 3,
+      "termMonths": 36
+    }
+  },
+  "07c84b9b4c798060fdbd3626505bb7cc3e5328f15f3985c496d6483aa1827482": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Caledonian BioSciences plc",
+      "effectiveDate": "2026-08-01",
+      "governingLawRaw": "Scotland",
+      "mutual": true,
+      "purpose": "joint research program",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Tay Valley Pharma Ltd",
+      "termMonths": 24
+    }
+  },
+  "07eb0b48554ee128ff34610d2b202f48b950edf0f6cddd4fd674c2a4e9d11783": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Thames Financial Group Ltd.\",\n  \"receivingParty\": \"Camden Software Ltd.\",\n  \"effectiveDate\": \"2026-09-01\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"governingLaw\": \"England_and_Wales\",\n  \"mutual\": true,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 0,\n  \"nonSolicitationMonths\": 0,\n  \"noticeDays\": 30,\n  \"termMonths\": 24,\n  \"survivalYears\": 3,\n  \"purpose\": \"software-licensing discussion\"\n}"
+  },
+  "098103e044ecd0fafa0ab9ec3aecefc24325acf518c477a9327cda729d615bb4": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingParty": "Meridian Capital Partners LLC",
+      "effectiveDate": "2026-02-31",
+      "governingLaw": "Delaware",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "purpose": "due diligence on a possible Series C lead",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Aster Biosciences, Inc.",
+      "survivalYears": 3,
+      "termMonths": 36
+    }
+  },
+  "0a1747904b3e250bf1431700befc7a4105785bc0cdb0bd6c8328865e1bf1fa1b": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingEntityTypeRaw": "Private Limited Company",
+      "disclosingParty": "Lotus Gaming Holdings (Macau) Limited",
+      "effectiveDate": "2026-10-05",
+      "governingLaw": "OTHER",
+      "governingLawRaw": "Macao Special Administrative Region",
+      "mutual": true,
+      "purpose": "discussions regarding a casino-resort technology pilot",
+      "receivingEntityType": "limited_liability_company",
+      "receivingEntityTypeRaw": "Corporation",
+      "receivingParty": "Pearl River Hospitality Group",
+      "termMonths": 36
+    }
+  },
+  "0e419a28379355474a0592513eeb653c6fddffba8da5e314107a1b8d88a9a5f4": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Caledonian BioSciences plc\",\n  \"receivingParty\": \"Hudson Yards Media, Inc.\",\n  \"effectiveDate\": \"2026-07-06\",\n  \"mutual\": true,\n  \"governingLaw\": \"England_and_Wales\",\n  \"termMonths\": 36,\n  \"survivalYears\": 3,\n  \"purpose\": \"exploring a potential business relationship\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30,\n  \"disclosingEntityTypeRaw\": \"corporation\",\n  \"receivingEntityTypeRaw\": \"corporation\",\n  \"governingLawRaw\": \"England_and_Wales\",\n  \"disputeForum\": \"LCIA\",\n  \"disputeForumRaw\": \"LCIA\"\n}"
+  },
+  "10436205d20c9f10ff9c1c3949e56ac513f516942430e1a9e2141c21abc361d4": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "evaluating a potential partnership",
+      "receivingEntityType": "limited_liability_company",
+      "receivingEntityTypeRaw": "limited_liability_company",
+      "receivingParty": "Northwind Robotics, LLC",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "10ddd0c854c5646a9f6f806f5b612081ef3ad805633be90151fa11c5a9138d14": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "effectiveDate": "2026-07-05",
+      "governingLaw": "Republic_of_Singapore",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 12
+    }
+  },
+  "10ea498541b17b68692a313441891f18f9f5c7a2fdfd874ca3e70e431bb79732": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Cairo Regional Centre for International Commercial Arbitration (CRCICA)",
+      "effectiveDate": "2026-07-11",
+      "governingLaw": "England_and_Wales",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 18
+    }
+  },
+  "115855e0997dc84f5a9048f3c9987c3d1f022ee68831252fb6d0a247e74f1a17": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "New_York",
+      "mutual": true,
+      "purpose": "evaluating a media-tech partnership",
+      "receivingEntityType": "limited_liability_company",
+      "receivingParty": "Brandt Industrie GmbH",
+      "termMonths": 24
+    }
+  },
+  "13d78066c492769168c2d2e28735e9819ae35003d769ea093101687d40c5f48e": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "New_York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "estate-planning data exchange",
+      "receivingEntityType": "trust",
+      "receivingParty": "The Calloway Family Trust",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "145883b9d9a21cbc05d9994e5d887d030d8434d7c5e53fc1ff0a02488abb4254": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "New_York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "evaluating a media-tech partnership",
+      "receivingEntityType": "limited_liability_company",
+      "receivingParty": "Brandt Industrie GmbH",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "1467e1108ede8bf5c8667dad51cd35bcc8eef36a3400a7b77c2efc3ac0c335b2": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingEntityTypeRaw": "limited_liability_company",
+      "disclosingParty": "Thames Financial Group Ltd.",
+      "effectiveDate": "2026-09-01",
+      "governingLaw": "England_and_Wales",
+      "governingLawRaw": "England and Wales",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "discussing a potential software licensing agreement",
+      "receivingEntityType": "limited_liability_company",
+      "receivingEntityTypeRaw": "limited_liability_company",
+      "receivingParty": "Camden Software Ltd.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "154309f91c3e0e380d1383a476b0e6f33c9f6729157fff5b304e37d4bbf76b8f": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "effectiveDate": "2026-07-04",
+      "governingLaw": "England_and_Wales",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "176b3f075b57d88a3be985576324f5771d0d01540211d971e39bc8ca1e56c194": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingParty": "Sable Capital Partners LLC",
+      "effectiveDate": "2025-03-26",
+      "governingLaw": "New_York",
+      "mutual": true,
+      "purpose": "exploring a potential financing transaction",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Orion Therapeutics, Inc.",
+      "survivalYears": 5
+    }
+  },
+  "179762323211d71dd97ab7a5e766bfe2f8f48cb7555a158b20fe3092844a34f6": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-10",
+      "governingLaw": "England_and_Wales",
+      "governingLawRaw": "England and Wales",
+      "mutual": true,
+      "purpose": "exploring a potential co-investment opportunity",
+      "receivingEntityType": "OTHER_ENTITY",
+      "receivingEntityTypeRaw": "statutory body and sovereign wealth fund established by royal decree",
+      "receivingParty": "Gulf Sovereign Investment Authority",
+      "termMonths": 24
+    }
+  },
+  "187bae3cda96aee94e266273bcfc7aaa92bd67819844ae04a7be3a9a3dec9cae": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Hudson Yards Media, Inc.\",\n  \"receivingParty\": \"Outback Freight Pty Ltd\",\n  \"effectiveDate\": \"2026-07-08\",\n  \"mutual\": true,\n  \"governingLaw\": \"England_and_Wales\",\n  \"governingLawRaw\": \"England_and_Wales\",\n  \"termMonths\": 12,\n  \"purpose\": \"logistics integration\",\n  \"disclosingEntityType\": \"corporation\",\n  \"disclosingEntityTypeRaw\": \"corporation\",\n  \"receivingEntityType\": \"limited_liability_company\",\n  \"receivingEntityTypeRaw\": \"limited_liability_company\",\n  \"disputeForum\": \"LCIA\",\n  \"disputeForumRaw\": \"LCIA\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3\n}"
+  },
+  "1a26fe35f3f870d6f08cd7e382ba1a89fba43e4742b607d818b17d276efa85c0": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Hudson Yards Media, Inc.\",\n  \"disclosingEntityType\": \"corporation\",\n  \"disclosingEntityTypeRaw\": \"corporation\",\n  \"receivingParty\": \"Open Protocol Collective\",\n  \"receivingEntityType\": \"general_partnership\",\n  \"receivingEntityTypeRaw\": \"decentralized autonomous organization (unincorporated)\",\n  \"effectiveDate\": \"2026-07-12\",\n  \"mutual\": true,\n  \"purpose\": \"protocol research\",\n  \"governingLaw\": \"Republic_of_Singapore\",\n  \"disputeForum\": \"SIAC\",\n  \"termMonths\": 12,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3\n}"
+  },
+  "1aae68f6961a1efec9c16eee6ba9f03795fa567eaa46047b556a33f1c026a9d6": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "TestCo, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "Washington",
+      "governingLawRaw": "Washington",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "limited_liability_company",
+      "receivingEntityTypeRaw": "limited_liability_company",
+      "receivingParty": "AcmeCorp LLC",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "1cdfd1e109213299a44bd90281d0911e887e236c7ffd3a6fd6299af101e192cf": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Helio Dynamics, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "Delaware",
+      "hasNonCompete": true,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "noticeDays": 30,
+      "purpose": "evaluating a joint autonomy stack",
+      "receivingEntityType": "limited_liability_company",
+      "receivingParty": "Northwind Robotics, LLC",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "1f217b6ffb55cc3ca23dde27df6c105ccbf9f77c58e38ae5baefd72c56fa386e": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "Inc.",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-09",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New York",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "Unlimited Company",
+      "receivingParty": "Thames Holdings ULC",
+      "termMonths": 18
+    }
+  },
+  "2007b5b36d2c1567ebb5f6e38c25871c38861aae11c9073a4d6c802099c57e8e": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingParty": "Gulf Falcon Logistics FZ-LLC",
+      "effectiveDate": "2025-04-09",
+      "governingLaw": "OTHER",
+      "governingLawRaw": "DIFC",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "confidential evaluation of a data-center colocation venture",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Sentinel Datacenters Holdings, Inc.",
+      "survivalYears": 5,
+      "termMonths": 30
+    }
+  },
+  "2063c4e6b2999fd0413dd830806d3d013b7dafed869ffbaf5c1fe031c54e5c7b": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingEntityTypeRaw": "LLC",
+      "disclosingParty": "Hudson Yards Media LLC",
+      "effectiveDate": "2026-08-20",
+      "governingLaw": "OTHER",
+      "governingLawRaw": "United States",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "content-licensing exploration",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "Corp.",
+      "receivingParty": "Atlas Streaming Corp.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "20ea483613de775357cada106bffc982d43353ed5705981caaf5c5d99dac01c3": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "",
+      "disclosingParty": "Polaris Semiconductor, Inc.",
+      "effectiveDate": "2025-04-04",
+      "governingLaw": "Delaware",
+      "governingLawRaw": "",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": false,
+      "noticeDays": 30,
+      "purpose": "evaluating a potential strategic investment",
+      "receivingEntityType": "limited_liability_company",
+      "receivingEntityTypeRaw": "",
+      "receivingParty": "Brightline Ventures Management, LLC",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "213096db010058430c74d1ba44a63b6e288939c053dfaf5f59d9365065a90449": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Hudson Yards Media, Inc.\",\n  \"receivingParty\": \"Polder Data BV\",\n  \"effectiveDate\": \"2026-07-04\",\n  \"mutual\": true,\n  \"governingLaw\": \"New_York\",\n  \"governingLawRaw\": \"New York\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"limited_liability_company\",\n  \"termMonths\": 12,\n  \"purpose\": \"data-sharing pilot\"\n}"
+  },
+  "224b41ada897bf3e451fa21358edb038b31f738b1569e8ad70fe67e7d75ab9bd": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Vertex Semiconductor Corp.",
+      "effectiveDate": "2026-09-01",
+      "governingLaw": "California",
+      "governingLawRaw": "California",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": true,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Lumen Optics, Inc.",
+      "survivalYears": 5,
+      "termMonths": 24
+    }
+  },
+  "2898e95f567b9dde93d83116c36ebf6016052110848fbd21c4054eafa78a5500": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Summit Grain Holdings Inc.\",\n  \"receivingParty\": \"Cardinal AgriTech Pte.\",\n  \"effectiveDate\": \"2026-02-30\",\n  \"mutual\": true,\n  \"governingLaw\": \"Texas\",\n  \"termMonths\": 24,\n  \"purpose\": \"exploring a potential business relationship\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\"\n}"
+  },
+  "2a5e3017133764c3dfc30161222ced17f02d57d7dd6b1aa14bb0d7e2836629f9": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Polaris Semiconductor, Inc.",
+      "effectiveDate": "2025-03-27",
+      "governingLaw": "Delaware",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": false,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "evaluating a potential strategic investment",
+      "receivingEntityType": "limited_liability_company",
+      "receivingEntityTypeRaw": "limited_liability_company",
+      "receivingParty": "Brightline Ventures Management, LLC",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "2b000b6aa563344aa566935dd25bc9568fcc29e7f4f3d444b3ae7187b07b5033": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Atlas Semiconductors, Inc.\",\n  \"receivingParty\": \"Beacon Analytics, Inc.\",\n  \"effectiveDate\": \"2026-07-01\",\n  \"mutual\": true,\n  \"termMonths\": 24,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"disputeForum\": \"LCIA\",\n  \"governingLaw\": \"England_and_Wales\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"purpose\": \"exploring a potential business relationship\"\n}"
+  },
+  "2b42a290921127f4a5753fffe57eb0e8bbadd08e01fde8e84d03373438585c1e": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Straits Data Systems Pte. Ltd.\",\n  \"receivingParty\": \"Orchard Analytics Pte. Ltd.\",\n  \"effectiveDate\": \"2026-08-01\",\n  \"mutual\": true,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"termMonths\": 36,\n  \"noticeDays\": 30,\n  \"survivalYears\": 5,\n  \"governingLaw\": \"Republic_of_Singapore\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"purpose\": \"exploring a potential business relationship\"\n}"
+  },
+  "2d04849ed6c2d9b14c55f7ba9f74bed9a87a5fbf49593843eaf8f354f89feb81": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "ad-hoc arbitration under the UNCITRAL Arbitration Rules",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "2de457f7561d49d5a3e4cafcb17ce705ace98408ddf2a2bfaf118631b25e602b": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-04",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New York",
+      "mutual": true,
+      "purpose": "data-sharing pilot",
+      "receivingEntityType": "limited_liability_company",
+      "receivingEntityTypeRaw": "besloten vennootschap",
+      "receivingParty": "Polder Data BV",
+      "termMonths": 12
+    }
+  },
+  "2e6b720393bc78915c8eb24f4dcc136ac7d50d7c05aafc478eb5d2e6044fa7d4": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Japan Commercial Arbitration Association (JCAA)",
+      "effectiveDate": "2026-07-12",
+      "governingLaw": "Japan",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "2f08cf1792893cbdbb7f51e304e3564b4fca66ed99b59579ce459e67633a4aef": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Saudi Center for Commercial Arbitration (SCCA)",
+      "effectiveDate": "2026-07-10",
+      "governingLaw": "Kingdom_of_Saudi_Arabia",
+      "governingLawRaw": "Kingdom of Saudi Arabia",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "3007b050e18f63470d399cc669d39ea9f58b4b057154162c04712c5794403591": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Cairo Regional Centre for International Commercial Arbitration (CRCICA)",
+      "effectiveDate": "2026-07-11",
+      "governingLaw": "England_and_Wales",
+      "governingLawRaw": "England and Wales",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 18
+    }
+  },
+  "30687c658a88da085af57a4930c89f6416fa496ffc725652565bd54628e0d790": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Aether Biosciences Corporation",
+      "effectiveDate": "2026-09-01",
+      "governingLaw": "California",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Greenfield Therapeutics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "309a41d18e3fa0b24a7d7ba55876ca9bb935bf0d94a3a6449a0ea77a5e0f35d4": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingParty": "Sable Capital Partners LLC",
+      "effectiveDate": "2025-04-04",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New York",
+      "mutual": true,
+      "purpose": "evaluating a potential financing transaction",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Orion Therapeutics, Inc.",
+      "survivalYears": 5
+    }
+  },
+  "368d1e981f33dfe9d4bbf9c99e9445e5faef4e6b7b5763295b3ccf2eba5a5b59": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Atlas Semiconductors, Inc.\",\n  \"receivingParty\": \"Beacon Analytics, Inc.\",\n  \"effectiveDate\": \"2026-07-07\",\n  \"mutual\": true,\n  \"disclosingEntityType\": \"corporation\",\n  \"disclosingEntityTypeRaw\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"receivingEntityTypeRaw\": \"corporation\",\n  \"governingLaw\": \"Republic_of_Korea\",\n  \"governingLawRaw\": \"Republic of Korea\",\n  \"disputeForumRaw\": \"KCAB (Korean Commercial Arbitration Board)\",\n  \"termMonths\": 24,\n  \"purpose\": \"exploring a potential business relationship\"\n}"
+  },
+  "381c5d56a36279a908503c633cba3378f1c2af8c9a10700d07c802d732827d15": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "Inc.",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-02",
+      "governingLaw": "Republic_of_Singapore",
+      "governingLawRaw": "Republic of Singapore",
+      "mutual": true,
+      "purpose": "exploring a robotics licensing deal",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "KK",
+      "receivingParty": "Sakura Robotics KK",
+      "termMonths": 24
+    }
+  },
+  "383d16ab86847768bb8810d56f0ed067cae9474839d2fbe8f11e5f99d3d3f6c7": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-11",
+      "governingLaw": "New_York",
+      "mutual": true,
+      "purpose": "exploring a supply pilot program",
+      "receivingEntityType": "OTHER_ENTITY",
+      "receivingEntityTypeRaw": "unincorporated cooperative association",
+      "receivingParty": "Riverside Growers Cooperative Society",
+      "termMonths": 12
+    }
+  },
+  "38dce5c01da43b94eed1ca3914bdf2572853b56a22b3c56c541690e42cefc39e": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "plc",
+      "disclosingParty": "Caledonian BioSciences plc",
+      "effectiveDate": "2026-08-01",
+      "governingLaw": "OTHER",
+      "governingLawRaw": "Scotland",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "joint research program",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "Ltd",
+      "receivingParty": "Tay Valley Pharma Ltd",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "3a04a14fc001ac8ddb17c9a81aabbc320fe79fd890a6c41f05c9be4d74ad33f5": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Business and Property Courts of the High Court of Justice in London",
+      "effectiveDate": "2026-07-04",
+      "governingLaw": "England_and_Wales",
+      "governingLawRaw": "England and Wales",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "3b48421406c0d920c2bd024ef73d0008e6e77625d76006b4160b6b0a581796d8": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Japan Commercial Arbitration Association (JCAA)",
+      "effectiveDate": "2026-07-12",
+      "governingLaw": "Japan",
+      "governingLawRaw": "Japan",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "413a95fe99a2d081875f4398742d8144477b054b610a291720075a16bfdec8de": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Vienna International Arbitral Centre (VIAC) Rules",
+      "effectiveDate": "2026-07-08",
+      "governingLaw": "England_and_Wales",
+      "governingLawRaw": "",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "41c37898f1b9f7215a28afc131db77009c702356f8f02cbf5a18dc6cff7c0ffb": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForumRaw": "SCCA",
+      "effectiveDate": "2026-07-10",
+      "governingLaw": "Kingdom_of_Saudi_Arabia",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "41d936b3abcfdd7e023e625fb28fb911e2b80060d29b5f3b5c46054f68c64325": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Singapore International Commercial Court (SICC)",
+      "effectiveDate": "2026-07-05",
+      "governingLaw": "Republic_of_Singapore",
+      "governingLawRaw": "Republic_of_Singapore",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 12
+    }
+  },
+  "450bfb6e7107c6402f9365b50e4ff73269dfb2f393fbe46ee1e60b92655f248e": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "New_York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "evaluating a media-tech partnership",
+      "receivingEntityType": "limited_liability_company",
+      "receivingParty": "Brandt Industrie GmbH",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "452e3050720478775a5da4f85e95cfc39bfc8981c4e03f449fd79719b4eb9772": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForumRaw": "Vienna International Arbitral Centre (VIAC) Rules",
+      "effectiveDate": "2026-07-08",
+      "governingLaw": "England_and_Wales",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "453ca8ac4725ce746ee2bf5d3f228409aa64919f4bdca4e8fb5d08448de06c71": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Meridian Capital Partners LLC\",\n  \"receivingParty\": \"Aster Biosciences, Inc.\",\n  \"effectiveDate\": \"2026-02-31\",\n  \"mutual\": true,\n  \"termMonths\": 36,\n  \"survivalYears\": 3,\n  \"governingLaw\": \"Delaware\",\n  \"purpose\": \"due diligence on a possible Series C lead\",\n  \"hasNonCompete\": false,\n  \"hasResidualsClause\": false\n}"
+  },
+  "4622d3c390a14c152aec269d22050458b6718a0416d102cbeeafd1c164e44c7a": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Hudson Yards Media, Inc.\",\n  \"receivingParty\": \"Lumiere Studios SA\",\n  \"effectiveDate\": \"2026-07-03\",\n  \"mutual\": true,\n  \"termMonths\": 18,\n  \"governingLaw\": \"England_and_Wales\",\n  \"governingLawRaw\": \"England_and_Wales\",\n  \"disclosingEntityType\": \"corporation\",\n  \"disclosingEntityTypeRaw\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"receivingEntityTypeRaw\": \"corporation\",\n  \"purpose\": \"exploring a potential co-production business relationship\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3\n}"
+  },
+  "476122552ae8606b312acb60cdb69cdd6ae4cb5a0e408a6711b8614b4f9ad526": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Sable Capital Partners LLC\",\n  \"disclosingEntityType\": \"limited_liability_company\",\n  \"receivingParty\": \"Orion Therapeutics, Inc.\",\n  \"receivingEntityType\": \"corporation\",\n  \"effectiveDate\": \"2025-03-19\",\n  \"governingLaw\": \"New_York\",\n  \"mutual\": true,\n  \"survivalYears\": 5,\n  \"purpose\": \"evaluating a potential financing transaction\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false\n}"
+  },
+  "4a0e89e79b8b2519d55b47bdc459be18fba8cac7ff6653e2a46d53ce59a9310a": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "OTHER_ENTITY",
+      "disclosingEntityTypeRaw": "aktiebolag",
+      "disclosingParty": "Nordic Sensors AB",
+      "effectiveDate": "2026-07-05",
+      "governingLaw": "Republic_of_Singapore",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Hudson Yards Media, Inc.",
+      "termMonths": 24
+    }
+  },
+  "4a1b2afbdef98ff40c0833f299eaabaf8ad23ec189bc9faffecc857ab7d36621": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "SIAC",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "Republic_of_Singapore",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "4a475e8a80f1cff6a615cbd23fa6b044fe5b4f21218241200191a7493047b709": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Cobalt Health Systems, Inc.\",\n  \"receivingParty\": \"Ardent Care Partners, Inc.\",\n  \"effectiveDate\": \"2026-08-15\",\n  \"mutual\": true,\n  \"governingLaw\": \"New_York\",\n  \"termMonths\": 36,\n  \"hasNonSolicitation\": false,\n  \"nonSolicitationMonths\": 12,\n  \"purpose\": \"During the term of this Agreement and for a period of twelve (12) months after completion of the evaluation, neither party shall hire or approach the other's clinical staff or named customers that were introduced during the engagement. The parties are entering into this mutual non-disclosure agreement to explore a potential business relationship.\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"hasNonCompete\": false,\n  \"nonCompeteMonths\": 12,\n  \"hasResidualsClause\": false,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3\n}"
+  },
+  "4ac5afe5a9e1f689e46d0d61c06bd000115d6466bf76472d5b48d78f6c800a34": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Gulf Capital Partners DIFC Limited\",\n  \"receivingParty\": \"Levant Fintech FZ-LLC\",\n  \"effectiveDate\": \"2026-09-10\",\n  \"mutual\": true,\n  \"termMonths\": 36,\n  \"purpose\": \"evaluating a potential investment\",\n  \"governingLaw\": \"United_Arab_Emirates\",\n  \"disclosingEntityType\": \"limited_liability_company\",\n  \"receivingEntityType\": \"limited_liability_company\",\n  \"survivalYears\": 3,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false\n}"
+  },
+  "4b0628797f8194cf2aa09f48a7bb704b242f0cb993f41e1ec591f940efcbbf55": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Maple Logistics Inc.\",\n  \"receivingParty\": \"Northbridge Robotics Ltd.\",\n  \"effectiveDate\": \"2026-07-15\",\n  \"mutual\": true,\n  \"purpose\": \"exploring a supply-chain integration\",\n  \"termMonths\": 24,\n  \"governingLawRaw\": \"Ontario, Canada\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\"\n}"
+  },
+  "4b8dd27cc54d533f6cdc52a415037e0b7713187e1bd17d4d94bcdaeaff9213f0": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-11",
+      "governingLaw": "New_York",
+      "mutual": true,
+      "purpose": "supply pilot",
+      "receivingEntityType": "OTHER_ENTITY",
+      "receivingEntityTypeRaw": "unincorporated cooperative association",
+      "receivingParty": "Riverside Growers Cooperative Society",
+      "termMonths": 12
+    }
+  },
+  "4c411378aab87d8303c2b3a108a01a07ad66360de931a9a5b2d19d409b666f55": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New_York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "estate-planning data exchange",
+      "receivingEntityType": "trust",
+      "receivingEntityTypeRaw": "trust",
+      "receivingParty": "The Calloway Family Trust",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "4d9a7f7dd3b08eac5d48fe8fce676779c60ffa98da501a7bb1755b2ba3c08d6f": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingParty": "Albion Pharma Ltd.",
+      "effectiveDate": "2026-02-03",
+      "governingLaw": "New_York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Northwind Biologics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "4f49f686f02a64ac09cdee121ed4dff8f124595a87771243871fa05df0ee5bd6": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "Sterling & Hawthorne Advisory Group",
+      "effectiveDate": "2026-11-03",
+      "governingLaw": "England_and_Wales",
+      "governingLawRaw": "England and Wales",
+      "mutual": true,
+      "noticeDays": 90,
+      "purpose": "exploring a potential business relationship",
+      "receivingParty": "Brightwater Capital Partners LLC",
+      "survivalYears": 5,
+      "termMonths": 36
+    }
+  },
+  "4fca829acd5972b9facd45bc92d5e6b6a1f5a9558d907eae8e312b5962bdd37c": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"Atlas Semiconductors, Inc.\",\"receivingParty\":\"Beacon Analytics, Inc.\",\"effectiveDate\":\"2026-07-10\",\"mutual\":true,\"governingLaw\":\"Kingdom_of_Saudi_Arabia\",\"disputeForumRaw\":\"SCCA\",\"termMonths\":24,\"disclosingEntityType\":\"corporation\",\"receivingEntityType\":\"corporation\",\"purpose\":\"exploring a potential business relationship\"}"
+  },
+  "50dc9ccb05562745094d0494b72ccb3ceb4975fa4fec77811f9ebc21945fce0b": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-03",
+      "governingLaw": "England_and_Wales",
+      "mutual": true,
+      "purpose": "exploring a potential co-production relationship",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Lumiere Studios SA",
+      "termMonths": 18
+    }
+  },
+  "50f7bf330a094732c94e028a220a9d433cd8726967e7e68c2f340bdc641b6c91": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "disputeForum": "SIAC",
+      "effectiveDate": "2026-07-12",
+      "governingLaw": "Republic_of_Singapore",
+      "mutual": true,
+      "purpose": "protocol research",
+      "receivingEntityType": "OTHER_ENTITY",
+      "receivingEntityTypeRaw": "decentralized autonomous organization (DAO)",
+      "receivingParty": "Open Protocol Collective",
+      "termMonths": 12
+    }
+  },
+  "514a7d618a7df382a9283d081b7579a0d301ceb08206c078de85c98f7ea6cde6": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Nordic Sensors AB\",\n  \"receivingParty\": \"Hudson Yards Media, Inc.\",\n  \"effectiveDate\": \"2026-07-05\",\n  \"mutual\": true,\n  \"governingLaw\": \"Republic_of_Singapore\",\n  \"governingLawRaw\": \"Republic of Singapore\",\n  \"termMonths\": 24,\n  \"disclosingEntityType\": \"corporation\",\n  \"disclosingEntityTypeRaw\": \"Aktiebolag\",\n  \"receivingEntityType\": \"corporation\",\n  \"receivingEntityTypeRaw\": \"Inc.\",\n  \"disputeForum\": \"SIAC\",\n  \"disputeForumRaw\": \"Singapore International Arbitration Centre\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30,\n  \"purpose\": \"exploring a potential business relationship\",\n  \"survivalYears\": 3\n}"
+  },
+  "51ba884382e99fdfc679b379b5445a7191251a87f8fa68884ccb06357bbb69a2": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Maple Logistics Inc.",
+      "effectiveDate": "2026-07-15",
+      "governingLaw": "OTHER",
+      "governingLawRaw": "Ontario",
+      "mutual": true,
+      "purpose": "exploring a supply-chain integration",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Northbridge Robotics Ltd.",
+      "termMonths": 24
+    }
+  },
+  "51e9902a1a89830bebf70b2fb02032a45651dea2ccf897484af7c8629831768d": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"TestCo, Inc.\",\n  \"receivingParty\": \"AcmeCorp LLC\",\n  \"effectiveDate\": \"2026-07-01\",\n  \"mutual\": true,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"termMonths\": 24,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3,\n  \"governingLaw\": \"Washington\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"limited_liability_company\",\n  \"purpose\": \"exploring a potential business relationship\"\n}"
+  },
+  "53a5755ba1ebb8d93c2181efc9c1813d348ab7a8f61d39de218588123317c260": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-04",
+      "governingLaw": "New_York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "data-sharing pilot",
+      "receivingEntityType": "limited_liability_company",
+      "receivingParty": "Polder Data BV",
+      "survivalYears": 3,
+      "termMonths": 12
+    }
+  },
+  "57e847a9d6099f6a15ec7f06da162fbe3a373d39845d9bc89979705b7589af60": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Lotus Gaming Holdings (Macau) Limited\",\n  \"receivingParty\": \"Pearl River Hospitality Group\",\n  \"effectiveDate\": \"2026-10-05\",\n  \"mutual\": true,\n  \"purpose\": \"discussions about a casino-resort technology pilot\",\n  \"termMonths\": 36,\n  \"governingLaw\": \"Peoples_Republic_of_China\",\n  \"disclosingEntityType\": \"limited_liability_company\",\n  \"receivingEntityType\": \"limited_liability_company\"\n}"
+  },
+  "5ae5c9651243293ca8fa1850e2579576bbe88a50aa51b4004045adca7cf4cb49": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "ad-hoc arbitration under UNCITRAL Arbitration Rules",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "New_York",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "5e86c73ef69cc8da103d9054aa3671e0a72c8f5d3e84f9d32fb92483cb72bc2b": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "Corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Litigation in the state and federal courts located in New York County",
+      "effectiveDate": "2026-07-03",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New York",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "Corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 18
+    }
+  },
+  "5ec49a2974dacd2f61daf43f69190c20e8bced06f08c7f639ba648b8d9543948": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Atlas Aerospace Systems, Inc.\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingParty\": \"Vanguard Materials GmbH\",\n  \"receivingEntityType\": \"limited_liability_company\",\n  \"effectiveDate\": \"2026-06-30\",\n  \"governingLaw\": \"New_York\",\n  \"governingLawRaw\": \"New York\",\n  \"mutual\": false,\n  \"termMonths\": 120\n}"
+  },
+  "5ee5c7584a9618afe5856431adc3c299c742aa59ec8aa6a4959c53b84e26cb1b": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Saudi Center for Commercial Arbitration (SCCA)",
+      "effectiveDate": "2026-07-10",
+      "governingLaw": "Kingdom_of_Saudi_Arabia",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "5eeb46bbebfea733b374b811b233a2aaefb5305492ca772ab8f0003bac80eb4e": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Hudson Yards Media, Inc.\",\n  \"receivingParty\": \"Sakura Robotics KK\",\n  \"mutual\": true,\n  \"effectiveDate\": \"2026-07-02\",\n  \"governingLaw\": \"Republic_of_Singapore\",\n  \"governingLawRaw\": \"Republic of Singapore\",\n  \"disputeForum\": \"SIAC\",\n  \"disputeForumRaw\": \"Singapore International Arbitration Centre\",\n  \"termMonths\": 24,\n  \"purpose\": \"exploring a robotics licensing deal\",\n  \"disclosingEntityType\": \"corporation\",\n  \"disclosingEntityTypeRaw\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"receivingEntityTypeRaw\": \"kabushiki kaisha\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3\n}"
+  },
+  "5f06f6d6d098cece1b3e54c1114c9050318f355471eb3d8bdcf74373d4da6ef0": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Orion Health Systems, Inc.",
+      "disputeForum": "SIAC",
+      "disputeForumRaw": "SIAC",
+      "effectiveDate": "2026-12-01",
+      "governingLaw": "Republic_of_Singapore",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 180,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Meridian Diagnostics Corp.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "60cdb843e75c54798fec6b2037705df58f15ece8221c304b470ef3acaa19ab37": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Helios Robotics, Inc.\",\n  \"receivingParty\": \"Tessellate Materials Corp.\",\n  \"effectiveDate\": \"2026-07-01\",\n  \"mutual\": true,\n  \"governingLaw\": \"Delaware\",\n  \"survivalYears\": 2,\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"purpose\": \"exploring a potential business relationship\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"termMonths\": 24,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30\n}"
+  },
+  "612396f8893c94c63ee404d43abfa4eb6c10632edc48ca26a00a632a4ccedcc4": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Marina Bay Capital Pte. Ltd.",
+      "disputeForum": "SIAC",
+      "effectiveDate": "2026-08-01",
+      "governingLaw": "Republic_of_Singapore",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "confidential fintech evaluation",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Raffles Data Systems Pte. Ltd.",
+      "survivalYears": 5,
+      "termMonths": 36
+    }
+  },
+  "6238c324271a6bfd178ab60603e24e8e03cc2ce3565437dd4e98f40b5abda867": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"Atlas Semiconductors, Inc.\",\"receivingParty\":\"Beacon Analytics, Inc.\",\"effectiveDate\":\"2026-07-01\",\"disclosingEntityType\":\"corporation\",\"receivingEntityType\":\"corporation\",\"disputeForum\":\"SIAC\",\"governingLaw\":\"Republic_of_Singapore\",\"mutual\":true,\"termMonths\":24,\"noticeDays\":30,\"survivalYears\":3,\"hasNonCompete\":false,\"hasNonSolicitation\":false,\"hasResidualsClause\":false,\"nonCompeteMonths\":12,\"nonSolicitationMonths\":12,\"purpose\":\"exploring a potential business relationship\"}"
+  },
+  "63433342d7ff95cbf60825cbf67eb51e1c5bb773f205e3e09ec2b1e13e70bead": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Atlas Semiconductors, Inc.\",\n  \"receivingParty\": \"Beacon Analytics, Inc.\",\n  \"effectiveDate\": \"2026-07-02\",\n  \"mutual\": true,\n  \"governingLaw\": \"England_and_Wales\",\n  \"disputeForum\": \"LCIA\",\n  \"termMonths\": 24,\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\"\n}"
+  },
+  "6347ccc75e716b5a4f5375512b39c38d26fe8046a435b4118d90e04688559506": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingParty": "Albion Pharma Ltd.",
+      "effectiveDate": "2026-02-03",
+      "governingLaw": "New_York",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Northwind Biologics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "64e253be3cf3f6753f777400ffbb9b88dc7fcc6c67e891dfe2c9725edfb3c887": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingParty": "Hudson Yards Media LLC",
+      "effectiveDate": "2026-08-20",
+      "governingLaw": "New_York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "content-licensing exploration",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Atlas Streaming Corp.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "65e32dc287b72b59863502714445c1f2466c92e3dd29e2681b72918304ec7d92": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Vertex Semiconductor Corp.",
+      "effectiveDate": "2026-09-01",
+      "governingLaw": "California",
+      "governingLawRaw": "",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": true,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Lumen Optics, Inc.",
+      "survivalYears": 5,
+      "termMonths": 24
+    }
+  },
+  "66794f75c167411dc9d5c6b49503688f358361da036230650808fee366b44a8a": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Aurora Grid Systems, Inc.",
+      "effectiveDate": "2025-04-09",
+      "governingLaw": "California",
+      "governingLawRaw": "California",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "scoping a multi-year predictive-maintenance data exchange for offshore assets",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Tradewind Maritime Insurance Ltd.",
+      "survivalYears": 3,
+      "termMonths": 60
+    }
+  },
+  "6691463a0e0d366d7cd0767781e72ac61342a5333ed226dea514b6a775e16808": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "German Arbitration Institute (DIS)",
+      "effectiveDate": "2026-07-09",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 12
+    }
+  },
+  "675a4d5482d454689e07488a58ee523f533971a304ed2413de98314a679feb26": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingEntityTypeRaw": "limited_liability_company",
+      "disclosingParty": "Meridian Capital Partners LLC",
+      "effectiveDate": "2026-02-31",
+      "governingLaw": "Delaware",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "purpose": "due diligence on a possible Series C lead",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Aster Biosciences, Inc.",
+      "survivalYears": 3,
+      "termMonths": 36
+    }
+  },
+  "6797bd905eea9df1150e794106b938a6c5d591a36a614041595abdfad994b08e": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "disputeForum": "SIAC",
+      "disputeForumRaw": "SIAC",
+      "effectiveDate": "2026-07-07",
+      "governingLaw": "Republic_of_Singapore",
+      "governingLawRaw": "Republic of Singapore",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "fund administration discussion",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Marina Bay Capital Pte. Ltd.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "67a9c2025b7bb84ed31a35aabd1cfcfda661b826d42303ac4f1bc5e18a2e5432": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Helios Robotics, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "Delaware",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Tessellate Materials Corp.",
+      "survivalYears": 3,
+      "termMonths": 30
+    }
+  },
+  "6a1f8336e45789929b7719c4e3273392a593b6e1ccac94d44ce5e1ca2f7b7771": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "Corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Ad-hoc arbitration, London, party-appointed arbitrators",
+      "effectiveDate": "2026-07-02",
+      "governingLaw": "England_and_Wales",
+      "governingLawRaw": "England and Wales",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "Corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "6a824cefbc4a2a905e14ea86edc9ce76cd94d8064a7a10333cd871127a7acca2": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "effectiveDate": "2026-07-08",
+      "governingLaw": "England_and_Wales",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "6d89ace6aa1a768665a053baf96a1ebe61fc314c646e42d1628a5f91b405f6e0": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "SIAC",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "Republic_of_Singapore",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 0,
+      "nonSolicitationMonths": 0,
+      "noticeDays": 30,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "6def74656f0981b2694989a7b0606309fb1a1c7eb3aed24fa86eafa584480507": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Summit Grain Holdings Inc.",
+      "effectiveDate": "2026-02-30",
+      "governingLaw": "Texas",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Cardinal AgriTech Pte.",
+      "termMonths": 24
+    }
+  },
+  "6f2b6396ba03e9b5088118ddd3fd5467b475c008fddd1ed0f5b46097d54ccf6e": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Hudson Yards Media, Inc.\",\n  \"receivingParty\": \"Marina Bay Capital Pte. Ltd.\",\n  \"effectiveDate\": \"2026-07-07\",\n  \"termMonths\": 24,\n  \"governingLaw\": \"Republic_of_Singapore\",\n  \"purpose\": \"fund administration discussion\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"mutual\": true,\n  \"disputeForum\": \"SIAC\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3\n}"
+  },
+  "6f8a67d2988693911f4d97a532d3599381b2c015f552263c31d20b221821c295": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"Sterling & Hawthorne Advisory Group\",\"receivingParty\":\"Brightwater Capital Partners LLC\",\"effectiveDate\":\"2026-11-03\",\"governingLaw\":\"England_and_Wales\",\"mutual\":true,\"termMonths\":36,\"survivalYears\":5,\"noticeDays\":90}"
+  },
+  "703b8b0632bbf8de9a6caada580ebbf995ee4f1730c88e5fd1b6dd4eb68a6fff": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Ad hoc arbitration under UNCITRAL Arbitration Rules",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New_York",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "70eec1f04e28a2410056aec605228f728a77e307990b97980ee6740ac65d9016": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingEntityTypeRaw": "aktiebolag",
+      "disclosingParty": "Nordic Sensors AB",
+      "disputeForum": "SIAC",
+      "disputeForumRaw": "SIAC",
+      "effectiveDate": "2026-07-05",
+      "governingLaw": "Republic_of_Singapore",
+      "governingLawRaw": "Republic of Singapore",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "Inc.",
+      "receivingParty": "Hudson Yards Media, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "71e50e36485fa2c9da316fa09738f511eb63cf511a1471cd2736530f44a2a67b": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "Straits Data Systems Pte. Ltd.",
+      "effectiveDate": "2026-08-01",
+      "governingLaw": "Republic_of_Singapore",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingParty": "Orchard Analytics Pte. Ltd.",
+      "survivalYears": 5,
+      "termMonths": 36
+    }
+  },
+  "726168dc2c8dc7398be5560a8d21889a09921775e780283af6886b97963ab8c1": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "LCIA",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "England_and_Wales",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "732dc194c13f69c981f33d85008d2efc683a98bf0acee0720f8accf259a0a1f7": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "New_York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "investment discussion",
+      "receivingEntityType": "limited_partnership",
+      "receivingParty": "Brightline Ventures Management, L.P.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "7429ccfc43b93c7761760f600cd343d0e462fd30f100c39cf2b0f27d4481addf": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "VIAC (Vienna International Arbitral Centre)",
+      "effectiveDate": "2026-07-08",
+      "governingLaw": "England_and_Wales",
+      "governingLawRaw": "England and Wales",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "7443db4d0f56d4d592e62dc1a98e8a3408e579783fdeacb83c498fef7a306584": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Exclusive jurisdiction of the state and federal courts located in New York County",
+      "effectiveDate": "2026-07-03",
+      "governingLaw": "New_York",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 18
+    }
+  },
+  "74b0b7f081cab5a0032eade1b13724e52479b1e55f0a840dd4a3015d827a9666": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Cobalt Health Systems, Inc.",
+      "effectiveDate": "2026-08-15",
+      "governingLaw": "New_York",
+      "hasNonSolicitation": false,
+      "mutual": true,
+      "purpose": "Exploring a potential business relationship; provided that, during the term of this Agreement and for a period of twelve (12) months thereafter, neither party shall solicit for employment or hire any clinical staff of the other party, nor solicit or approach any named customers of the other party that were introduced during the engagement.",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Ardent Care Partners, Inc.",
+      "termMonths": 36
+    }
+  },
+  "785089712d601a8f55ff547980cc0d5017538346ae14e95bc7acd47b62850f72": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Caledonian BioSciences plc",
+      "effectiveDate": "2026-08-01",
+      "governingLaw": "OTHER",
+      "governingLawRaw": "Scotland",
+      "mutual": true,
+      "purpose": "joint research program",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Tay Valley Pharma Ltd",
+      "termMonths": 24
+    }
+  },
+  "7b73e69335df8f901ff727d4c639ed7f8eee1d110d629e6c63a8d27e4094c4b3": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Business and Property Courts of the High Court of Justice in London",
+      "effectiveDate": "2026-07-04",
+      "governingLaw": "England_and_Wales",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "7c32c290429149f5374b6625952a35afc63ab81357fb584d83f32af08d046c14": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-02",
+      "governingLaw": "Republic_of_Singapore",
+      "mutual": true,
+      "purpose": "exploring a potential business relationship regarding a robotics licensing deal",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Sakura Robotics KK",
+      "termMonths": 24
+    }
+  },
+  "7f0e32b7f66f1a3a1f13212cfed8e3552e9993f4830ac238776ec202a09ce356": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingParty": "Gulf Capital Partners DIFC Limited",
+      "disputeForumRaw": "DIFC Courts",
+      "effectiveDate": "2026-09-10",
+      "governingLawRaw": "laws of the DIFC (Dubai International Financial Centre)",
+      "mutual": true,
+      "receivingEntityType": "limited_liability_company",
+      "receivingParty": "Levant Fintech FZ-LLC",
+      "termMonths": 36
+    }
+  },
+  "7feb032de6f4e9ac864442931fe3a77c7723c51629978747e7bb04c47c3178c0": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingParty": "Hudson Yards Media LLC",
+      "effectiveDate": "2026-08-20",
+      "governingLaw": "OTHER",
+      "governingLawRaw": "United States",
+      "mutual": true,
+      "purpose": "content-licensing exploration",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Atlas Streaming Corp.",
+      "termMonths": 24
+    }
+  },
+  "80810432c4360214a4ccb829ef942ddcfe9bbbef73398355709ee300c2fbd536": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Atlas Semiconductors, Inc.\",\n  \"receivingParty\": \"Beacon Analytics, Inc.\",\n  \"effectiveDate\": \"2026-07-04\",\n  \"mutual\": true,\n  \"disclosingEntityType\": \"corporation\",\n  \"disclosingEntityTypeRaw\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"receivingEntityTypeRaw\": \"corporation\",\n  \"governingLaw\": \"England_and_Wales\",\n  \"governingLawRaw\": \"England and Wales\",\n  \"disputeForumRaw\": \"Business and Property Courts of the High Court of Justice in London\",\n  \"termMonths\": 24,\n  \"purpose\": \"exploring a potential business relationship\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3\n}"
+  },
+  "80be09c06dde266e7793e8714381459f24398c935d31314db185887e10799f90": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Gulf Falcon Logistics FZ-LLC\",\n  \"receivingParty\": \"Sentinel Datacenters Holdings, Inc.\",\n  \"effectiveDate\": \"2025-01-01\",\n  \"termMonths\": 30,\n  \"survivalYears\": 5,\n  \"mutual\": true,\n  \"purpose\": \"confidential evaluation of a data-center colocation venture\",\n  \"disclosingEntityType\": \"limited_liability_company\",\n  \"receivingEntityType\": \"corporation\",\n  \"disclosingEntityTypeRaw\": \"FZ-LLC\",\n  \"receivingEntityTypeRaw\": \"Inc.\",\n  \"governingLaw\": \"United_Arab_Emirates\",\n  \"governingLawRaw\": \"DIFC\",\n  \"disputeForumRaw\": \"DIFC Courts\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30\n}"
+  },
+  "81e8fd4c94315e3c8d13e1b04624e10a987a2bfc686c2cee8e5e2c4d7f78cf88": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "Inc.",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForumRaw": "Japan Commercial Arbitration Association (JCAA) in Tokyo",
+      "effectiveDate": "2026-07-12",
+      "governingLaw": "Japan",
+      "governingLawRaw": "Japan",
+      "mutual": true,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "Inc.",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "81ece7b6fd6a8ad6f1090ab54f1039a6edfd6c4425429dbbc348ca566acebca4": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-02",
+      "governingLaw": "Republic_of_Singapore",
+      "governingLawRaw": "Republic of Singapore",
+      "mutual": true,
+      "purpose": "exploring a robotics licensing deal",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Sakura Robotics KK",
+      "termMonths": 24
+    }
+  },
+  "834e597070d87bc6edd0f25e1466c7992c8d4c1459a163bd5ec0e86c2bab82e3": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-11",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New York",
+      "mutual": true,
+      "purpose": "supply pilot",
+      "receivingEntityType": "general_partnership",
+      "receivingEntityTypeRaw": "unincorporated cooperative association",
+      "receivingParty": "Riverside Growers Cooperative Society",
+      "termMonths": 12
+    }
+  },
+  "8351e4ed837c6d1a7d6bc981055de8b98ab5de00fe185ebe5d7616e4113bd1ff": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForumRaw": "Singapore International Commercial Court (SICC)",
+      "effectiveDate": "2026-07-05",
+      "governingLaw": "Republic_of_Singapore",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 12
+    }
+  },
+  "846c845353f269a3ad5e2f3f0c14bfe8a79df1841bbae65d4528e377a0aedf27": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Aerospace Systems, Inc.",
+      "effectiveDate": "2026-06-30",
+      "governingLaw": "New_York",
+      "mutual": false,
+      "receivingEntityType": "limited_liability_company",
+      "receivingParty": "Vanguard Materials GmbH",
+      "termMonths": 120
+    }
+  },
+  "8475dd9ad58ef1c8551fdc99f48f25589e4850ae1e751c87cc051d9b6cbac928": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "disputeForum": "SIAC",
+      "effectiveDate": "2026-07-12",
+      "governingLaw": "Republic_of_Singapore",
+      "mutual": true,
+      "purpose": "protocol research",
+      "receivingEntityType": "OTHER_ENTITY",
+      "receivingEntityTypeRaw": "decentralized autonomous organization (DAO) with no incorporated legal wrapper",
+      "receivingParty": "Open Protocol Collective",
+      "termMonths": 12
+    }
+  },
+  "86148f73137a3c67f37f084990632695d7aafe401314407082df8f73d2465262": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "New_York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "partnership evaluation",
+      "receivingEntityType": "limited_liability_company",
+      "receivingParty": "Northwind Robotics, LLC",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "8783bd132ec385377a60d9404ba2017e71f1b53eeef7ed3c550bdafe964a457a": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "Thames Financial Group Ltd.",
+      "effectiveDate": "2026-09-01",
+      "governingLaw": "England_and_Wales",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "software-licensing discussion",
+      "receivingParty": "Camden Software Ltd.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "87eb28657620193d8c2df38cd1346112786d5aa73ea9f437cacf8f60755b11e6": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingParty": "Gulf Capital Partners DIFC Limited",
+      "effectiveDate": "2026-09-10",
+      "governingLaw": "OTHER",
+      "governingLawRaw": "laws of the DIFC (Dubai International Financial Centre)",
+      "mutual": true,
+      "receivingEntityType": "limited_liability_company",
+      "receivingParty": "Levant Fintech FZ-LLC",
+      "termMonths": 36
+    }
+  },
+  "88fd113ab60dc3928b976d55008155a3375895c2081ac14a4ccb421c272f79e6": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-02",
+      "governingLaw": "Republic_of_Singapore",
+      "mutual": true,
+      "purpose": "exploring a robotics licensing deal",
+      "receivingEntityType": "OTHER_ENTITY",
+      "receivingEntityTypeRaw": "kabushiki kaisha",
+      "receivingParty": "Sakura Robotics KK",
+      "termMonths": 24
+    }
+  },
+  "8b09dfaed098586845c96321c2cf6dafa74730e0fc16ba489dfb68d9c22b7c05": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Hudson Yards Media, Inc.\",\n  \"receivingParty\": \"Northwind Robotics, LLC\",\n  \"effectiveDate\": \"2026-07-01\",\n  \"mutual\": true,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"termMonths\": 24,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3,\n  \"governingLaw\": \"New_York\",\n  \"governingLawRaw\": \"New York\",\n  \"disclosingEntityType\": \"corporation\",\n  \"disclosingEntityTypeRaw\": \"Delaware corporation\",\n  \"receivingEntityType\": \"limited_liability_company\",\n  \"receivingEntityTypeRaw\": \"LLC\",\n  \"purpose\": \"exploring a potential business relationship\",\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12\n}"
+  },
+  "8b7a8de29a9817b817c30dace85942e0850ef3ba047320f0030a0ce02457debf": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Caledonian BioSciences plc\",\n  \"receivingParty\": \"Tay Valley Pharma Ltd\",\n  \"effectiveDate\": \"2026-08-01\",\n  \"mutual\": true,\n  \"termMonths\": 24,\n  \"purpose\": \"joint research program\",\n  \"governingLawRaw\": \"Scotland\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"disclosingEntityTypeRaw\": \"plc\",\n  \"receivingEntityTypeRaw\": \"Ltd\"\n}"
+  },
+  "8bce362ef1448f7f9b9dbee8567b50881ecb479721497dfe11e79104843e09d2": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-08",
+      "governingLaw": "England_and_Wales",
+      "mutual": true,
+      "purpose": "exploring a potential logistics integration",
+      "receivingEntityType": "OTHER_ENTITY",
+      "receivingEntityTypeRaw": "proprietary limited company",
+      "receivingParty": "Outback Freight Pty Ltd",
+      "termMonths": 12
+    }
+  },
+  "90e48840396b6f59e90c5612581109972b7820c6f0e2632de226a98a9948b976": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "Pte. Ltd.",
+      "disclosingParty": "Straits Data Systems Pte. Ltd.",
+      "effectiveDate": "2026-08-01",
+      "governingLaw": "Republic_of_Singapore",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "Pte. Ltd.",
+      "receivingParty": "Orchard Analytics Pte. Ltd.",
+      "survivalYears": 5,
+      "termMonths": 36
+    }
+  },
+  "938647b8ca86aedf00a75e40e52f3f4bda00cfa8cfd3b1024866d9078b65359c": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "Atlas Aerospace Systems, Inc.",
+      "effectiveDate": "2026-06-30",
+      "governingLaw": "New_York",
+      "mutual": false,
+      "receivingParty": "Vanguard Materials GmbH",
+      "termMonths": 120
+    }
+  },
+  "9590c8c30b441a77bae79eac7c2429d52e706e32b4fd8b5de914c7b6f2404d5e": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Delaware Court of Chancery",
+      "effectiveDate": "2026-07-06",
+      "governingLaw": "New_York",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 18
+    }
+  },
+  "95987598df427d1e5fb8b109c818c0b9c7c756ab4785e1c3f0844d53ee9f4dbd": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-09",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New York",
+      "mutual": true,
+      "purpose": "cross-border venture",
+      "receivingEntityType": "OTHER_ENTITY",
+      "receivingEntityTypeRaw": "unlimited company",
+      "receivingParty": "Thames Holdings ULC",
+      "termMonths": 18
+    }
+  },
+  "962ac11c4ce8550545ea7459d812f747a6a783e273f9e8f63b7dd8cf3631cd24": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Maple Logistics Inc.",
+      "effectiveDate": "2026-07-15",
+      "governingLaw": "OTHER",
+      "governingLawRaw": "Province of Ontario, Canada",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a supply-chain integration",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Northbridge Robotics Ltd.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "97b70cbc90823be150aee6f41f0c6aabe1d5987ab29d01cec39d442fc843d5e5": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Business and Property Courts of the High Court of Justice in London",
+      "effectiveDate": "2026-07-04",
+      "governingLaw": "England_and_Wales",
+      "governingLawRaw": "England and Wales",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "9935a0bc9786dd5fcab94995f233343146b9c39815a0e1a89355cd6142eee526": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "effectiveDate": "2026-07-11",
+      "governingLaw": "England_and_Wales",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 18
+    }
+  },
+  "9b84d91607d3df20a90f5bef793e3bcf9912916b27d74e890f8584fe842aaa13": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Helios Robotics, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "Delaware",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Tessellate Materials Corp.",
+      "survivalYears": 3,
+      "termMonths": 30
+    }
+  },
+  "9b9c14ae150efacd7517cbff6d00dd2bafc20a77b726647684bd9370aac352dc": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "TestCo, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "Washington",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "limited_liability_company",
+      "receivingEntityTypeRaw": "limited_liability_company",
+      "receivingParty": "AcmeCorp LLC",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "9df95b7373aeac9a8229fa0450e364597c34cb4936905774e8fa585799f0634f": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"Hudson Yards Media, Inc.\",\"receivingParty\":\"Gulf Sovereign Investment Authority\",\"effectiveDate\":\"2026-07-10\",\"mutual\":true,\"governingLaw\":\"England_and_Wales\",\"purpose\":\"confidential co-investment\",\"termMonths\":24,\"disclosingEntityType\":\"corporation\",\"receivingEntityType\":\"trust\",\"disputeForum\":\"LCIA\"}"
+  },
+  "9dff03aa30f174400744ce82b9897a1dd0cdbc3c07bb13057d79c57a932977ef": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "disputeForum": "SIAC",
+      "disputeForumRaw": "SIAC",
+      "effectiveDate": "2026-07-07",
+      "governingLaw": "Republic_of_Singapore",
+      "governingLawRaw": "Republic of Singapore",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "fund administration discussion",
+      "receivingEntityType": "limited_liability_company",
+      "receivingEntityTypeRaw": "private company limited by shares",
+      "receivingParty": "Marina Bay Capital Pte. Ltd.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "9e0dc507657ea0f6b1bee6fe427267cb8d22f2ef6fb2d2719a957fb4ce180300": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "Inc.",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-03",
+      "governingLaw": "England_and_Wales",
+      "governingLawRaw": "England and Wales",
+      "mutual": true,
+      "purpose": "exploring a potential co-production",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "SA",
+      "receivingParty": "Lumiere Studios SA",
+      "termMonths": 18
+    }
+  },
+  "9eb512733bea63dab0dc4900df15d580b24fbd4d4d8fcf986d0947cc9a207e67": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForumRaw": "DIS",
+      "effectiveDate": "2026-07-09",
+      "governingLaw": "New_York",
+      "mutual": true,
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 12
+    }
+  },
+  "9f22306175936f4b3b6a275dfc93930d20cf275824099bceb082fc1d3ad7489e": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Aurora Grid Systems, Inc.\",\n  \"disclosingEntityType\": \"corporation\",\n  \"disclosingEntityTypeRaw\": \"Corporation\",\n  \"receivingParty\": \"Tradewind Maritime Insurance Ltd.\",\n  \"receivingEntityType\": \"corporation\",\n  \"receivingEntityTypeRaw\": \"Corporation\",\n  \"effectiveDate\": \"2025-03-31\",\n  \"mutual\": true,\n  \"purpose\": \"scoping a multi-year predictive-maintenance data exchange for offshore assets\",\n  \"termMonths\": 60,\n  \"noticeDays\": 30,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"governingLaw\": \"California\",\n  \"governingLawRaw\": \"California\",\n  \"survivalYears\": 3\n}"
+  },
+  "a08948c2132aa217a60618097e7b68c12159d0bc7c13fbd9b522f5f14349b79f": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Caledonian BioSciences plc",
+      "effectiveDate": "2026-07-06",
+      "governingLaw": "England_and_Wales",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Hudson Yards Media, Inc.",
+      "termMonths": 36
+    }
+  },
+  "a15b126cddb902a95f7c8c818893d5966dbc0dafa8802a278964066d6b85a006": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"Atlas Semiconductors, Inc.\",\"receivingParty\":\"Beacon Analytics, Inc.\",\"effectiveDate\":\"2026-07-02\",\"mutual\":true,\"governingLaw\":\"England_and_Wales\",\"governingLawRaw\":\"England and Wales\",\"termMonths\":24,\"disclosingEntityType\":\"corporation\",\"receivingEntityType\":\"corporation\",\"disclosingEntityTypeRaw\":\"corporation\",\"receivingEntityTypeRaw\":\"corporation\",\"disputeForum\":null,\"disputeForumRaw\":\"Ad hoc arbitration in London (party-appointed arbitrators, no institution)\"}"
+  },
+  "a21202859c2244090cec4fa0f8f1ab34d3a8648b207c531739797647c8d22db1": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Caledonian BioSciences plc",
+      "effectiveDate": "2026-07-06",
+      "governingLaw": "England_and_Wales",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Hudson Yards Media, Inc.",
+      "termMonths": 36
+    }
+  },
+  "a318690cb8ad16938f55624359af029a8f58e882d0113f0be85f15c86bffdc9d": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Atlas Semiconductors, Inc.\",\n  \"receivingParty\": \"Beacon Analytics, Inc.\",\n  \"effectiveDate\": \"2026-07-01\",\n  \"governingLaw\": \"Hong_Kong_SAR\",\n  \"disputeForum\": \"HKIAC\",\n  \"mutual\": true,\n  \"termMonths\": 24,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false\n}"
+  },
+  "a38421c24a9d4ee0fb94d0e509cbf631da3eec8d482c8ff498198e41b39208c0": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Orion Health Systems, Inc.",
+      "effectiveDate": "2026-12-01",
+      "governingLaw": "Republic_of_Singapore",
+      "governingLawRaw": "Republic_of_Singapore",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 180,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Meridian Diagnostics Corp.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "a548ce24716a2ab88a431cea0f66290b5df806156518f18d282c681a667890a9": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Orion Health Systems, Inc.\",\n  \"receivingParty\": \"Meridian Diagnostics Corp.\",\n  \"effectiveDate\": \"2026-12-01\",\n  \"mutual\": true,\n  \"governingLaw\": \"Republic_of_Singapore\",\n  \"noticeDays\": 180,\n  \"termMonths\": 24,\n  \"survivalYears\": 3,\n  \"purpose\": \"exploring a potential business relationship\",\n  \"disputeForum\": \"SIAC\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12\n}"
+  },
+  "a72f5ae76c870dde033b0e4c328d685a8eaf30d4180982b2e907849225a61a46": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Atlas Semiconductors, Inc.\",\n  \"receivingParty\": \"Beacon Analytics, Inc.\",\n  \"effectiveDate\": \"2026-07-01\",\n  \"governingLaw\": \"New_York\",\n  \"governingLawRaw\": \"New York\",\n  \"disputeForumRaw\": \"UNCITRAL Arbitration Rules (ad-hoc, no administering institution)\",\n  \"mutual\": true,\n  \"termMonths\": 24,\n  \"disclosingEntityType\": \"corporation\",\n  \"disclosingEntityTypeRaw\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"receivingEntityTypeRaw\": \"corporation\",\n  \"purpose\": \"exploring a potential business relationship\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"survivalYears\": 3,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30\n}"
+  },
+  "a9c41a5ddbb60cd255e472d96091c623b883dda893e4f65d4ef99e8744fecbe7": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-09",
+      "governingLaw": "New_York",
+      "mutual": true,
+      "purpose": "cross-border venture",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Thames Holdings ULC",
+      "termMonths": 18
+    }
+  },
+  "acd6fbb96b4af7d7946d929577dec9a7e5de0351af577fcf790e1ab3498f244f": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForumRaw": "ad hoc",
+      "effectiveDate": "2026-07-02",
+      "governingLaw": "England_and_Wales",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "ade687d04db0e84aea04ecf49bf6eee78cf17be11fcfd6a883ce154dbc7bf1e3": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Empire State Media Holdings, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "New_York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "evaluating a data-licensing partnership",
+      "receivingEntityType": "limited_liability_company",
+      "receivingParty": "Hudson Analytics LLC",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "ae0eda7f4f731403561b5feed64437a3cc43ce6eee374cb3e2dda27a2c7f9c4a": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Saudi Center for Commercial Arbitration (SCCA)",
+      "effectiveDate": "2026-07-10",
+      "governingLaw": "Kingdom_of_Saudi_Arabia",
+      "governingLawRaw": "",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "af22be5aee75a4401d061e4ce13c684dcae34268879179315159fbdd1f836b10": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingParty": "Lotus Gaming Holdings (Macau) Limited",
+      "effectiveDate": "2026-10-05",
+      "governingLawRaw": "Macao Special Administrative Region",
+      "mutual": true,
+      "purpose": "discussions about a casino-resort technology pilot",
+      "receivingEntityType": "limited_liability_company",
+      "receivingParty": "Pearl River Hospitality Group",
+      "survivalYears": 3,
+      "termMonths": 36
+    }
+  },
+  "af5f9c7bf241d8dc189f52e6c7eb72defcdb3b602cad1910724308f98eec2dfa": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-10",
+      "governingLaw": "England_and_Wales",
+      "mutual": true,
+      "purpose": "confidential co-investment",
+      "receivingEntityType": "trust",
+      "receivingEntityTypeRaw": "statutory body and sovereign wealth fund established by royal decree",
+      "receivingParty": "Gulf Sovereign Investment Authority",
+      "termMonths": 24
+    }
+  },
+  "b0209ffe1b1838746116ccec7ed0f6c9bcae38f1c6905321aba25f362353f27a": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Hudson Yards Media, Inc.\",\n  \"receivingParty\": \"The Calloway Family Trust\",\n  \"effectiveDate\": \"2026-07-01\",\n  \"mutual\": true,\n  \"termMonths\": 24,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"purpose\": \"estate-planning data exchange\",\n  \"governingLaw\": \"New_York\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"trust\"\n}"
+  },
+  "b0cd8af697aa25752d2b98ac592dc9da6f40171c238b6ef364ec19df93025d6c": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Polaris Semiconductor, Inc.\",\n  \"receivingParty\": \"Brightline Ventures Management, LLC\",\n  \"effectiveDate\": \"2025-04-08\",\n  \"mutual\": false,\n  \"termMonths\": 24,\n  \"noticeDays\": 30,\n  \"hasResidualsClause\": false,\n  \"purpose\": \"evaluating a potential strategic investment\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"limited_liability_company\",\n  \"disclosingEntityTypeRaw\": \"corporation\",\n  \"receivingEntityTypeRaw\": \"limited_liability_company\",\n  \"governingLaw\": \"Delaware\",\n  \"governingLawRaw\": \"Delaware\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"survivalYears\": 3\n}"
+  },
+  "b3a16eb97c712b25760f1d6fead654333257287dd698434b75cc43b772a65163": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Korean Commercial Arbitration Board (KCAB)",
+      "effectiveDate": "2026-07-07",
+      "governingLaw": "Republic_of_Korea",
+      "governingLawRaw": "Republic of Korea",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "b5cb95533fc1b9602d27326552d34606e5c6bdd014522a9feb439734362256b0": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Hudson Yards Media LLC\",\n  \"receivingParty\": \"Atlas Streaming Corp.\",\n  \"effectiveDate\": \"2026-08-20\",\n  \"mutual\": true,\n  \"governingLaw\": \"New_York\",\n  \"disclosingEntityType\": \"limited_liability_company\",\n  \"receivingEntityType\": \"corporation\",\n  \"purpose\": \"content-licensing exploration\",\n  \"termMonths\": 24,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3\n}"
+  },
+  "b648a0684d3cc3e97b0444af7d2b405df64ef6cc51df302e9814fc4b8af2f761": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-04",
+      "governingLaw": "New_York",
+      "mutual": true,
+      "purpose": "data-sharing pilot",
+      "receivingEntityType": "OTHER_ENTITY",
+      "receivingEntityTypeRaw": "Netherlands besloten vennootschap",
+      "receivingParty": "Polder Data BV",
+      "termMonths": 12
+    }
+  },
+  "b66714093572df18bb8bb09ceb994a3b7e0cff794cbd65cc90d148d02430ac1b": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingEntityTypeRaw": "FZ-LLC",
+      "disclosingParty": "Gulf Falcon Logistics FZ-LLC",
+      "disputeForumRaw": "DIFC Courts",
+      "effectiveDate": "2025-03-15",
+      "governingLawRaw": "DIFC",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "purpose": "confidential evaluation of a data-center colocation venture",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "Inc.",
+      "receivingParty": "Sentinel Datacenters Holdings, Inc.",
+      "survivalYears": 5,
+      "termMonths": 30
+    }
+  },
+  "b70bf8d20babb8ff4cdf0f3dc264f346f69a3b5c745a9c474d2aaa35b97d9767": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Hudson Yards Media, Inc.\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingParty\": \"Brightline Ventures Management, L.P.\",\n  \"receivingEntityType\": \"limited_partnership\",\n  \"effectiveDate\": \"2026-07-01\",\n  \"governingLaw\": \"New_York\",\n  \"purpose\": \"investment discussion\"\n}"
+  },
+  "babb21abfef5444c6841396eae469ffbdc4482f40c1615c90981eaa443ee3272": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Hudson Yards Media, Inc.\",\n  \"receivingParty\": \"Thames Holdings ULC\",\n  \"effectiveDate\": \"2026-07-09\",\n  \"mutual\": true,\n  \"termMonths\": 18,\n  \"governingLaw\": \"New_York\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"purpose\": \"exploring a potential cross-border venture\"\n}"
+  },
+  "baf29acc5dc411b1807b70ebfaadfdd5b63df3745c2e198b52bce9310af73070": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-03",
+      "governingLaw": "England_and_Wales",
+      "mutual": true,
+      "purpose": "co-production of a film",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Lumiere Studios SA",
+      "termMonths": 18
+    }
+  },
+  "bd074c49dc9636b088f70bb776e5ff6a31a19730967db8fae11deb66c073c87e": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "German Arbitration Institute (DIS)",
+      "effectiveDate": "2026-07-09",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 12
+    }
+  },
+  "bd39e1b77446c213438927cf6327f25da0f0a972815da811fb122a561eae21b7": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Atlas Semiconductors, Inc.\",\n  \"receivingParty\": \"Beacon Analytics, Inc.\",\n  \"effectiveDate\": \"2026-07-08\",\n  \"mutual\": true,\n  \"termMonths\": 24,\n  \"governingLaw\": \"England_and_Wales\",\n  \"disputeForumRaw\": \"VIAC\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\"\n}"
+  },
+  "bdd075437c5a2a94777026358e475fe92b2836acbd77f2b6362e3b353d343f8f": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "HKIAC",
+      "disputeForumRaw": "HKIAC",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "Hong_Kong_SAR",
+      "governingLawRaw": "Hong_Kong_SAR",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "bfcde07a214f5b4f6a0469da2cc6aa2dfc811fc531b144958e10dffb49beff28": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Summit Grain Holdings Inc.",
+      "effectiveDate": "2026-02-30",
+      "governingLaw": "Texas",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Cardinal AgriTech Pte.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "c18e6a466fa212e21024e88b92783e0a6e219e0a553c52721081b5f07914f486": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "New_York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "investment discussion",
+      "receivingEntityType": "limited_partnership",
+      "receivingParty": "Brightline Ventures Management, L.P.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "c43c99cb612c1f667ff3d570644749c8ca03e4b9c069cd274a62d133f03fcefa": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "LCIA",
+      "disputeForumRaw": "LCIA",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "England_and_Wales",
+      "governingLawRaw": "England_and_Wales",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "c4bb2b492efb82ecd28dccc033ceb41a41c386f43ff3688b3e7da1769383bf50": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "Inc.",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Japan Commercial Arbitration Association (JCAA) in Tokyo",
+      "effectiveDate": "2026-07-12",
+      "governingLaw": "Japan",
+      "governingLawRaw": "Japan",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "Inc.",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "c521e24130ca7add715e37df44e7f058ca3ab902ba9537469ebd441e92f22deb": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "Delaware corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "evaluating a media-tech partnership",
+      "receivingEntityType": "limited_liability_company",
+      "receivingEntityTypeRaw": "Gesellschaft mit beschraenkter Haftung (GmbH)",
+      "receivingParty": "Brandt Industrie GmbH",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "c54bf1d4cae34388d6398967b1ba01d2d3096eb7243121aa24c9eec1ab595e7c": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-08",
+      "governingLaw": "England_and_Wales",
+      "governingLawRaw": "England and Wales",
+      "mutual": true,
+      "purpose": "logistics integration",
+      "receivingEntityType": "OTHER_ENTITY",
+      "receivingEntityTypeRaw": "proprietary limited company",
+      "receivingParty": "Outback Freight Pty Ltd",
+      "termMonths": 12
+    }
+  },
+  "c8daa8c819288a0ebd1c2d55870923469b086122444b7d55139f18a1b0b0c20f": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingParty": "Nordic Sensors AB",
+      "effectiveDate": "2026-07-05",
+      "governingLaw": "Republic_of_Singapore",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Hudson Yards Media, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "ca7c9d5e06a464395658be53a52545f0a7db4bd912bfb7c3a7e980169629eab9": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "German Arbitration Institute (DIS)",
+      "effectiveDate": "2026-07-09",
+      "governingLaw": "New_York",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 12
+    }
+  },
+  "cb2b04d6dcfba5bfa0c5b2adfd914a862e8d312d45c1ea8eca983cf1c649451d": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "",
+      "disclosingParty": "Aether Biosciences Corporation",
+      "disputeForum": "",
+      "disputeForumRaw": "",
+      "effectiveDate": "2026-09-01",
+      "governingLaw": "California",
+      "governingLawRaw": "",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "",
+      "receivingParty": "Greenfield Therapeutics, Inc.",
+      "survivalYears": 999,
+      "termMonths": 24
+    }
+  },
+  "cdc6e508ac7e3f258536d6aa670ad02be6edd9634b7dec97752c131776c36303": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"Empire State Media Holdings, Inc.\",\"receivingParty\":\"Hudson Analytics LLC\",\"effectiveDate\":\"2026-07-01\",\"mutual\":true,\"termMonths\":24,\"noticeDays\":30,\"survivalYears\":3,\"hasNonCompete\":false,\"hasNonSolicitation\":false,\"hasResidualsClause\":false,\"nonCompeteMonths\":0,\"nonSolicitationMonths\":0,\"purpose\":\"evaluating a data-licensing partnership\",\"governingLaw\":\"New_York\",\"disclosingEntityType\":\"corporation\",\"disclosingEntityTypeRaw\":\"corporation\",\"receivingEntityType\":\"limited_liability_company\",\"receivingEntityTypeRaw\":\"limited_liability_company\"}"
+  },
+  "ce383d0b05d21d18bca5131d1b932b2b1386084516478e57e371e912f52c8855": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Singapore International Commercial Court (SICC)",
+      "effectiveDate": "2026-07-05",
+      "governingLaw": "Republic_of_Singapore",
+      "governingLawRaw": "",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 12
+    }
+  },
+  "d0f01ffe548d9797dbcadf341206c1d249dd1be2e64d512a90fb6c55857cb63f": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Maple Logistics Inc.",
+      "effectiveDate": "2026-07-15",
+      "governingLawRaw": "Province of Ontario, Canada",
+      "mutual": true,
+      "purpose": "exploring a supply-chain integration",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Northbridge Robotics Ltd.",
+      "termMonths": 24
+    }
+  },
+  "d1e2427db3edf42b55d4eeb63fa2cafe5d9d154c2b6b2bdb883badadcb2cfb3f": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Hudson Yards Media, Inc.\",\n  \"receivingParty\": \"Riverside Growers Cooperative Society\",\n  \"effectiveDate\": \"2026-07-11\",\n  \"mutual\": true,\n  \"governingLaw\": \"New_York\",\n  \"termMonths\": 12,\n  \"purpose\": \"supply pilot\",\n  \"disclosingEntityType\": \"corporation\",\n  \"disclosingEntityTypeRaw\": \"Inc.\",\n  \"receivingEntityType\": \"general_partnership\",\n  \"receivingEntityTypeRaw\": \"unincorporated cooperative association\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3\n}"
+  },
+  "d2af9514fa56a394fcae2bb438ea562e43a158477b6522e766a9228dcbce3b82": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Empire State Media Holdings, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "evaluating a data-licensing partnership",
+      "receivingEntityType": "limited_liability_company",
+      "receivingEntityTypeRaw": "limited_liability_company",
+      "receivingParty": "Hudson Analytics LLC",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "d4ffcad2c1d021d08ab4ef24e92d1e46b9c2b3c0c51a9571206aaadd17bec802": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-09",
+      "governingLaw": "New_York",
+      "mutual": true,
+      "purpose": "exploring a potential cross-border business relationship",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Thames Holdings ULC",
+      "termMonths": 18
+    }
+  },
+  "d565549ec18083b3922a32357c60ce05b7b8521382b97593490bd39803063138": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"Atlas Semiconductors, Inc.\",\"receivingParty\":\"Beacon Analytics, Inc.\",\"effectiveDate\":\"2026-07-03\",\"governingLaw\":\"New_York\",\"governingLawRaw\":\"New York\",\"mutual\":true,\"termMonths\":18,\"disclosingEntityType\":\"corporation\",\"disclosingEntityTypeRaw\":\"corporation\",\"receivingEntityType\":\"corporation\",\"receivingEntityTypeRaw\":\"corporation\",\"purpose\":\"exploring a potential business relationship\",\"hasNonCompete\":false,\"hasNonSolicitation\":false,\"hasResidualsClause\":false,\"nonCompeteMonths\":12,\"nonSolicitationMonths\":12,\"noticeDays\":30,\"survivalYears\":3}"
+  },
+  "d8277d0b97e1bf85107398a19445bdb86f21042e6fc56fdcfd243460b779d8ed": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "public limited company",
+      "disclosingParty": "Caledonian BioSciences plc",
+      "disputeForumRaw": "string",
+      "effectiveDate": "2026-07-06",
+      "governingLawRaw": "string",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "other": "fields",
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "Hudson Yards Media, Inc.",
+      "survivalYears": 3,
+      "termMonths": 36
+    }
+  },
+  "d87b83f36ea00e10fd4816c3946896259e714ee257b188778543b22bce872428": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-10",
+      "governingLaw": "England_and_Wales",
+      "governingLawRaw": "England and Wales",
+      "mutual": true,
+      "purpose": "confidential co-investment",
+      "receivingEntityType": "OTHER_ENTITY",
+      "receivingEntityTypeRaw": "statutory body and sovereign wealth fund established by royal decree",
+      "receivingParty": "Gulf Sovereign Investment Authority",
+      "termMonths": 24
+    }
+  },
+  "d8e698cceb8eb0c88da2164748dd6710f3df5ba3faa1bc68605c0c016123f739": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-03",
+      "governingLaw": "England_and_Wales",
+      "mutual": true,
+      "purpose": "co-production",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Lumiere Studios SA",
+      "termMonths": 18
+    }
+  },
+  "d8f9de4ede02cecab01a68a6eebea28f3c45f158d616146d3adbd87c6ac5b63c": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingEntityTypeRaw": "Aktiebolag",
+      "disclosingParty": "Nordic Sensors AB",
+      "effectiveDate": "2026-07-05",
+      "governingLaw": "Republic_of_Singapore",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "Inc.",
+      "receivingParty": "Hudson Yards Media, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "d926caf737481a901a431289a47363c5a2d7a5a5859ec06b6a8708c0e45ab016": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "New_York",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "d9b0828abaf62420de709ab2a418779676fed6ba780ee568fadbb7dae35920cc": {
+    "kind": "text",
+    "response": "{\n  \"mutual\": true,\n  \"disclosingParty\": \"Aether Biosciences Corporation\",\n  \"receivingParty\": \"Greenfield Therapeutics, Inc.\",\n  \"effectiveDate\": \"2026-09-01\",\n  \"governingLaw\": \"California\",\n  \"survivalYears\": 3,\n  \"termMonths\": 24,\n  \"purpose\": \"exploring a potential business relationship\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30,\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\"\n}"
+  },
+  "da59a3b2157223001a433fe2749f8470c3123deca19a37c670d264b1f09b155a": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "ICC",
+      "disputeForumRaw": "Rules of the International Chamber of Commerce (ICC)",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "Republic_of_Singapore",
+      "governingLawRaw": "Republic of Singapore",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "da9bf69287de5cdaa53536f590668df43547d5487f073445865604837ca9e5de": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingEntityTypeRaw": "Private Limited Company",
+      "disclosingParty": "Marina Bay Capital Pte. Ltd.",
+      "effectiveDate": "2026-08-01",
+      "governingLaw": "Republic_of_Singapore",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "confidential fintech evaluation",
+      "receivingEntityType": "limited_liability_company",
+      "receivingEntityTypeRaw": "Private Limited Company",
+      "receivingParty": "Raffles Data Systems Pte. Ltd.",
+      "survivalYears": 5,
+      "termMonths": 36
+    }
+  },
+  "da9f33e4317ebcbcac5545f1244fe3e105b743fc6f571e13fb6ca99859031555": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "Corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-08",
+      "governingLaw": "England_and_Wales",
+      "governingLawRaw": "England and Wales",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "logistics integration",
+      "receivingEntityType": "limited_liability_company",
+      "receivingEntityTypeRaw": "Proprietary Limited Company",
+      "receivingParty": "Outback Freight Pty Ltd",
+      "survivalYears": 3,
+      "termMonths": 12
+    }
+  },
+  "db26684e3a60946505cb935a93f8099a11727d8fb92389d73502fe5090e4b31f": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-08",
+      "governingLaw": "England_and_Wales",
+      "governingLawRaw": "England and Wales",
+      "mutual": true,
+      "purpose": "logistics integration",
+      "receivingEntityType": "limited_liability_company",
+      "receivingEntityTypeRaw": "limited liability company",
+      "receivingParty": "Outback Freight Pty Ltd",
+      "termMonths": 12
+    }
+  },
+  "db533c5d10876dd324736a4d5f095ce0a8e86f4b428b8c8425aba49cd86e6eb5": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "Delaware corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "New_York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "receivingEntityType": "limited_liability_company",
+      "receivingEntityTypeRaw": "limited liability company",
+      "receivingParty": "Northwind Robotics, LLC",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "deedc6cee872b05a7a1d42163f17091cf75cb271de62f1879f7e3806da718e4e": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "Corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-07",
+      "governingLaw": "Republic_of_Singapore",
+      "governingLawRaw": "Republic of Singapore",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "fund administration discussion",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "Private Company Limited by Shares",
+      "receivingParty": "Marina Bay Capital Pte. Ltd.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "df065e5c2202237d53fdcfda150c238bfa1f8dedb44e556b7b3eac548a67547e": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingEntityTypeRaw": "limited_liability_company",
+      "disclosingParty": "Gulf Falcon Logistics FZ-LLC",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "DIFC Courts",
+      "effectiveDate": "2025-02-25",
+      "governingLaw": "OTHER",
+      "governingLawRaw": "DIFC",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "confidential evaluation of a data-center colocation venture",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Sentinel Datacenters Holdings, Inc.",
+      "survivalYears": 5,
+      "termMonths": 30
+    }
+  },
+  "df877ec2e3680d42e617aafd0f684a1e448e911974a24d0b1632cc5e9a14dcba": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingEntityTypeRaw": "limited_liability_company",
+      "disclosingParty": "Gulf Capital Partners DIFC Limited",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "DIFC Courts",
+      "effectiveDate": "2026-09-10",
+      "governingLaw": "OTHER",
+      "governingLawRaw": "Dubai International Financial Centre",
+      "mutual": true,
+      "purpose": "potential investment",
+      "receivingEntityType": "limited_liability_company",
+      "receivingEntityTypeRaw": "limited_liability_company",
+      "receivingParty": "Levant Fintech FZ-LLC",
+      "termMonths": 36
+    }
+  },
+  "e0b7ef66eaa58f11378f1d8a151df0f652618a5171877a13917ce2561760eb35": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Vertex Semiconductor Corp.\",\n  \"receivingParty\": \"Lumen Optics, Inc.\",\n  \"effectiveDate\": \"2026-09-01\",\n  \"mutual\": true,\n  \"governingLaw\": \"California\",\n  \"governingLawRaw\": \"California\",\n  \"termMonths\": 24,\n  \"survivalYears\": 5,\n  \"hasResidualsClause\": true,\n  \"disclosingEntityType\": \"corporation\",\n  \"disclosingEntityTypeRaw\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"receivingEntityTypeRaw\": \"corporation\"\n}"
+  },
+  "e17682b8af2883d4aa2547e0ff04fe0d154dad7f8387ae6f13eb675ca8c82497": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Korean Commercial Arbitration Board (KCAB) in Seoul",
+      "effectiveDate": "2026-07-07",
+      "governingLaw": "Republic_of_Korea",
+      "governingLawRaw": "Republic of Korea",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "e18272c6597258893d93766f557d5c24cdae5b3cff1cd7df61960ac44671d58d": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Delaware Court of Chancery",
+      "effectiveDate": "2026-07-06",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 18
+    }
+  },
+  "e2f0b3d7fe8a717d4ea1752b2d3b2402d8789de2f41517c1e2dd9738a7b4d970": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-10",
+      "governingLaw": "England_and_Wales",
+      "governingLawRaw": "England and Wales",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "confidential co-investment",
+      "receivingParty": "Gulf Sovereign Investment Authority",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "e35d760ecad1bad00156f1669e4caa1fb68e73f5f8238f32cce8a5e508966997": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Marina Bay Capital Pte. Ltd.\",\n  \"receivingParty\": \"Raffles Data Systems Pte. Ltd.\",\n  \"effectiveDate\": \"2026-08-01\",\n  \"mutual\": true,\n  \"purpose\": \"confidential fintech evaluation\",\n  \"termMonths\": 36,\n  \"noticeDays\": 30,\n  \"survivalYears\": 5,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"governingLaw\": \"Republic_of_Singapore\",\n  \"disclosingEntityType\": \"limited_liability_company\",\n  \"receivingEntityType\": \"limited_liability_company\"\n}"
+  },
+  "e46f269e32fef59be4328e5d6e6ab3b1595b866e0c43f585e1f20143b3e16946": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-12",
+      "governingLaw": "Republic_of_Singapore",
+      "governingLawRaw": "Republic of Singapore",
+      "mutual": true,
+      "purpose": "protocol research",
+      "receivingEntityType": "OTHER_ENTITY",
+      "receivingEntityTypeRaw": "decentralized autonomous organization",
+      "receivingParty": "Open Protocol Collective",
+      "termMonths": 12
+    }
+  },
+  "e49942bfc4bfaab7cc3d906a05f258cea02a00793af9a933dc88e7daf77dd0e8": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Atlas Semiconductors, Inc.\",\n  \"receivingParty\": \"Beacon Analytics, Inc.\",\n  \"effectiveDate\": \"2026-07-05\",\n  \"mutual\": true,\n  \"governingLaw\": \"Republic_of_Singapore\",\n  \"disputeForumRaw\": \"SICC\",\n  \"termMonths\": 12,\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"purpose\": \"exploring a potential business relationship\",\n  \"survivalYears\": 3,\n  \"noticeDays\": 30,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12\n}"
+  },
+  "e53580c7f24a0619e8f5aa28c3dbb7ed4b700657035acbd1c190e11d2de4be20": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"Atlas Semiconductors, Inc.\",\"receivingParty\":\"Beacon Analytics, Inc.\",\"effectiveDate\":\"2026-07-01\",\"mutual\":true,\"governingLaw\":\"Republic_of_Singapore\",\"governingLawRaw\":\"Republic_of_Singapore\",\"disputeForum\":\"ICC\",\"disputeForumRaw\":\"ICC\",\"termMonths\":24,\"noticeDays\":30,\"survivalYears\":3,\"hasNonCompete\":false,\"nonCompeteMonths\":12,\"hasNonSolicitation\":false,\"nonSolicitationMonths\":12,\"hasResidualsClause\":false,\"purpose\":\"exploring a potential business relationship\",\"disclosingEntityType\":\"corporation\",\"disclosingEntityTypeRaw\":\"corporation\",\"receivingEntityType\":\"corporation\",\"receivingEntityTypeRaw\":\"corporation\"}"
+  },
+  "e6a30de356b61d4c33b6bb44f6fb0438c3f9bba3843ee9fe5188568591a834a1": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Atlas Semiconductors, Inc.\",\n  \"receivingParty\": \"Beacon Analytics, Inc.\",\n  \"effectiveDate\": \"2026-07-12\",\n  \"mutual\": true,\n  \"governingLaw\": \"Japan\",\n  \"termMonths\": 24,\n  \"disputeForumRaw\": \"JCAA\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"purpose\": \"exploring a potential business relationship\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3\n}"
+  },
+  "e739e9f3d659b17963fb14b729b8b8e567d7d2f0b0173a79492d5a4828655574": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "exclusive jurisdiction of the state and federal courts located in New York County",
+      "effectiveDate": "2026-07-03",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New York",
+      "mutual": true,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 18
+    }
+  },
+  "e7fd49066c8f178c27bb7cccb7b87a1bb02a10dbbefe7acbcb081173b347ce76": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Helio Dynamics, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "Delaware",
+      "hasNonCompete": true,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "purpose": "evaluating a joint autonomy stack",
+      "receivingEntityType": "limited_liability_company",
+      "receivingParty": "Northwind Robotics, LLC",
+      "termMonths": 24
+    }
+  },
+  "e8798cff12b2d94448fab6fd257f0bb1ffb36c2ebddbe1937778c17f711ad752": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "Lotus Gaming Holdings (Macau) Limited",
+      "effectiveDate": "2026-10-05",
+      "governingLaw": "OTHER",
+      "governingLawRaw": "Macao Special Administrative Region",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingParty": "Pearl River Hospitality Group",
+      "survivalYears": 3,
+      "termMonths": 36
+    }
+  },
+  "e9ea7527d21f6f0147539494b24407d0dad45f80b850261d78886cae7bbb349b": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Aurora Grid Systems, Inc.",
+      "effectiveDate": "2025-04-01",
+      "governingLaw": "California",
+      "hasNonCompete": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "scoping a multi-year predictive-maintenance data exchange for offshore assets",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Tradewind Maritime Insurance Ltd.",
+      "termMonths": 60
+    }
+  },
+  "eac91f7e5f0f7f5398e62abd0330dde6277ab9635fb423cd0173912e7a41d9c1": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-07",
+      "governingLaw": "Republic_of_Singapore",
+      "mutual": true,
+      "purpose": "fund administration discussion",
+      "receivingEntityType": "limited_liability_company",
+      "receivingParty": "Marina Bay Capital Pte. Ltd.",
+      "termMonths": 24
+    }
+  },
+  "eacacc2fb92df8d2633543d12e182abbf5e659dbbb613014ead2564da412c30c": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Atlas Semiconductors, Inc.\",\n  \"receivingParty\": \"Beacon Analytics, Inc.\",\n  \"effectiveDate\": \"2026-07-11\",\n  \"mutual\": true,\n  \"termMonths\": 18,\n  \"governingLaw\": \"England_and_Wales\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\"\n}"
+  },
+  "ec449218ce32034b9f38cb0c9b9bd6797295b42c50f567e321e05f8bc3579246": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForumRaw": "Delaware Court of Chancery",
+      "effectiveDate": "2026-07-06",
+      "governingLaw": "New_York",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 18
+    }
+  },
+  "eccbb6d12cf53c851f36051e943fd27376a7d1bb58e15840f8ea43040a07482c": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Atlas Semiconductors, Inc.\",\n  \"receivingParty\": \"Beacon Analytics, Inc.\",\n  \"effectiveDate\": \"2026-07-06\",\n  \"mutual\": true,\n  \"governingLaw\": \"New_York\",\n  \"disputeForumRaw\": \"Delaware Court of Chancery\",\n  \"termMonths\": 18,\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\"\n}"
+  },
+  "eda86faee85304bfd05dd8be3d4275605062c59e67088fa17e9ec30a9db7c57f": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-12",
+      "governingLaw": "Republic_of_Singapore",
+      "governingLawRaw": "Republic of Singapore",
+      "mutual": true,
+      "purpose": "protocol research",
+      "receivingParty": "Open Protocol Collective",
+      "termMonths": 12
+    }
+  },
+  "ee0f2090a5d27fb18ec76f21f1aabfeb647412a2eba382ee6c6d339a9922af07": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "ad-hoc arbitration seated in London with party-appointed arbitrators and no arbitral institution",
+      "effectiveDate": "2026-07-02",
+      "governingLaw": "England_and_Wales",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 24
+    }
+  },
+  "ef06bacd3daf356914e92f67fa5508ca3daab8332183a51d74fd5c68d6d12a87": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "ICC",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "Republic_of_Singapore",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "f0735a98e01bcf55f6afa662a865351ecc17b0339b3e8cc51d23697800b68662": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-04",
+      "governingLaw": "New_York",
+      "mutual": true,
+      "purpose": "data-sharing pilot",
+      "receivingEntityType": "limited_liability_company",
+      "receivingParty": "Polder Data BV",
+      "termMonths": 12
+    }
+  },
+  "f0d9f7757a6c3c96df0393a0d5e220ec764666e21b74e542f5f48c72a364c38b": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "HKIAC",
+      "disputeForumRaw": "Hong Kong International Arbitration Centre",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "Hong_Kong_SAR",
+      "governingLawRaw": "Hong Kong SAR",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "f11d2cd12f6c19d28d2be59c52c984c1507eb6220f4a0275502878b61ac0b387": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "effectiveDate": "2026-07-03",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New York",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 18
+    }
+  },
+  "f32b5992f6569e590bf664a355c07abce57946430f29b95d979afce6192e01b8": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "Delaware Court of Chancery",
+      "effectiveDate": "2026-07-06",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New York",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "termMonths": 18
+    }
+  },
+  "f34aa5f110d22c375d224b7aa38675c4987924df9f4a9153cb0166869b37cd37": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Helio Dynamics, Inc.\",\n  \"receivingParty\": \"Northwind Robotics, LLC\",\n  \"effectiveDate\": \"2026-07-01\",\n  \"mutual\": true,\n  \"governingLaw\": \"Delaware\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"limited_liability_company\",\n  \"termMonths\": 24,\n  \"purpose\": \"evaluating a joint autonomy stack\",\n  \"hasNonCompete\": true,\n  \"nonCompeteMonths\": 12,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3\n}"
+  },
+  "f3e70ae4a9f60bd202afe5649b48e0ea7fc2b57dfa1a83a3fd3f18dca6740173": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"Albion Pharma Ltd.\",\"receivingParty\":\"Northwind Biologics, Inc.\",\"effectiveDate\":\"2026-02-03\",\"mutual\":true,\"termMonths\":24,\"governingLaw\":\"New_York\",\"disclosingEntityType\":\"corporation\",\"receivingEntityType\":\"corporation\"}"
+  },
+  "f4dc397faff1c8ea49230e1bd09a749a5d5bc96ab41f5a5ded77d4b6f1804d70": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Maple Logistics Inc.",
+      "effectiveDate": "2026-07-15",
+      "governingLaw": "OTHER",
+      "governingLawRaw": "Province of Ontario, Canada",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a supply-chain integration",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Northbridge Robotics Ltd.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "f5e58a4de4b3dc7b66e18ec27bb4856efca4139cda7fdd4d1ac6752caa57f038": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Sterling & Hawthorne Advisory Group",
+      "effectiveDate": "2026-11-03",
+      "governingLaw": "England_and_Wales",
+      "mutual": true,
+      "noticeDays": 90,
+      "receivingEntityType": "limited_liability_company",
+      "receivingParty": "Brightwater Capital Partners LLC",
+      "survivalYears": 5,
+      "termMonths": 36
+    }
+  },
+  "f605031d51c5110a4643ebd965fed98cbf7491855f2a22e250a3d37ef2747f19": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingEntityTypeRaw": "LLC",
+      "disclosingParty": "Hudson Yards Media LLC",
+      "effectiveDate": "2026-08-20",
+      "governingLaw": "New_York",
+      "governingLawRaw": "United States",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "noticeDays": 30,
+      "purpose": "content-licensing exploration",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "Corp.",
+      "receivingParty": "Atlas Streaming Corp.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "f78a8ff897fe591cc7cb930777f96e40df622da3897710cf4f9ff98b8925fcf7": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Atlas Semiconductors, Inc.\",\n  \"receivingParty\": \"Beacon Analytics, Inc.\",\n  \"effectiveDate\": \"2026-07-09\",\n  \"mutual\": true,\n  \"termMonths\": 12,\n  \"governingLaw\": \"New_York\",\n  \"disputeForumRaw\": \"DIS\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\"\n}"
+  },
+  "f94e6886ea8cb559b9e80e3d13c2a862305c120e43f6b2e296aa3f98e23a9ab3": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingEntityTypeRaw": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-11",
+      "governingLaw": "New_York",
+      "governingLawRaw": "New York",
+      "mutual": true,
+      "purpose": "supply pilot",
+      "receivingEntityType": "OTHER_ENTITY",
+      "receivingEntityTypeRaw": "unincorporated cooperative association",
+      "receivingParty": "Riverside Growers Cooperative Society",
+      "termMonths": 12
+    }
+  },
+  "f96a55195451e5189671f4482202d825b9474d440d6b956c8642b90847c130ab": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Hudson Yards Media, Inc.",
+      "effectiveDate": "2026-07-01",
+      "governingLaw": "New_York",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "receivingEntityType": "limited_liability_company",
+      "receivingParty": "Northwind Robotics, LLC",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "f9982eeab3c5a44fab6cbd9ca76f01ca61bf18ae5a08664a48f5634421df3110": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Atlas Semiconductors, Inc.",
+      "effectiveDate": "2026-07-07",
+      "governingLaw": "Republic_of_Korea",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Beacon Analytics, Inc.",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "fe94720489b7a20f7476b62b7baae3a8512635a4327c6769435e490bfb26519a": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "Caledonian BioSciences plc",
+      "effectiveDate": "2026-08-01",
+      "governingLaw": "OTHER",
+      "governingLawRaw": "Scotland",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "joint research program",
+      "receivingEntityType": "corporation",
+      "receivingParty": "Tay Valley Pharma Ltd",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "feead88a7474e39becd3b73b8219401d35abdeda2eb48f4178e2adbf6725b4ba": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "limited_liability_company",
+      "disclosingEntityTypeRaw": "Free Zone Limited Liability Company",
+      "disclosingParty": "Gulf Falcon Logistics FZ-LLC",
+      "disputeForum": "OTHER_FORUM",
+      "disputeForumRaw": "DIFC Courts",
+      "effectiveDate": "2025-03-07",
+      "governingLaw": "OTHER",
+      "governingLawRaw": "Dubai International Financial Centre (DIFC)",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "confidential evaluation of a data-center colocation venture",
+      "receivingEntityType": "corporation",
+      "receivingEntityTypeRaw": "Corporation",
+      "receivingParty": "Sentinel Datacenters Holdings, Inc.",
+      "survivalYears": 5,
+      "termMonths": 30
+    }
+  }
+}

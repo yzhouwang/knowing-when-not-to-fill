@@ -1,0 +1,871 @@
+{
+  "arm": "constrained_hatch",
+  "combined_with_committed_law": {
+    "combined_faithful": 110,
+    "combined_n": 110,
+    "law_faithful": 24,
+    "law_n": 24,
+    "note": "every intended-channel raw capture across all three abstainable fields names the asked value"
+  },
+  "groups": {
+    "disputeForumRaw": {
+      "cases": [
+        "fc01",
+        "fc02",
+        "fc03",
+        "fc04",
+        "fc05",
+        "fc06",
+        "fc07",
+        "fc08",
+        "fc09",
+        "fc10",
+        "fc11",
+        "fc12"
+      ],
+      "models": {
+        "claude-sonnet-4-6": {
+          "ci_substring": 12,
+          "excluded_not_abstained": [],
+          "faithful": 12,
+          "n": 12,
+          "rows": [
+            {
+              "case": "fc01",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "ad-hoc arbitration under the UNCITRAL Arbitration Rules (no administering institution)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc02",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Ad-hoc arbitration seated in London with party-appointed arbitrators and no arbitral institution",
+              "raw_field": "disputeForumRaw",
+              "verbatim": false
+            },
+            {
+              "case": "fc03",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "state and federal courts located in New York County",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc04",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Business and Property Courts of the High Court of Justice in London",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc05",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Singapore International Commercial Court (SICC)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc06",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Delaware Court of Chancery",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc07",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Korean Commercial Arbitration Board (KCAB) in Seoul",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc08",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Vienna International Arbitral Centre (VIAC) Rules",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc09",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "German Arbitration Institute (DIS)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc10",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Saudi Center for Commercial Arbitration (SCCA)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc11",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Cairo Regional Centre for International Commercial Arbitration (CRCICA)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc12",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Japan Commercial Arbitration Association (JCAA) in Tokyo",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            }
+          ],
+          "verbatim": 11
+        },
+        "deepseek-v4-flash": {
+          "ci_substring": 12,
+          "excluded_not_abstained": [],
+          "faithful": 12,
+          "n": 12,
+          "rows": [
+            {
+              "case": "fc01",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "ad-hoc arbitration under the UNCITRAL Arbitration Rules (no administering institution)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc02",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "ad-hoc arbitration seated in London with party-appointed arbitrators and no arbitral institution",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc03",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "state and federal courts located in New York County",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc04",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Business and Property Courts of the High Court of Justice in London",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc05",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Singapore International Commercial Court (SICC)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc06",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Delaware Court of Chancery",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc07",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Korean Commercial Arbitration Board (KCAB)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc08",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Vienna International Arbitral Centre (VIAC) Rules",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc09",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "German Arbitration Institute (DIS)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc10",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Saudi Center for Commercial Arbitration (SCCA)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc11",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Cairo Regional Centre for International Commercial Arbitration (CRCICA)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc12",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Japan Commercial Arbitration Association (JCAA)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            }
+          ],
+          "verbatim": 12
+        },
+        "deepseek-v4-pro": {
+          "ci_substring": 12,
+          "excluded_not_abstained": [],
+          "faithful": 12,
+          "n": 12,
+          "rows": [
+            {
+              "case": "fc01",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "ad-hoc arbitration under the UNCITRAL Arbitration Rules",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc02",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "ad-hoc arbitration seated in London with party-appointed arbitrators and no arbitral institution",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc03",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "exclusive jurisdiction of the state and federal courts located in New York County",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc04",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Business and Property Courts of the High Court of Justice in London",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc05",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Singapore International Commercial Court (SICC)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc06",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Delaware Court of Chancery",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc07",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Korean Commercial Arbitration Board (KCAB)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc08",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Vienna International Arbitral Centre (VIAC) Rules",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc09",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "German Arbitration Institute (DIS)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc10",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Saudi Center for Commercial Arbitration (SCCA)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc11",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Cairo Regional Centre for International Commercial Arbitration (CRCICA)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc12",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Japan Commercial Arbitration Association (JCAA)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            }
+          ],
+          "verbatim": 12
+        },
+        "gpt-5.5": {
+          "ci_substring": 12,
+          "excluded_not_abstained": [],
+          "faithful": 12,
+          "n": 12,
+          "rows": [
+            {
+              "case": "fc01",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "ad-hoc arbitration under the UNCITRAL Arbitration Rules (no administering institution)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc02",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "ad-hoc arbitration seated in London with party-appointed arbitrators and no arbitral institution",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc03",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "state and federal courts located in New York County (litigation, not arbitration)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc04",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "the exclusive jurisdiction of the Business and Property Courts of the High Court of Justice in London",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc05",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Singapore International Commercial Court (SICC)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc06",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Delaware Court of Chancery",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc07",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Korean Commercial Arbitration Board (KCAB) in Seoul",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc08",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Vienna International Arbitral Centre (VIAC) Rules",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc09",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "German Arbitration Institute (DIS)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc10",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Saudi Center for Commercial Arbitration (SCCA)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc11",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Cairo Regional Centre for International Commercial Arbitration (CRCICA)",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            },
+            {
+              "case": "fc12",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Japan Commercial Arbitration Association (JCAA) in Tokyo",
+              "raw_field": "disputeForumRaw",
+              "verbatim": true
+            }
+          ],
+          "verbatim": 12
+        }
+      },
+      "summary": {
+        "ci_substring": 48,
+        "excluded_not_abstained": 0,
+        "faithful": 48,
+        "n_total": 48,
+        "verbatim": 47
+      }
+    },
+    "entityTypeRaw": {
+      "cases": [
+        "ec01",
+        "ec02",
+        "ec03",
+        "ec04",
+        "ec05",
+        "ec06",
+        "ec07",
+        "ec08",
+        "ec09",
+        "ec10",
+        "ec11",
+        "ec12"
+      ],
+      "models": {
+        "claude-sonnet-4-6": {
+          "ci_substring": 12,
+          "excluded_not_abstained": [],
+          "faithful": 12,
+          "n": 12,
+          "rows": [
+            {
+              "case": "ec01",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Gesellschaft mit beschraenkter Haftung",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec02",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "kabushiki kaisha",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec03",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "French societe anonyme",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec04",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "besloten vennootschap",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec05",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Swedish aktiebolag",
+              "raw_field": "disclosingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec06",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "UK public limited company",
+              "raw_field": "disclosingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec07",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "private company limited by shares",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec08",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Australian proprietary limited company",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec09",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "unlimited company organized in Alberta",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec10",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "statutory body and sovereign wealth fund established by royal decree",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec11",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "unincorporated cooperative association",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec12",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "decentralized autonomous organization (DAO) with no incorporated legal wrapper",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            }
+          ],
+          "verbatim": 12
+        },
+        "deepseek-v4-flash": {
+          "ci_substring": 10,
+          "excluded_not_abstained": [
+            {
+              "case": "ec06",
+              "outcome": "wrong_sub"
+            },
+            {
+              "case": "ec07",
+              "outcome": "wrong_sub"
+            }
+          ],
+          "faithful": 10,
+          "n": 10,
+          "rows": [
+            {
+              "case": "ec01",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Gesellschaft mit beschraenkter Haftung",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec02",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "kabushiki kaisha",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec03",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "societe anonyme",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec04",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "besloten vennootschap",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec05",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "aktiebolag",
+              "raw_field": "disclosingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec08",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "proprietary limited company",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec09",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "unlimited company organized in Alberta",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec10",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Gulf Sovereign Investment Authority",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec11",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "unincorporated cooperative association",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec12",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "decentralized autonomous organization (DAO) with no incorporated legal wrapper",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            }
+          ],
+          "verbatim": 10
+        },
+        "deepseek-v4-pro": {
+          "ci_substring": 4,
+          "excluded_not_abstained": [
+            {
+              "case": "ec01",
+              "outcome": "wrong_sub"
+            },
+            {
+              "case": "ec02",
+              "outcome": "wrong_sub"
+            },
+            {
+              "case": "ec03",
+              "outcome": "wrong_sub"
+            },
+            {
+              "case": "ec04",
+              "outcome": "wrong_sub"
+            },
+            {
+              "case": "ec05",
+              "outcome": "wrong_sub"
+            },
+            {
+              "case": "ec06",
+              "outcome": "leak"
+            },
+            {
+              "case": "ec07",
+              "outcome": "wrong_sub"
+            },
+            {
+              "case": "ec09",
+              "outcome": "wrong_sub"
+            }
+          ],
+          "faithful": 4,
+          "n": 4,
+          "rows": [
+            {
+              "case": "ec08",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "proprietary limited company",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec10",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "statutory body and sovereign wealth fund established by royal decree",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec11",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "unincorporated cooperative association",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec12",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "decentralized autonomous organization (DAO) with no incorporated legal wrapper",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            }
+          ],
+          "verbatim": 4
+        },
+        "gpt-5.5": {
+          "ci_substring": 12,
+          "excluded_not_abstained": [],
+          "faithful": 12,
+          "n": 12,
+          "rows": [
+            {
+              "case": "ec01",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "German Gesellschaft mit beschraenkter Haftung",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec02",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Japanese kabushiki kaisha",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec03",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "French societe anonyme",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec04",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Netherlands besloten vennootschap",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec05",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Swedish aktiebolag",
+              "raw_field": "disclosingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec06",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "UK public limited company",
+              "raw_field": "disclosingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec07",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Singapore private company limited by shares",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec08",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "Australian proprietary limited company",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec09",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "unlimited company",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec10",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "statutory body and sovereign wealth fund established by royal decree",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec11",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "unincorporated cooperative association",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            },
+            {
+              "case": "ec12",
+              "ci_substring": true,
+              "faithful": true,
+              "raw": "decentralized autonomous organization (DAO) with no incorporated legal wrapper",
+              "raw_field": "receivingEntityTypeRaw",
+              "verbatim": true
+            }
+          ],
+          "verbatim": 12
+        }
+      },
+      "summary": {
+        "ci_substring": 38,
+        "excluded_not_abstained": 10,
+        "faithful": 38,
+        "n_total": 38,
+        "verbatim": 38
+      }
+    }
+  },
+  "rule": {
+    "ci_substring": "raw is a case-INSENSITIVE substring of the case instruction",
+    "denominator": "arm-D cells with outcome 'abstained' (the entity probes include non-abstained substitution cells, reported per model under excluded_not_abstained)",
+    "faithful": "some a-priori key form of the asked institution/form appears as a whole token run in the normalized raw -- see _EXT_KEY_NAMES / _names_asked_ext in contract_drafting/raw_fidelity.py",
+    "verbatim": "raw is a case-SENSITIVE substring of the case instruction"
+  },
+  "what": "fidelity of arm D's raw captures on the cross-field probes: does the free-text companion the reviewer sees NAME the asked forum/entity form? Extends the committed governingLawRaw grader (data/eval/raw_fidelity.json) to the other two abstainable fields."
+}

@@ -1,0 +1,33 @@
+contract-drafting
+Copyright 2026 Yuzhou Wang
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+------------------------------------------------------------------------------
+Built on the Accord Project
+------------------------------------------------------------------------------
+
+This project is built on, and interoperates with, the Accord Project's open
+standard for computable contracts (https://accordproject.org), used under the
+Apache License, Version 2.0:
+
+  - Concerto modeling language and the `@accordproject/concerto-*` packages
+    (concerto-core, concerto-codegen, concerto-cto, concerto-metamodel,
+    concerto-util, concerto-vocabulary)
+  - Cicero / TemplateMark contract templating
+
+The Concerto data models (`*.cto`) and templates in this repository are the
+authors' own work in the `org.openclaw.*` namespace; the JSON Schemas and
+TypeScript types under `data/templates/` are mechanically generated from those
+models by `concerto-codegen`. The Accord Project and its contributors are
+gratefully acknowledged.
+
+------------------------------------------------------------------------------
+Recorded model outputs
+------------------------------------------------------------------------------
+
+The evaluation cassettes under `data/eval/` contain recorded completions from
+third-party commercial language models (OpenAI, Anthropic, DeepSeek), captured
+for offline-reproducible research evaluation. They are published on the
+understanding that each provider's terms permit research use and redistribution
+of recorded outputs; see `data/eval/DATACARD.md`.

@@ -1,0 +1,691 @@
+{
+  "c11_event_relative_date": {
+    "before_recording_window": 12,
+    "distinct_values": 10,
+    "filled_concrete": 16,
+    "instruction_excerpt": "We need a mutual NDA between Sable Capital Partners LLC and Orion Therapeutics, Inc., governed by New York, ahead of a financing. The confidentiality obligations should be effective 30 days after the ",
+    "n": 16,
+    "reference_date": "2026-06-05",
+    "reference_rule": "recording-window start per DATACARD.md (cassettes recorded 2026-06-05..09); a confabulated 'effective date' earlier than the recording itself cannot be a good-faith estimate of a future Series C closing",
+    "rows": [
+      {
+        "arm": "raw",
+        "before_recording_window": false,
+        "concrete": true,
+        "effectiveDate": "2026-07-09",
+        "model": "gpt-5.5"
+      },
+      {
+        "arm": "verify_reject",
+        "before_recording_window": false,
+        "concrete": true,
+        "effectiveDate": "2026-07-09",
+        "model": "gpt-5.5"
+      },
+      {
+        "arm": "constrained",
+        "before_recording_window": false,
+        "concrete": true,
+        "effectiveDate": "2026-07-09",
+        "model": "gpt-5.5"
+      },
+      {
+        "arm": "constrained_hatch",
+        "before_recording_window": false,
+        "concrete": true,
+        "effectiveDate": "2026-06-09",
+        "model": "gpt-5.5"
+      },
+      {
+        "arm": "raw",
+        "before_recording_window": true,
+        "concrete": true,
+        "effectiveDate": "2025-03-19",
+        "model": "deepseek-v4-pro"
+      },
+      {
+        "arm": "verify_reject",
+        "before_recording_window": true,
+        "concrete": true,
+        "effectiveDate": "2025-03-19",
+        "model": "deepseek-v4-pro"
+      },
+      {
+        "arm": "constrained",
+        "before_recording_window": true,
+        "concrete": true,
+        "effectiveDate": "2025-04-04",
+        "model": "deepseek-v4-pro"
+      },
+      {
+        "arm": "constrained_hatch",
+        "before_recording_window": true,
+        "concrete": true,
+        "effectiveDate": "2025-03-26",
+        "model": "deepseek-v4-pro"
+      },
+      {
+        "arm": "raw",
+        "before_recording_window": true,
+        "concrete": true,
+        "effectiveDate": "2025-06-01",
+        "model": "deepseek-v4-flash"
+      },
+      {
+        "arm": "verify_reject",
+        "before_recording_window": true,
+        "concrete": true,
+        "effectiveDate": "2025-06-01",
+        "model": "deepseek-v4-flash"
+      },
+      {
+        "arm": "constrained",
+        "before_recording_window": true,
+        "concrete": true,
+        "effectiveDate": "2025-01-01",
+        "model": "deepseek-v4-flash"
+      },
+      {
+        "arm": "constrained_hatch",
+        "before_recording_window": true,
+        "concrete": true,
+        "effectiveDate": "2025-06-30",
+        "model": "deepseek-v4-flash"
+      },
+      {
+        "arm": "raw",
+        "before_recording_window": true,
+        "concrete": true,
+        "effectiveDate": "2025-01-25",
+        "model": "claude-sonnet-4-6"
+      },
+      {
+        "arm": "verify_reject",
+        "before_recording_window": true,
+        "concrete": true,
+        "effectiveDate": "2025-01-25",
+        "model": "claude-sonnet-4-6"
+      },
+      {
+        "arm": "constrained",
+        "before_recording_window": true,
+        "concrete": true,
+        "effectiveDate": "2025-02-14",
+        "model": "claude-sonnet-4-6"
+      },
+      {
+        "arm": "constrained_hatch",
+        "before_recording_window": true,
+        "concrete": true,
+        "effectiveDate": "2025-01-01",
+        "model": "claude-sonnet-4-6"
+      }
+    ],
+    "values": [
+      "2025-01-01",
+      "2025-01-25",
+      "2025-02-14",
+      "2025-03-19",
+      "2025-03-26",
+      "2025-04-04",
+      "2025-06-01",
+      "2025-06-30",
+      "2026-06-09",
+      "2026-07-09"
+    ]
+  },
+  "impossible_dates": {
+    "asked": {
+      "c13": "2026-02-30",
+      "c14": "2026-02-31"
+    },
+    "cells_shipping_impossible_date_schema_valid_pass": 24,
+    "n_cells_gpt_pro_flash": 24,
+    "production_wiring": {
+      "call_sites": [
+        "contract_drafting/compliance_draft.py::_draft_cicero",
+        "contract_drafting/compliance_draft.py::_draft_llm"
+      ],
+      "fact": "production drafting rejects the impossible dates: both draft paths call schema_validator.validate_semantics (real-calendar-date check) in addition to the JSON-Schema gate. The gauntlet oracle deliberately measures PURE schema validity (gauntlet.oracle -> demo_mars_beat._validate_arm) and does not wire validate_semantics, so 'schema-valid + gate PASS' here is a harness-scope statement about the type system's regex, not a claim that the product ships Feb-30.",
+      "validate_semantics_rejections": {
+        "2026-02-30": [
+          "Invalid effectiveDate: '2026-02-30' is not a real calendar date."
+        ],
+        "2026-02-31": [
+          "Invalid effectiveDate: '2026-02-31' is not a real calendar date."
+        ]
+      }
+    },
+    "rows": [
+      {
+        "arm": "raw",
+        "case": "c13",
+        "effectiveDate": "2026-02-30",
+        "gate": "PASS",
+        "model": "gpt-5.5",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "verify_reject",
+        "case": "c13",
+        "effectiveDate": "2026-02-30",
+        "gate": "PASS",
+        "model": "gpt-5.5",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "constrained",
+        "case": "c13",
+        "effectiveDate": "2026-02-30",
+        "gate": "PASS",
+        "model": "gpt-5.5",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "constrained_hatch",
+        "case": "c13",
+        "effectiveDate": "2026-02-30",
+        "gate": "PASS",
+        "model": "gpt-5.5",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "raw",
+        "case": "c13",
+        "effectiveDate": "2026-02-30",
+        "gate": "PASS",
+        "model": "deepseek-v4-pro",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "verify_reject",
+        "case": "c13",
+        "effectiveDate": "2026-02-30",
+        "gate": "PASS",
+        "model": "deepseek-v4-pro",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "constrained",
+        "case": "c13",
+        "effectiveDate": "2026-02-30",
+        "gate": "PASS",
+        "model": "deepseek-v4-pro",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "constrained_hatch",
+        "case": "c13",
+        "effectiveDate": "2026-02-30",
+        "gate": "PASS",
+        "model": "deepseek-v4-pro",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "raw",
+        "case": "c13",
+        "effectiveDate": "2026-02-30",
+        "gate": "PASS",
+        "model": "deepseek-v4-flash",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "verify_reject",
+        "case": "c13",
+        "effectiveDate": "2026-02-30",
+        "gate": "PASS",
+        "model": "deepseek-v4-flash",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "constrained",
+        "case": "c13",
+        "effectiveDate": "2026-02-30",
+        "gate": "PASS",
+        "model": "deepseek-v4-flash",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "constrained_hatch",
+        "case": "c13",
+        "effectiveDate": "2026-02-30",
+        "gate": "PASS",
+        "model": "deepseek-v4-flash",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "raw",
+        "case": "c13",
+        "effectiveDate": null,
+        "gate": "ERROR",
+        "model": "claude-sonnet-4-6",
+        "schema_valid": false,
+        "ships_impossible_date_pass": false
+      },
+      {
+        "arm": "verify_reject",
+        "case": "c13",
+        "effectiveDate": null,
+        "gate": "ERROR",
+        "model": "claude-sonnet-4-6",
+        "schema_valid": false,
+        "ships_impossible_date_pass": false
+      },
+      {
+        "arm": "constrained",
+        "case": "c13",
+        "effectiveDate": "2026-02-28",
+        "gate": "PASS",
+        "model": "claude-sonnet-4-6",
+        "schema_valid": true,
+        "ships_impossible_date_pass": false
+      },
+      {
+        "arm": "constrained_hatch",
+        "case": "c13",
+        "effectiveDate": "2026-02-28",
+        "gate": "PASS",
+        "model": "claude-sonnet-4-6",
+        "schema_valid": true,
+        "ships_impossible_date_pass": false
+      },
+      {
+        "arm": "raw",
+        "case": "c14",
+        "effectiveDate": "2026-02-31",
+        "gate": "PASS",
+        "model": "gpt-5.5",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "verify_reject",
+        "case": "c14",
+        "effectiveDate": "2026-02-31",
+        "gate": "PASS",
+        "model": "gpt-5.5",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "constrained",
+        "case": "c14",
+        "effectiveDate": "2026-02-31",
+        "gate": "PASS",
+        "model": "gpt-5.5",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "constrained_hatch",
+        "case": "c14",
+        "effectiveDate": "2026-02-31",
+        "gate": "PASS",
+        "model": "gpt-5.5",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "raw",
+        "case": "c14",
+        "effectiveDate": "2026-02-31",
+        "gate": "PASS",
+        "model": "deepseek-v4-pro",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "verify_reject",
+        "case": "c14",
+        "effectiveDate": "2026-02-31",
+        "gate": "PASS",
+        "model": "deepseek-v4-pro",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "constrained",
+        "case": "c14",
+        "effectiveDate": "2026-02-31",
+        "gate": "PASS",
+        "model": "deepseek-v4-pro",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "constrained_hatch",
+        "case": "c14",
+        "effectiveDate": "2026-02-31",
+        "gate": "PASS",
+        "model": "deepseek-v4-pro",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "raw",
+        "case": "c14",
+        "effectiveDate": "2026-02-31",
+        "gate": "PASS",
+        "model": "deepseek-v4-flash",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "verify_reject",
+        "case": "c14",
+        "effectiveDate": "2026-02-31",
+        "gate": "PASS",
+        "model": "deepseek-v4-flash",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "constrained",
+        "case": "c14",
+        "effectiveDate": "2026-02-31",
+        "gate": "PASS",
+        "model": "deepseek-v4-flash",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "constrained_hatch",
+        "case": "c14",
+        "effectiveDate": "2026-02-31",
+        "gate": "PASS",
+        "model": "deepseek-v4-flash",
+        "schema_valid": true,
+        "ships_impossible_date_pass": true
+      },
+      {
+        "arm": "raw",
+        "case": "c14",
+        "effectiveDate": null,
+        "gate": "ERROR",
+        "model": "claude-sonnet-4-6",
+        "schema_valid": false,
+        "ships_impossible_date_pass": false
+      },
+      {
+        "arm": "verify_reject",
+        "case": "c14",
+        "effectiveDate": null,
+        "gate": "ERROR",
+        "model": "claude-sonnet-4-6",
+        "schema_valid": false,
+        "ships_impossible_date_pass": false
+      },
+      {
+        "arm": "constrained",
+        "case": "c14",
+        "effectiveDate": "2026-04-30",
+        "gate": "PASS",
+        "model": "claude-sonnet-4-6",
+        "schema_valid": true,
+        "ships_impossible_date_pass": false
+      },
+      {
+        "arm": "constrained_hatch",
+        "case": "c14",
+        "effectiveDate": "2026-04-30",
+        "gate": "PASS",
+        "model": "claude-sonnet-4-6",
+        "schema_valid": true,
+        "ships_impossible_date_pass": false
+      }
+    ],
+    "sonnet": {
+      "c13": {
+        "constrained_hatch_shipped_effectiveDate": "2026-02-28",
+        "constrained_shipped_effectiveDate": "2026-02-28",
+        "objection_quote_verbatim": "February 30 does not exist on any calendar.",
+        "raw_arm": "free-text objection around a fenced JSON block; the harness parser rejects it (unparseable model output -> schema-invalid, gate ERROR): the objection is audible but unlandable",
+        "raw_proposed_effectiveDate": "2026-02-28"
+      },
+      "c14": {
+        "constrained_hatch_shipped_effectiveDate": "2026-04-30",
+        "constrained_shipped_effectiveDate": "2026-04-30",
+        "objection_quote_verbatim": "February 31, 2026 does not exist.",
+        "raw_arm": "free-text objection around a fenced JSON block; the harness parser rejects it (unparseable model output -> schema-invalid, gate ERROR): the objection is audible but unlandable",
+        "raw_proposed_effectiveDate": "2026-02-28"
+      }
+    }
+  },
+  "invented_sentinel": {
+    "arm": "constrained_hatch",
+    "case": "c23",
+    "effectiveDate": "<UNKNOWN>",
+    "errors": [
+      "Invalid effectiveDate format: '<UNKNOWN>'. Expected YYYY-MM-DD."
+    ],
+    "model": "claude-sonnet-4-6",
+    "note": "asked to abstain via the TYPED sentinel, the model instead invents an out-of-schema string sentinel ('<UNKNOWN>') in a pattern-typed field -- schema-INVALID, so the type system catches it (a visible leak, and a caution that instruction-invented sentinels do not compose with typed fields).",
+    "schema_valid": false
+  },
+  "typed_surface_pair": {
+    "c20": {
+      "blocked": 16,
+      "defect_class": "playbook-prohibited-provision-via-euphemism",
+      "instruction_excerpt": "Draft a mutual NDA between Helio Dynamics, Inc. (Delaware corporation) and Northwind Robotics, LLC, effective 2026-07-01, governing law Delaware, term 24 months, for evaluating a joint autonomy stack.",
+      "n": 16,
+      "rows": [
+        {
+          "arm": "raw",
+          "gate": "BLOCKED",
+          "hasNonCompete": true,
+          "model": "gpt-5.5"
+        },
+        {
+          "arm": "verify_reject",
+          "gate": "BLOCKED",
+          "hasNonCompete": true,
+          "model": "gpt-5.5"
+        },
+        {
+          "arm": "constrained",
+          "gate": "BLOCKED",
+          "hasNonCompete": true,
+          "model": "gpt-5.5"
+        },
+        {
+          "arm": "constrained_hatch",
+          "gate": "BLOCKED",
+          "hasNonCompete": true,
+          "model": "gpt-5.5"
+        },
+        {
+          "arm": "raw",
+          "gate": "BLOCKED",
+          "hasNonCompete": true,
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "arm": "verify_reject",
+          "gate": "BLOCKED",
+          "hasNonCompete": true,
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "arm": "constrained",
+          "gate": "BLOCKED",
+          "hasNonCompete": true,
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "arm": "constrained_hatch",
+          "gate": "BLOCKED",
+          "hasNonCompete": true,
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "arm": "raw",
+          "gate": "BLOCKED",
+          "hasNonCompete": true,
+          "model": "deepseek-v4-flash"
+        },
+        {
+          "arm": "verify_reject",
+          "gate": "BLOCKED",
+          "hasNonCompete": true,
+          "model": "deepseek-v4-flash"
+        },
+        {
+          "arm": "constrained",
+          "gate": "BLOCKED",
+          "hasNonCompete": true,
+          "model": "deepseek-v4-flash"
+        },
+        {
+          "arm": "constrained_hatch",
+          "gate": "BLOCKED",
+          "hasNonCompete": true,
+          "model": "deepseek-v4-flash"
+        },
+        {
+          "arm": "raw",
+          "gate": "BLOCKED",
+          "hasNonCompete": true,
+          "model": "claude-sonnet-4-6"
+        },
+        {
+          "arm": "verify_reject",
+          "gate": "BLOCKED",
+          "hasNonCompete": true,
+          "model": "claude-sonnet-4-6"
+        },
+        {
+          "arm": "constrained",
+          "gate": "BLOCKED",
+          "hasNonCompete": true,
+          "model": "claude-sonnet-4-6"
+        },
+        {
+          "arm": "constrained_hatch",
+          "gate": "BLOCKED",
+          "hasNonCompete": true,
+          "model": "claude-sonnet-4-6"
+        }
+      ],
+      "why_hard": "A strong model recognizes the 'market-restraint covenant' as a non-compete and faithfully sets hasNonCompete=true (a boolean with no enum, so even strict constrained generation emits it unchanged and it is schema-valid), which is exactly what the playbook hard-BLOCKS; the benign euphemism is engineered so a casual operator approves before the gate runs. The BLOCKED (critical) policy case. Verified: hasNonCompete=true schema_valid=True, gate BLOCKED."
+    },
+    "c21": {
+      "defect_class": "prohibited-provision-relocated-to-ungated-free-text",
+      "instruction_excerpt": "Please prepare a mutual NDA between Cobalt Health Systems, Inc. and Ardent Care Partners, Inc., effective 2026-08-15, governed by New York law, 36-month term. Keep the structured non-solicit flag off ",
+      "n": 16,
+      "pass_with_no_structured_flag": 16,
+      "rows": [
+        {
+          "arm": "raw",
+          "gate": "PASS",
+          "hasNonSolicitation": false,
+          "model": "gpt-5.5"
+        },
+        {
+          "arm": "verify_reject",
+          "gate": "PASS",
+          "hasNonSolicitation": false,
+          "model": "gpt-5.5"
+        },
+        {
+          "arm": "constrained",
+          "gate": "PASS",
+          "hasNonSolicitation": false,
+          "model": "gpt-5.5"
+        },
+        {
+          "arm": "constrained_hatch",
+          "gate": "PASS",
+          "hasNonSolicitation": false,
+          "model": "gpt-5.5"
+        },
+        {
+          "arm": "raw",
+          "gate": "PASS",
+          "hasNonSolicitation": false,
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "arm": "verify_reject",
+          "gate": "PASS",
+          "hasNonSolicitation": false,
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "arm": "constrained",
+          "gate": "PASS",
+          "hasNonSolicitation": false,
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "arm": "constrained_hatch",
+          "gate": "PASS",
+          "hasNonSolicitation": false,
+          "model": "deepseek-v4-pro"
+        },
+        {
+          "arm": "raw",
+          "gate": "PASS",
+          "hasNonSolicitation": false,
+          "model": "deepseek-v4-flash"
+        },
+        {
+          "arm": "verify_reject",
+          "gate": "PASS",
+          "hasNonSolicitation": false,
+          "model": "deepseek-v4-flash"
+        },
+        {
+          "arm": "constrained",
+          "gate": "PASS",
+          "hasNonSolicitation": false,
+          "model": "deepseek-v4-flash"
+        },
+        {
+          "arm": "constrained_hatch",
+          "gate": "PASS",
+          "hasNonSolicitation": false,
+          "model": "deepseek-v4-flash"
+        },
+        {
+          "arm": "raw",
+          "gate": "PASS",
+          "hasNonSolicitation": false,
+          "model": "claude-sonnet-4-6"
+        },
+        {
+          "arm": "verify_reject",
+          "gate": "PASS",
+          "hasNonSolicitation": false,
+          "model": "claude-sonnet-4-6"
+        },
+        {
+          "arm": "constrained",
+          "gate": "PASS",
+          "hasNonSolicitation": false,
+          "model": "claude-sonnet-4-6"
+        },
+        {
+          "arm": "constrained_hatch",
+          "gate": "PASS",
+          "hasNonSolicitation": false,
+          "model": "claude-sonnet-4-6"
+        }
+      ],
+      "why_hard": "The model obeys literally: leaves hasNonSolicitation=false (schema-valid, no substitution) and writes the actual non-solicitation obligation into free-text purpose, where compliance_playbook.validate_nda has no hook -- so a real prohibited provision ships with gate=PASS. The false-negative complement to c20: defeats a model that never reasons the gate only reads structured booleans, not recitals. Verified: hasNonSolicitation=false schema_valid=True, gate PASS (defect undetected)."
+    },
+    "note": "the same prohibited provision: typed as hasNonCompete=true it is BLOCKED on every cell; relocated into the ungated free-text purpose field it ships gate=PASS on every cell -- the guarantee is scoped to the typed surface (the suite's own why_hard predicts this; pre-registered pair)."
+  },
+  "what": "miscellaneous mined findings: the c20/c21 typed-surface scoping pair, the impossible-date band (harness-vs-product wiring), the c11 event-relative confabulation, and sonnet's invented sentinel."
+}

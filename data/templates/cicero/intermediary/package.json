@@ -1,0 +1,10 @@
+{
+  "name": "intermediary",
+  "version": "1.0.0",
+  "description": "Intermediary Agreement / Finder's Fee (居间协议) - bilingual Chinese/English",
+  "accordproject": {
+    "template": "contract",
+    "cicero": "^0.25.0"
+  },
+  "license": "Proprietary"
+}

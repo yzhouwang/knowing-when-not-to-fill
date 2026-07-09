@@ -1,0 +1,813 @@
+{
+  "arms": [
+    "raw",
+    "constrained",
+    "constrained_hatch"
+  ],
+  "cases_rule": "the 57-case hard suite minus the 16 fc* disputeForum cases (probes + forum controls) -- none of these asks for a forum",
+  "classification_rule": {
+    "absent": "field missing or empty",
+    "concrete": "value normalizes (display<->identifier, the grader's own map) to a DisputeForum member other than OTHER_FORUM",
+    "non_enum": "non-empty value that maps to no enum member",
+    "sentinel": "value normalizes to OTHER_FORUM"
+  },
+  "gpt_arm_d_siac_singapore_linkage": {
+    "concrete_total": 9,
+    "rule": "case instruction contains 'laws of the Republic of Singapore' (the SIAC fills are a governing-law-linked inference, marked as such, not a random confabulation)",
+    "siac_on_singapore_governing_law_cases": 7
+  },
+  "models": {
+    "claude-sonnet-4-6": {
+      "constrained": {
+        "absent": 30,
+        "concrete": 11,
+        "concrete_rows": [
+          {
+            "case": "c03",
+            "singapore_governing_law": false,
+            "value": "DIAC"
+          },
+          {
+            "case": "c06",
+            "singapore_governing_law": false,
+            "value": "JAMS"
+          },
+          {
+            "case": "c18",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "c28",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec02",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec03",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec05",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec06",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec07",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec10",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec12",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          }
+        ],
+        "concrete_value_distribution": {
+          "DIAC": 1,
+          "JAMS": 1,
+          "LCIA": 3,
+          "SIAC": 6
+        },
+        "filled": 11,
+        "n": 41,
+        "non_enum": 0,
+        "sentinel": 0
+      },
+      "constrained_hatch": {
+        "absent": 39,
+        "concrete": 0,
+        "concrete_rows": [],
+        "concrete_value_distribution": {},
+        "filled": 2,
+        "n": 41,
+        "non_enum": 0,
+        "sentinel": 2
+      },
+      "raw": {
+        "absent": 23,
+        "concrete": 18,
+        "concrete_rows": [
+          {
+            "case": "c03",
+            "singapore_governing_law": false,
+            "value": "DIAC"
+          },
+          {
+            "case": "c04",
+            "singapore_governing_law": false,
+            "value": "HKIAC"
+          },
+          {
+            "case": "c06",
+            "singapore_governing_law": false,
+            "value": "JAMS"
+          },
+          {
+            "case": "c08",
+            "singapore_governing_law": false,
+            "value": "DIAC"
+          },
+          {
+            "case": "c18",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "c20",
+            "singapore_governing_law": false,
+            "value": "JAMS"
+          },
+          {
+            "case": "c26",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "c28",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec01",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "ec02",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec03",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec04",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "ec05",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec06",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec07",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec08",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec10",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec12",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          }
+        ],
+        "concrete_value_distribution": {
+          "AAA_ICDR": 2,
+          "DIAC": 2,
+          "HKIAC": 1,
+          "JAMS": 2,
+          "LCIA": 4,
+          "SIAC": 7
+        },
+        "filled": 18,
+        "n": 41,
+        "non_enum": 0,
+        "sentinel": 0
+      }
+    },
+    "deepseek-v4-flash": {
+      "constrained": {
+        "absent": 29,
+        "concrete": 12,
+        "concrete_rows": [
+          {
+            "case": "c03",
+            "singapore_governing_law": false,
+            "value": "ICC"
+          },
+          {
+            "case": "c11",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c13",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c16",
+            "singapore_governing_law": false,
+            "value": "JAMS"
+          },
+          {
+            "case": "c20",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c26",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec01",
+            "singapore_governing_law": false,
+            "value": "JAMS"
+          },
+          {
+            "case": "ec02",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec03",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec04",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "ec06",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec12",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          }
+        ],
+        "concrete_value_distribution": {
+          "AAA_ICDR": 4,
+          "ICC": 1,
+          "JAMS": 2,
+          "LCIA": 2,
+          "SIAC": 3
+        },
+        "filled": 12,
+        "n": 41,
+        "non_enum": 0,
+        "sentinel": 0
+      },
+      "constrained_hatch": {
+        "absent": 33,
+        "concrete": 3,
+        "concrete_rows": [
+          {
+            "case": "c22",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c28",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "c29",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          }
+        ],
+        "concrete_value_distribution": {
+          "AAA_ICDR": 1,
+          "LCIA": 1,
+          "SIAC": 1
+        },
+        "filled": 8,
+        "n": 41,
+        "non_enum": 0,
+        "sentinel": 5
+      },
+      "raw": {
+        "absent": 31,
+        "concrete": 10,
+        "concrete_rows": [
+          {
+            "case": "c02",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "c03",
+            "singapore_governing_law": false,
+            "value": "DIAC"
+          },
+          {
+            "case": "c06",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c19",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c28",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec02",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec07",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec08",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec11",
+            "singapore_governing_law": false,
+            "value": "JAMS"
+          },
+          {
+            "case": "ec12",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          }
+        ],
+        "concrete_value_distribution": {
+          "AAA_ICDR": 2,
+          "DIAC": 1,
+          "JAMS": 1,
+          "LCIA": 2,
+          "SIAC": 4
+        },
+        "filled": 10,
+        "n": 41,
+        "non_enum": 0,
+        "sentinel": 0
+      }
+    },
+    "deepseek-v4-pro": {
+      "constrained": {
+        "absent": 38,
+        "concrete": 3,
+        "concrete_rows": [
+          {
+            "case": "c18",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "c28",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec07",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          }
+        ],
+        "concrete_value_distribution": {
+          "SIAC": 3
+        },
+        "filled": 3,
+        "n": 41,
+        "non_enum": 0,
+        "sentinel": 0
+      },
+      "constrained_hatch": {
+        "absent": 39,
+        "concrete": 1,
+        "concrete_rows": [
+          {
+            "case": "ec12",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          }
+        ],
+        "concrete_value_distribution": {
+          "SIAC": 1
+        },
+        "filled": 2,
+        "n": 41,
+        "non_enum": 0,
+        "sentinel": 1
+      },
+      "raw": {
+        "absent": 33,
+        "concrete": 8,
+        "concrete_rows": [
+          {
+            "case": "c18",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec02",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec05",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec06",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec07",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec08",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec10",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec12",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          }
+        ],
+        "concrete_value_distribution": {
+          "LCIA": 3,
+          "SIAC": 5
+        },
+        "filled": 8,
+        "n": 41,
+        "non_enum": 0,
+        "sentinel": 0
+      }
+    },
+    "gpt-5.5": {
+      "constrained": {
+        "absent": 0,
+        "concrete": 41,
+        "concrete_rows": [
+          {
+            "case": "c01",
+            "singapore_governing_law": false,
+            "value": "ICC"
+          },
+          {
+            "case": "c02",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "c03",
+            "singapore_governing_law": false,
+            "value": "DIAC"
+          },
+          {
+            "case": "c04",
+            "singapore_governing_law": false,
+            "value": "HKIAC"
+          },
+          {
+            "case": "c06",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c08",
+            "singapore_governing_law": false,
+            "value": "DIAC"
+          },
+          {
+            "case": "c10",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c11",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c13",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c14",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c15",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c16",
+            "singapore_governing_law": false,
+            "value": "JAMS"
+          },
+          {
+            "case": "c17",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "c18",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "c19",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c20",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c21",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c22",
+            "singapore_governing_law": false,
+            "value": "JAMS"
+          },
+          {
+            "case": "c23",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c24",
+            "singapore_governing_law": false,
+            "value": "JAMS"
+          },
+          {
+            "case": "c25",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c26",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "c27",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c28",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "c29",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec01",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "ec02",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec03",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec04",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "ec05",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec06",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec07",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec08",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec09",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "ec10",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec11",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "ec12",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec27",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "ec28",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "ec29",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "ec30",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          }
+        ],
+        "concrete_value_distribution": {
+          "AAA_ICDR": 20,
+          "DIAC": 2,
+          "HKIAC": 1,
+          "ICC": 1,
+          "JAMS": 3,
+          "LCIA": 7,
+          "SIAC": 7
+        },
+        "filled": 41,
+        "n": 41,
+        "non_enum": 0,
+        "sentinel": 0
+      },
+      "constrained_hatch": {
+        "absent": 0,
+        "concrete": 9,
+        "concrete_rows": [
+          {
+            "case": "c15",
+            "singapore_governing_law": false,
+            "value": "AAA_ICDR"
+          },
+          {
+            "case": "c16",
+            "singapore_governing_law": false,
+            "value": "JAMS"
+          },
+          {
+            "case": "c18",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "c26",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "c28",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec02",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec05",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec07",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec12",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          }
+        ],
+        "concrete_value_distribution": {
+          "AAA_ICDR": 1,
+          "JAMS": 1,
+          "SIAC": 7
+        },
+        "filled": 41,
+        "n": 41,
+        "non_enum": 0,
+        "sentinel": 32
+      },
+      "raw": {
+        "absent": 38,
+        "concrete": 3,
+        "concrete_rows": [
+          {
+            "case": "ec02",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          },
+          {
+            "case": "ec10",
+            "singapore_governing_law": false,
+            "value": "LCIA"
+          },
+          {
+            "case": "ec12",
+            "singapore_governing_law": true,
+            "value": "SIAC"
+          }
+        ],
+        "concrete_value_distribution": {
+          "LCIA": 1,
+          "SIAC": 2
+        },
+        "filled": 3,
+        "n": 41,
+        "non_enum": 0,
+        "sentinel": 0
+      }
+    }
+  },
+  "n_cases": 41,
+  "pooled_unrequested_concrete": {
+    "constrained": 67,
+    "constrained_hatch": 13,
+    "denominator": 164,
+    "raw": 39
+  },
+  "what": "disputeForum forced-fill decomposition: NO case in this denominator asks for a dispute forum, so every fill is unrequested. The OpenAI strict massage (llm.py _strict_walk) sets required=all properties with no null union, so gpt-5.5 is grammar-forced to emit disputeForum on 41/41; what remains model behavior is WHICH value: with the sentinel available (arm D) it routes 32/41 into OTHER_FORUM; without it (arm C) the same forced fills become 41/41 concrete confabulations. The sentinel absorbs forced fills into a reviewable channel."
+}

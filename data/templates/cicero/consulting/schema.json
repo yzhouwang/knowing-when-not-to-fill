@@ -1,0 +1,201 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "org.openclaw.consulting@1.0.0.ConsultingData": {
+      "title": "ConsultingData",
+      "description": "An instance of org.openclaw.consulting@1.0.0.ConsultingData",
+      "type": "object",
+      "properties": {
+        "agreementNo": {
+          "type": "string",
+          "minLength": 1
+        },
+        "signingPlace": {
+          "type": "string"
+        },
+        "effectiveDate": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "partyAName": {
+          "default": "Acme AI Inc.",
+          "type": "string",
+          "minLength": 1
+        },
+        "partyAAddress": {
+          "default": "1 Example Way, #01-01 Example Tower, Singapore 000000",
+          "type": "string"
+        },
+        "partyAContact": {
+          "default": "+65 0000 0000",
+          "type": "string"
+        },
+        "partyALegalRep": {
+          "type": "string",
+          "minLength": 1
+        },
+        "partyBName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "partyBAddress": {
+          "type": "string"
+        },
+        "partyBLegalRep": {
+          "type": "string"
+        },
+        "partyBContact": {
+          "type": "string"
+        },
+        "partyBRoleDescription": {
+          "type": "string",
+          "minLength": 1
+        },
+        "targetCountry": {
+          "type": "string",
+          "minLength": 1
+        },
+        "consultingFeePercent": {
+          "type": "number"
+        },
+        "consultingFeeCap": {
+          "default": "no cap",
+          "type": "string"
+        },
+        "paymentTermDays": {
+          "default": 30,
+          "type": "integer"
+        },
+        "confidentialityTermYears": {
+          "default": 3,
+          "type": "integer"
+        },
+        "agreementTermMonths": {
+          "default": 12,
+          "type": "integer"
+        },
+        "terminationNoticeDays": {
+          "default": 30,
+          "type": "integer"
+        },
+        "breachCurePeriodDays": {
+          "default": 15,
+          "type": "integer"
+        },
+        "tailPeriodMonths": {
+          "default": 6,
+          "type": "integer"
+        },
+        "localComplianceLaws": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "governingLaw": {
+          "default": "Republic of Singapore",
+          "type": "string",
+          "$decorators": {
+            "description": [
+              "Governing law jurisdiction"
+            ]
+          },
+          "enum": [
+            "Alabama",
+            "Alaska",
+            "Arizona",
+            "Arkansas",
+            "California",
+            "Colorado",
+            "Connecticut",
+            "Delaware",
+            "Florida",
+            "Georgia",
+            "Hawaii",
+            "Idaho",
+            "Illinois",
+            "Indiana",
+            "Iowa",
+            "Kansas",
+            "Kentucky",
+            "Louisiana",
+            "Maine",
+            "Maryland",
+            "Massachusetts",
+            "Michigan",
+            "Minnesota",
+            "Mississippi",
+            "Missouri",
+            "Montana",
+            "Nebraska",
+            "Nevada",
+            "New Hampshire",
+            "New Jersey",
+            "New Mexico",
+            "New York",
+            "North Carolina",
+            "North Dakota",
+            "Ohio",
+            "Oklahoma",
+            "Oregon",
+            "Pennsylvania",
+            "Rhode Island",
+            "South Carolina",
+            "South Dakota",
+            "Tennessee",
+            "Texas",
+            "Utah",
+            "Vermont",
+            "Virginia",
+            "Washington",
+            "West Virginia",
+            "Wisconsin",
+            "Wyoming",
+            "District of Columbia",
+            "Republic of Singapore",
+            "Hong Kong SAR",
+            "England and Wales",
+            "Republic of Kenya",
+            "Republic of Indonesia",
+            "Republic of India",
+            "Kingdom of Saudi Arabia",
+            "United Arab Emirates",
+            "People's Republic of China",
+            "Japan",
+            "Republic of Korea",
+            "Federal Republic of Nigeria",
+            "Republic of South Africa"
+          ]
+        },
+        "arbitrationBody": {
+          "default": "Singapore International Arbitration Centre (SIAC)",
+          "type": "string"
+        },
+        "noticeChangeBusinessDays": {
+          "default": 5,
+          "type": "integer"
+        },
+        "bilingualEnglishPrevails": {
+          "default": false,
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "agreementNo",
+        "signingPlace",
+        "effectiveDate",
+        "partyALegalRep",
+        "partyBName",
+        "partyBAddress",
+        "partyBLegalRep",
+        "partyBContact",
+        "partyBRoleDescription",
+        "targetCountry",
+        "consultingFeePercent"
+      ],
+      "$decorators": {
+        "template": []
+      }
+    }
+  }
+}

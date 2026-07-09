@@ -1,0 +1,15 @@
+{
+  "name": "contract-drafting-build",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build-time tooling for Concerto model to schema/types generation",
+  "scripts": {
+    "generate": "node scripts/concerto-helper.js --all",
+    "generate:schema": "node scripts/concerto-helper.js --schema",
+    "generate:types": "node scripts/concerto-helper.js --typescript"
+  },
+  "dependencies": {
+    "@accordproject/concerto-codegen": "^5.0.0",
+    "@accordproject/concerto-core": "^4.1.4"
+  }
+}

@@ -1,0 +1,871 @@
+{
+  "arms_pooled": [
+    "raw",
+    "verify_reject",
+    "constrained"
+  ],
+  "cases": {
+    "c01": {
+      "asked": "ontario",
+      "cells": {
+        "omit": 9,
+        "unrelated": 2,
+        "verbatim_leak": 1
+      },
+      "filled_values": {
+        "(schema-invalid) Ontario": 1,
+        "England_and_Wales": 1,
+        "New_York": 1
+      },
+      "in_enum_relatives": {},
+      "rows": [
+        {
+          "arm": "raw",
+          "model": "gpt-5.5",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "verify_reject",
+          "model": "gpt-5.5",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "constrained",
+          "model": "gpt-5.5",
+          "relation": "unrelated",
+          "value": "New_York"
+        },
+        {
+          "arm": "raw",
+          "model": "deepseek-v4-pro",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "verify_reject",
+          "model": "deepseek-v4-pro",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "constrained",
+          "model": "deepseek-v4-pro",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "raw",
+          "model": "deepseek-v4-flash",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "verify_reject",
+          "model": "deepseek-v4-flash",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "constrained",
+          "model": "deepseek-v4-flash",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "raw",
+          "model": "claude-sonnet-4-6",
+          "relation": "verbatim_leak",
+          "value": "Ontario"
+        },
+        {
+          "arm": "verify_reject",
+          "model": "claude-sonnet-4-6",
+          "relation": "unrelated",
+          "value": "England_and_Wales"
+        },
+        {
+          "arm": "constrained",
+          "model": "claude-sonnet-4-6",
+          "relation": "omit",
+          "value": null
+        }
+      ]
+    },
+    "c02": {
+      "asked": "scotland",
+      "cells": {
+        "omit": 6,
+        "sibling": 6
+      },
+      "filled_values": {
+        "England_and_Wales": 6
+      },
+      "in_enum_relatives": {
+        "England_and_Wales": "sibling"
+      },
+      "rows": [
+        {
+          "arm": "raw",
+          "model": "gpt-5.5",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "verify_reject",
+          "model": "gpt-5.5",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "constrained",
+          "model": "gpt-5.5",
+          "relation": "sibling",
+          "value": "England_and_Wales"
+        },
+        {
+          "arm": "raw",
+          "model": "deepseek-v4-pro",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "verify_reject",
+          "model": "deepseek-v4-pro",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "constrained",
+          "model": "deepseek-v4-pro",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "raw",
+          "model": "deepseek-v4-flash",
+          "relation": "sibling",
+          "value": "England_and_Wales"
+        },
+        {
+          "arm": "verify_reject",
+          "model": "deepseek-v4-flash",
+          "relation": "sibling",
+          "value": "England_and_Wales"
+        },
+        {
+          "arm": "constrained",
+          "model": "deepseek-v4-flash",
+          "relation": "sibling",
+          "value": "England_and_Wales"
+        },
+        {
+          "arm": "raw",
+          "model": "claude-sonnet-4-6",
+          "relation": "sibling",
+          "value": "England_and_Wales"
+        },
+        {
+          "arm": "verify_reject",
+          "model": "claude-sonnet-4-6",
+          "relation": "sibling",
+          "value": "England_and_Wales"
+        },
+        {
+          "arm": "constrained",
+          "model": "claude-sonnet-4-6",
+          "relation": "omit",
+          "value": null
+        }
+      ]
+    },
+    "c03": {
+      "asked": "difc",
+      "cells": {
+        "parent": 12
+      },
+      "filled_values": {
+        "United_Arab_Emirates": 12
+      },
+      "in_enum_relatives": {
+        "United_Arab_Emirates": "parent"
+      },
+      "rows": [
+        {
+          "arm": "raw",
+          "model": "gpt-5.5",
+          "relation": "parent",
+          "value": "United_Arab_Emirates"
+        },
+        {
+          "arm": "verify_reject",
+          "model": "gpt-5.5",
+          "relation": "parent",
+          "value": "United_Arab_Emirates"
+        },
+        {
+          "arm": "constrained",
+          "model": "gpt-5.5",
+          "relation": "parent",
+          "value": "United_Arab_Emirates"
+        },
+        {
+          "arm": "raw",
+          "model": "deepseek-v4-pro",
+          "relation": "parent",
+          "value": "United_Arab_Emirates"
+        },
+        {
+          "arm": "verify_reject",
+          "model": "deepseek-v4-pro",
+          "relation": "parent",
+          "value": "United_Arab_Emirates"
+        },
+        {
+          "arm": "constrained",
+          "model": "deepseek-v4-pro",
+          "relation": "parent",
+          "value": "United_Arab_Emirates"
+        },
+        {
+          "arm": "raw",
+          "model": "deepseek-v4-flash",
+          "relation": "parent",
+          "value": "United_Arab_Emirates"
+        },
+        {
+          "arm": "verify_reject",
+          "model": "deepseek-v4-flash",
+          "relation": "parent",
+          "value": "United_Arab_Emirates"
+        },
+        {
+          "arm": "constrained",
+          "model": "deepseek-v4-flash",
+          "relation": "parent",
+          "value": "United_Arab_Emirates"
+        },
+        {
+          "arm": "raw",
+          "model": "claude-sonnet-4-6",
+          "relation": "parent",
+          "value": "United_Arab_Emirates"
+        },
+        {
+          "arm": "verify_reject",
+          "model": "claude-sonnet-4-6",
+          "relation": "parent",
+          "value": "United_Arab_Emirates"
+        },
+        {
+          "arm": "constrained",
+          "model": "claude-sonnet-4-6",
+          "relation": "parent",
+          "value": "United_Arab_Emirates"
+        }
+      ]
+    },
+    "c04": {
+      "asked": "macao",
+      "cells": {
+        "omit": 4,
+        "parent": 7,
+        "sibling": 1
+      },
+      "filled_values": {
+        "Hong_Kong_SAR": 1,
+        "Peoples_Republic_of_China": 7
+      },
+      "in_enum_relatives": {
+        "Hong_Kong_SAR": "sibling",
+        "Peoples_Republic_of_China": "parent"
+      },
+      "rows": [
+        {
+          "arm": "raw",
+          "model": "gpt-5.5",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "verify_reject",
+          "model": "gpt-5.5",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "constrained",
+          "model": "gpt-5.5",
+          "relation": "parent",
+          "value": "Peoples_Republic_of_China"
+        },
+        {
+          "arm": "raw",
+          "model": "deepseek-v4-pro",
+          "relation": "parent",
+          "value": "Peoples_Republic_of_China"
+        },
+        {
+          "arm": "verify_reject",
+          "model": "deepseek-v4-pro",
+          "relation": "parent",
+          "value": "Peoples_Republic_of_China"
+        },
+        {
+          "arm": "constrained",
+          "model": "deepseek-v4-pro",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "raw",
+          "model": "deepseek-v4-flash",
+          "relation": "parent",
+          "value": "Peoples_Republic_of_China"
+        },
+        {
+          "arm": "verify_reject",
+          "model": "deepseek-v4-flash",
+          "relation": "parent",
+          "value": "Peoples_Republic_of_China"
+        },
+        {
+          "arm": "constrained",
+          "model": "deepseek-v4-flash",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "raw",
+          "model": "claude-sonnet-4-6",
+          "relation": "parent",
+          "value": "Peoples_Republic_of_China"
+        },
+        {
+          "arm": "verify_reject",
+          "model": "claude-sonnet-4-6",
+          "relation": "parent",
+          "value": "Peoples_Republic_of_China"
+        },
+        {
+          "arm": "constrained",
+          "model": "claude-sonnet-4-6",
+          "relation": "sibling",
+          "value": "Hong_Kong_SAR"
+        }
+      ]
+    },
+    "c06": {
+      "asked": "united states",
+      "cells": {
+        "constituent": 12
+      },
+      "filled_values": {
+        "New_York": 12
+      },
+      "in_enum_relatives": {
+        "(any US state or DC)": "constituent"
+      },
+      "rows": [
+        {
+          "arm": "raw",
+          "model": "gpt-5.5",
+          "relation": "constituent",
+          "value": "New_York"
+        },
+        {
+          "arm": "verify_reject",
+          "model": "gpt-5.5",
+          "relation": "constituent",
+          "value": "New_York"
+        },
+        {
+          "arm": "constrained",
+          "model": "gpt-5.5",
+          "relation": "constituent",
+          "value": "New_York"
+        },
+        {
+          "arm": "raw",
+          "model": "deepseek-v4-pro",
+          "relation": "constituent",
+          "value": "New_York"
+        },
+        {
+          "arm": "verify_reject",
+          "model": "deepseek-v4-pro",
+          "relation": "constituent",
+          "value": "New_York"
+        },
+        {
+          "arm": "constrained",
+          "model": "deepseek-v4-pro",
+          "relation": "constituent",
+          "value": "New_York"
+        },
+        {
+          "arm": "raw",
+          "model": "deepseek-v4-flash",
+          "relation": "constituent",
+          "value": "New_York"
+        },
+        {
+          "arm": "verify_reject",
+          "model": "deepseek-v4-flash",
+          "relation": "constituent",
+          "value": "New_York"
+        },
+        {
+          "arm": "constrained",
+          "model": "deepseek-v4-flash",
+          "relation": "constituent",
+          "value": "New_York"
+        },
+        {
+          "arm": "raw",
+          "model": "claude-sonnet-4-6",
+          "relation": "constituent",
+          "value": "New_York"
+        },
+        {
+          "arm": "verify_reject",
+          "model": "claude-sonnet-4-6",
+          "relation": "constituent",
+          "value": "New_York"
+        },
+        {
+          "arm": "constrained",
+          "model": "claude-sonnet-4-6",
+          "relation": "constituent",
+          "value": "New_York"
+        }
+      ]
+    },
+    "c08": {
+      "asked": "difc",
+      "cells": {
+        "omit": 6,
+        "parent": 6
+      },
+      "filled_values": {
+        "United_Arab_Emirates": 6
+      },
+      "in_enum_relatives": {
+        "United_Arab_Emirates": "parent"
+      },
+      "rows": [
+        {
+          "arm": "raw",
+          "model": "gpt-5.5",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "verify_reject",
+          "model": "gpt-5.5",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "constrained",
+          "model": "gpt-5.5",
+          "relation": "parent",
+          "value": "United_Arab_Emirates"
+        },
+        {
+          "arm": "raw",
+          "model": "deepseek-v4-pro",
+          "relation": "parent",
+          "value": "United_Arab_Emirates"
+        },
+        {
+          "arm": "verify_reject",
+          "model": "deepseek-v4-pro",
+          "relation": "parent",
+          "value": "United_Arab_Emirates"
+        },
+        {
+          "arm": "constrained",
+          "model": "deepseek-v4-pro",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "raw",
+          "model": "deepseek-v4-flash",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "verify_reject",
+          "model": "deepseek-v4-flash",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "constrained",
+          "model": "deepseek-v4-flash",
+          "relation": "omit",
+          "value": null
+        },
+        {
+          "arm": "raw",
+          "model": "claude-sonnet-4-6",
+          "relation": "parent",
+          "value": "United_Arab_Emirates"
+        },
+        {
+          "arm": "verify_reject",
+          "model": "claude-sonnet-4-6",
+          "relation": "parent",
+          "value": "United_Arab_Emirates"
+        },
+        {
+          "arm": "constrained",
+          "model": "claude-sonnet-4-6",
+          "relation": "parent",
+          "value": "United_Arab_Emirates"
+        }
+      ]
+    }
+  },
+  "cells_per_case": 12,
+  "entity_folk_matrix": {
+    "n_probes": 12,
+    "probes": {
+      "ec01": {
+        "asked_form": "Gesellschaft mit beschraenkter Haftung (GmbH, Germany)",
+        "field": "receivingEntityType",
+        "fill_counts_by_model": {
+          "claude-sonnet-4-6": {
+            "limited_liability_company": 3
+          },
+          "deepseek-v4-flash": {
+            "limited_liability_company": 3
+          },
+          "deepseek-v4-pro": {
+            "limited_liability_company": 3
+          },
+          "gpt-5.5": {
+            "limited_liability_company": 3
+          }
+        },
+        "modal_by_model": {
+          "claude-sonnet-4-6": "limited_liability_company",
+          "deepseek-v4-flash": "limited_liability_company",
+          "deepseek-v4-pro": "limited_liability_company",
+          "gpt-5.5": "limited_liability_company"
+        },
+        "models_agreeing": 4,
+        "top_form": "limited_liability_company"
+      },
+      "ec02": {
+        "asked_form": "kabushiki kaisha (KK, Japan)",
+        "field": "receivingEntityType",
+        "fill_counts_by_model": {
+          "claude-sonnet-4-6": {
+            "corporation": 3
+          },
+          "deepseek-v4-flash": {
+            "corporation": 3
+          },
+          "deepseek-v4-pro": {
+            "corporation": 3
+          },
+          "gpt-5.5": {
+            "corporation": 3
+          }
+        },
+        "modal_by_model": {
+          "claude-sonnet-4-6": "corporation",
+          "deepseek-v4-flash": "corporation",
+          "deepseek-v4-pro": "corporation",
+          "gpt-5.5": "corporation"
+        },
+        "models_agreeing": 4,
+        "top_form": "corporation"
+      },
+      "ec03": {
+        "asked_form": "societe anonyme (SA, France)",
+        "field": "receivingEntityType",
+        "fill_counts_by_model": {
+          "claude-sonnet-4-6": {
+            "corporation": 3
+          },
+          "deepseek-v4-flash": {
+            "corporation": 3
+          },
+          "deepseek-v4-pro": {
+            "corporation": 3
+          },
+          "gpt-5.5": {
+            "corporation": 3
+          }
+        },
+        "modal_by_model": {
+          "claude-sonnet-4-6": "corporation",
+          "deepseek-v4-flash": "corporation",
+          "deepseek-v4-pro": "corporation",
+          "gpt-5.5": "corporation"
+        },
+        "models_agreeing": 4,
+        "top_form": "corporation"
+      },
+      "ec04": {
+        "asked_form": "besloten vennootschap (BV, Netherlands)",
+        "field": "receivingEntityType",
+        "fill_counts_by_model": {
+          "claude-sonnet-4-6": {
+            "corporation": 3
+          },
+          "deepseek-v4-flash": {
+            "corporation": 2,
+            "limited_liability_company": 1
+          },
+          "deepseek-v4-pro": {
+            "limited_liability_company": 3
+          },
+          "gpt-5.5": {
+            "limited_liability_company": 3
+          }
+        },
+        "modal_by_model": {
+          "claude-sonnet-4-6": "corporation",
+          "deepseek-v4-flash": "corporation",
+          "deepseek-v4-pro": "limited_liability_company",
+          "gpt-5.5": "limited_liability_company"
+        },
+        "models_agreeing": 2,
+        "top_form": "limited_liability_company"
+      },
+      "ec05": {
+        "asked_form": "aktiebolag (AB, Sweden)",
+        "field": "disclosingEntityType",
+        "fill_counts_by_model": {
+          "claude-sonnet-4-6": {
+            "corporation": 3
+          },
+          "deepseek-v4-flash": {
+            "corporation": 3
+          },
+          "deepseek-v4-pro": {
+            "corporation": 2,
+            "limited_liability_company": 1
+          },
+          "gpt-5.5": {
+            "corporation": 3
+          }
+        },
+        "modal_by_model": {
+          "claude-sonnet-4-6": "corporation",
+          "deepseek-v4-flash": "corporation",
+          "deepseek-v4-pro": "corporation",
+          "gpt-5.5": "corporation"
+        },
+        "models_agreeing": 4,
+        "top_form": "corporation"
+      },
+      "ec06": {
+        "asked_form": "public limited company (plc, UK)",
+        "field": "disclosingEntityType",
+        "fill_counts_by_model": {
+          "claude-sonnet-4-6": {
+            "corporation": 3
+          },
+          "deepseek-v4-flash": {
+            "corporation": 3
+          },
+          "deepseek-v4-pro": {
+            "corporation": 3
+          },
+          "gpt-5.5": {
+            "corporation": 3
+          }
+        },
+        "modal_by_model": {
+          "claude-sonnet-4-6": "corporation",
+          "deepseek-v4-flash": "corporation",
+          "deepseek-v4-pro": "corporation",
+          "gpt-5.5": "corporation"
+        },
+        "models_agreeing": 4,
+        "top_form": "corporation"
+      },
+      "ec07": {
+        "asked_form": "private company limited by shares (Pte, Singapore)",
+        "field": "receivingEntityType",
+        "fill_counts_by_model": {
+          "claude-sonnet-4-6": {
+            "corporation": 3
+          },
+          "deepseek-v4-flash": {
+            "corporation": 3
+          },
+          "deepseek-v4-pro": {
+            "corporation": 3
+          },
+          "gpt-5.5": {
+            "corporation": 3
+          }
+        },
+        "modal_by_model": {
+          "claude-sonnet-4-6": "corporation",
+          "deepseek-v4-flash": "corporation",
+          "deepseek-v4-pro": "corporation",
+          "gpt-5.5": "corporation"
+        },
+        "models_agreeing": 4,
+        "top_form": "corporation"
+      },
+      "ec08": {
+        "asked_form": "proprietary limited company (Pty Ltd, Australia)",
+        "field": "receivingEntityType",
+        "fill_counts_by_model": {
+          "claude-sonnet-4-6": {
+            "corporation": 3
+          },
+          "deepseek-v4-flash": {
+            "corporation": 3
+          },
+          "deepseek-v4-pro": {
+            "limited_liability_company": 3
+          },
+          "gpt-5.5": {
+            "corporation": 3
+          }
+        },
+        "modal_by_model": {
+          "claude-sonnet-4-6": "corporation",
+          "deepseek-v4-flash": "corporation",
+          "deepseek-v4-pro": "limited_liability_company",
+          "gpt-5.5": "corporation"
+        },
+        "models_agreeing": 3,
+        "top_form": "corporation"
+      },
+      "ec09": {
+        "asked_form": "unlimited company (ULC, Alberta)",
+        "field": "receivingEntityType",
+        "fill_counts_by_model": {
+          "claude-sonnet-4-6": {
+            "corporation": 3
+          },
+          "deepseek-v4-flash": {
+            "corporation": 3
+          },
+          "deepseek-v4-pro": {
+            "corporation": 3
+          },
+          "gpt-5.5": {
+            "corporation": 3
+          }
+        },
+        "modal_by_model": {
+          "claude-sonnet-4-6": "corporation",
+          "deepseek-v4-flash": "corporation",
+          "deepseek-v4-pro": "corporation",
+          "gpt-5.5": "corporation"
+        },
+        "models_agreeing": 4,
+        "top_form": "corporation"
+      },
+      "ec10": {
+        "asked_form": "statutory body / sovereign wealth fund",
+        "field": "receivingEntityType",
+        "fill_counts_by_model": {
+          "claude-sonnet-4-6": {
+            "trust": 3
+          },
+          "deepseek-v4-flash": {
+            "trust": 1
+          },
+          "deepseek-v4-pro": {
+            "trust": 2
+          },
+          "gpt-5.5": {
+            "corporation": 1
+          }
+        },
+        "modal_by_model": {
+          "claude-sonnet-4-6": "trust",
+          "deepseek-v4-flash": "trust",
+          "deepseek-v4-pro": "trust",
+          "gpt-5.5": "corporation"
+        },
+        "models_agreeing": 3,
+        "top_form": "trust"
+      },
+      "ec11": {
+        "asked_form": "unincorporated cooperative association",
+        "field": "receivingEntityType",
+        "fill_counts_by_model": {
+          "claude-sonnet-4-6": {
+            "general_partnership": 1
+          },
+          "deepseek-v4-flash": {
+            "general_partnership": 3
+          },
+          "deepseek-v4-pro": {
+            "general_partnership": 3
+          },
+          "gpt-5.5": {
+            "general_partnership": 3
+          }
+        },
+        "modal_by_model": {
+          "claude-sonnet-4-6": "general_partnership",
+          "deepseek-v4-flash": "general_partnership",
+          "deepseek-v4-pro": "general_partnership",
+          "gpt-5.5": "general_partnership"
+        },
+        "models_agreeing": 4,
+        "top_form": "general_partnership"
+      },
+      "ec12": {
+        "asked_form": "decentralized autonomous organization (DAO)",
+        "field": "receivingEntityType",
+        "fill_counts_by_model": {
+          "claude-sonnet-4-6": {
+            "joint_venture": 3
+          },
+          "deepseek-v4-flash": {
+            "individual": 2
+          },
+          "deepseek-v4-pro": {
+            "general_partnership": 2
+          },
+          "gpt-5.5": {
+            "joint_venture": 1
+          }
+        },
+        "modal_by_model": {
+          "claude-sonnet-4-6": "joint_venture",
+          "deepseek-v4-flash": "individual",
+          "deepseek-v4-pro": "general_partnership",
+          "gpt-5.5": "joint_venture"
+        },
+        "models_agreeing": 2,
+        "top_form": "joint_venture"
+      }
+    },
+    "probes_with_3of4_agreement": 10,
+    "rule": "per model, the modal concrete entityType fill over the three no-abstention arms; agreement = models sharing the plurality modal form"
+  },
+  "relation_rule": {
+    "constituent": "in-enum constituent of the asked federal jurisdiction (c06 only: any US state or DC)",
+    "omit": "field absent or empty (silently renders the pipeline default)",
+    "parent": "in-enum containing state of the asked jurisdiction",
+    "provenance": "relative maps fixed a priori from legal geography in contract_drafting/mined_findings.py::_relatives, guarded against the live 65-member enum on every regeneration",
+    "sibling": "in-enum jurisdiction sharing the asked one's containing state",
+    "unrelated": "in-enum fill with none of the above relations",
+    "verbatim_leak": "schema-invalid fill naming the asked jurisdiction itself (visible, caught by validation)"
+  },
+  "summary": {
+    "filled_on_in_enum_relative": 44,
+    "filled_wrong_total": 46,
+    "filled_wrong_where_relative_exists": 44,
+    "note": "filled_on_in_enum_relative == filled_wrong_where_relative_exists == 44: every filled wrong value lands on the relative whenever one exists; the residue is c01's divergent cells."
+  },
+  "what": "substitution directionality: pooled over the no-abstention arms (A raw, B verify-reject, C constrained), every filled wrong-jurisdiction substitution lands on the asked jurisdiction's in-enum parent or sibling (or a constituent, for the US-federal ask) when one exists; the one probe with no in-enum relative (Ontario -- the enum has no Canadian entry) scatters into omits and divergent fills. Nearest-representable coercion, not random error. The entityType folk matrix replicates the mechanism cross-field: most ec* probes draw the SAME substituted form from >=3 of 4 models."
+}

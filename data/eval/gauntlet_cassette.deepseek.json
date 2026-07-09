@@ -1,0 +1,297 @@
+{
+  "0c991d97a328ef50017b0de87cca67d154ab6e4ace579494f2a4d107a5019cfb": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"TestCo\",\"receivingParty\":\"AcmeCorp\",\"effectiveDate\":\"2025-01-01\",\"survivalYears\":100}"
+  },
+  "0d4e2cfc65e37422570b0f6c8228e294c9329a0bb30cea56cb6ac2e107b18625": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2025-01-01",
+      "hasNonCompete": true,
+      "mutual": true,
+      "receivingParty": "AcmeCorp"
+    }
+  },
+  "0f7e7eda8603c9ac8a315db873162c363392dea30aff931452ce9debc6f55291": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2025-04-30",
+      "mutual": true,
+      "receivingParty": "AcmeCorp"
+    }
+  },
+  "0fdaa3667bfa4bf16a8c395b88d56626138062ab426d3be210f6fdaf53ea3ae6": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \" \",\n  \"receivingParty\": \"AcmeCorp\",\n  \"effectiveDate\": \"2025-03-14\",\n  \"mutual\": true,\n  \"termMonths\": 24,\n  \"survivalYears\": 3,\n  \"noticeDays\": 30,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"purpose\": \"exploring a potential business relationship\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"governingLaw\": \"Delaware\",\n  \"disputeForum\": \"AAA_ICDR\",\n  \"disclosingEntityTypeRaw\": \"\",\n  \"receivingEntityTypeRaw\": \"\",\n  \"governingLawRaw\": \"\",\n  \"disputeForumRaw\": \"\"\n}"
+  },
+  "14d78896102c0a6594397e3244ce0f164e50228bcb5f6e48e7aa161e149203f9": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2025-02-26",
+      "governingLaw": "Washington",
+      "mutual": true,
+      "receivingParty": "AcmeCorp",
+      "termMonths": 24
+    }
+  },
+  "1ab61f9d3797882a4706bf9f36501cbf85abe430a559db8d48b293d25f090cba": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2025-01-01",
+      "mutual": true,
+      "receivingEntityType": "corporation",
+      "receivingParty": "AcmeCorp",
+      "termMonths": 0
+    }
+  },
+  "1e6612b2fea53ab0241044e6d755c3e6047c8e7878a4211a5ed3b75c8ae440ee": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"TestCo\",\n  \"receivingParty\": \"AcmeCorp\",\n  \"effectiveDate\": \"2025-01-01\",\n  \"mutual\": true,\n  \"survivalYears\": \"forever\"\n}"
+  },
+  "218f5097ad153ce1a6e464447b2af879f6321251cf53619c13cdb7f89229d402": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2025-04-07",
+      "hasNonCompete": true,
+      "mutual": true,
+      "nonCompeteMonths": 9999,
+      "receivingParty": "AcmeCorp"
+    }
+  },
+  "3c58a3624dac7fbbbc0a8758c500d3cf00114fa24b20c242c5e0d3a6d792e554": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"TestCo\",\n  \"receivingParty\": \"\",\n  \"effectiveDate\": \"2025-04-07\",\n  \"mutual\": true,\n  \"purpose\": \"exploring a potential business relationship\",\n  \"termMonths\": 24,\n  \"survivalYears\": 3,\n  \"noticeDays\": 30,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"governingLaw\": \"Delaware\",\n  \"disputeForum\": \"AAA_ICDR\"\n}"
+  },
+  "50a6baea4b0f0530feb170f1fc3c988797a15b19344b57c5b0d85041b7df41db": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2025-06-17",
+      "mutual": true,
+      "receivingParty": "AcmeCorp"
+    }
+  },
+  "566646e1fbcf686362cc01143de44be202d3abcd242f6e9db21513835a388389": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"TestCo\",\n  \"receivingParty\": \"AcmeCorp\",\n  \"effectiveDate\": \"2024-07-23\"\n}"
+  },
+  "5cb2efbfe80b9fd26f1d31734bc106db314e12cba7cf13fe310094ee418f9893": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2025-01-01",
+      "mutual": true,
+      "receivingParty": "AcmeCorp",
+      "survivalYears": 9999
+    }
+  },
+  "6a8651b0692f481355e36d47a8a4834138f12bcf0fd202b91c5defcf3f70452a": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2025-05-27",
+      "mutual": true,
+      "receivingParty": "AcmeCorp"
+    }
+  },
+  "6d09234c049f2a78e635ff984fb47525a9ef10b72ea58bbc497f5393e2c72b88": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"TestCo\",\n  \"receivingParty\": \"AcmeCorp\",\n  \"effectiveDate\": \"2025-04-03\",\n  \"mutual\": true,\n  \"governingLawRaw\": \"Atlantis\",\n  \"purpose\": \"exploring a potential business relationship\",\n  \"termMonths\": 24,\n  \"survivalYears\": 3,\n  \"noticeDays\": 30,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12\n}"
+  },
+  "6e7c54f3d359b5362522beb51804e1cf8a2b2e00b7f977ed2efc5284db2ce5c1": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"TestCo\",\n  \"receivingParty\": \"AcmeCorp\",\n  \"effectiveDate\": \"2025-01-01\",\n  \"mutual\": true,\n  \"purpose\": \"exploring a potential business relationship\",\n  \"termMonths\": 24,\n  \"survivalYears\": 3,\n  \"noticeDays\": 30,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false\n}"
+  },
+  "7235487bcf4edbd7d6a4c46391cce0466939179915d0f9321dca65bf46bdbe90": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2025-01-01",
+      "governingLaw": "OTHER",
+      "governingLawRaw": "laws of Atlantis",
+      "mutual": true,
+      "receivingParty": "AcmeCorp"
+    }
+  },
+  "77a2ebeebca3afb098ca7329476afde97343d56a076f5d71ad0f118ccd4d5b99": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"TestCo\",\n  \"receivingParty\": \"AcmeCorp\",\n  \"effectiveDate\": \"2025-04-09\",\n  \"mutual\": true,\n  \"noticeDays\": 9999,\n  \"purpose\": \"exploring a potential business relationship\",\n  \"termMonths\": 24,\n  \"survivalYears\": 3,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"disputeForum\": \"AAA_ICDR\",\n  \"governingLaw\": \"Delaware\"\n}"
+  },
+  "78786c67772b681a46c9071ae4987775b3c9b6401af99f8201753a2061a80066": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"TestCo\",\n  \"receivingParty\": \"AcmeCorp\",\n  \"effectiveDate\": \"2025-04-01\",\n  \"mutual\": true,\n  \"hasNonSolicitation\": true,\n  \"nonSolicitationMonths\": 9999\n}"
+  },
+  "895941046cffc3af61ddd143d30eaa275a9103b28119bf511e86270b056d140c": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2025-04-07",
+      "governingLawRaw": "Atlantis",
+      "mutual": true,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingParty": "AcmeCorp"
+    }
+  },
+  "970a823cc22c85bb38226dc104b9ef5cb3d01e0f6d39bf548b607ac62a2dc48b": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2024-01-01",
+      "mutual": true,
+      "receivingParty": "AcmeCorp",
+      "survivalYears": 9999
+    }
+  },
+  "a1b232132e0fbb8156aa2d540fbb27daaea6d0fc4b1dd276d1b75da5fb40f8f8": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": " ",
+      "effectiveDate": "2025-04-04",
+      "hasNonCompete": false,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 12,
+      "nonSolicitationMonths": 12,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingParty": "AcmeCorp",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  },
+  "a3d0662266e8b4c1e11610a284b455cbdf745a3a63d3aed2b3eb65eb88a51a1a": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"TestCo\",\n  \"receivingParty\": \"AcmeCorp\",\n  \"effectiveDate\": \"2025-01-01\",\n  \"mutual\": true,\n  \"termMonths\": 0\n}"
+  },
+  "c9a76146b1d0d4de2a3773e156a1be43a32d7d8119ff2d022c118e7e659d9864": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2023-01-01",
+      "mutual": true,
+      "noticeDays": 9999,
+      "receivingEntityType": "corporation",
+      "receivingParty": "AcmeCorp"
+    }
+  },
+  "cad541f9560105468fcaeb7116f229e3510cfef3981e561b198d22dae04fe528": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"TestCo\",\n  \"receivingParty\": \"AcmeCorp\",\n  \"effectiveDate\": \"2025-04-13\",\n  \"hasNonCompete\": true,\n  \"mutual\": true,\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"disclosingEntityTypeRaw\": \"corporation\",\n  \"receivingEntityTypeRaw\": \"corporation\",\n  \"governingLaw\": \"Delaware\",\n  \"governingLawRaw\": \"Delaware\",\n  \"disputeForum\": \"AAA_ICDR\",\n  \"disputeForumRaw\": \"AAA_ICDR\",\n  \"nonCompeteMonths\": 12,\n  \"purpose\": \"exploring a potential business relationship\",\n  \"termMonths\": 24,\n  \"survivalYears\": 3,\n  \"noticeDays\": 30\n}"
+  },
+  "cd1d4e52d29ea623f0d4cbb2fdc580fb7b9cf9ed9df214bdc0d1c1452fa0d377": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"TestCo\",\n  \"receivingParty\": \"AcmeCorp\",\n  \"effectiveDate\": \"2025-03-28\",\n  \"mutual\": true,\n  \"hasNonCompete\": true,\n  \"nonCompeteMonths\": 9999\n}"
+  },
+  "cf375a830e8ca229a1933b123182060584250c34fe6fda08cc56af1bba4ba66a": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2025-04-04",
+      "hasNonSolicitation": true,
+      "mutual": true,
+      "nonSolicitationMonths": 9999,
+      "receivingParty": "AcmeCorp"
+    }
+  },
+  "d07e0af33238af2d71595eb694e5241bb31190b8a27481d27e14cfc8e0c67e3c": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2025-01-01",
+      "mutual": true,
+      "receivingParty": " "
+    }
+  },
+  "dbccaf592bd53021ae63257180ef3fb5b2b9f8e623d3cc6f5c199c0b19b7bf08": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2025-03-31",
+      "noticeDays": 30,
+      "receivingParty": "AcmeCorp"
+    }
+  },
+  "e025f9c479c1bd7d9c73dd9084adf7891a40fa9a7143d279dc281aa84a7b618b": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2025-04-07",
+      "hasNonSolicitation": true,
+      "mutual": true,
+      "nonSolicitationMonths": 9999,
+      "receivingParty": "AcmeCorp"
+    }
+  },
+  "e5615fd01855d49521fc525521bb595398fec104dd4168b2cd268ffb2388d855": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2025-04-07",
+      "governingLaw": "Washington",
+      "mutual": true,
+      "receivingParty": "AcmeCorp",
+      "termMonths": 24
+    }
+  },
+  "ec8b4b04e5c646fa98938f79e08e336cfc143b1df7ac64008ca72dc8b6cf3175": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2025-01-01",
+      "mutual": true,
+      "receivingParty": "AcmeCorp"
+    }
+  },
+  "efb46998f06442181bbef847535ce63a8830a05d4bc175507908c619e1713c34": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2025-01-01",
+      "hasNonCompete": true,
+      "mutual": true,
+      "receivingParty": "AcmeCorp"
+    }
+  },
+  "fadd21fc879ccd6b9628d2e5e777062cf8ed65d6d26ca7706d8ea56732e3ba8b": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"TestCo\",\n  \"receivingParty\": \"AcmeCorp\",\n  \"effectiveDate\": \"2025-04-10\",\n  \"mutual\": true,\n  \"termMonths\": 24,\n  \"governingLaw\": \"Washington\"\n}"
+  },
+  "fe358938b3d6acffba3bf1f1ecf0b8d5ca7cedbcd55735385eae37b8726e7097": {
+    "kind": "structured",
+    "response": {
+      "disclosingParty": " ",
+      "effectiveDate": "2025-01-01",
+      "mutual": true,
+      "receivingParty": "AcmeCorp"
+    }
+  },
+  "ff6b3aad4a51849e1c8534ba9fe9f91fb3b6d80a05c756cb9ffb14d42d3cdd36": {
+    "kind": "structured",
+    "response": {
+      "disclosingEntityType": "corporation",
+      "disclosingParty": "TestCo",
+      "effectiveDate": "2025-04-07",
+      "hasNonCompete": true,
+      "hasNonSolicitation": false,
+      "hasResidualsClause": false,
+      "mutual": true,
+      "nonCompeteMonths": 1200,
+      "noticeDays": 30,
+      "purpose": "exploring a potential business relationship",
+      "receivingEntityType": "corporation",
+      "receivingParty": "AcmeCorp",
+      "survivalYears": 3,
+      "termMonths": 24
+    }
+  }
+}

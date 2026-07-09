@@ -1,0 +1,46 @@
+version: "1.0.0"
+
+rules:
+  - clause_type: "Limitation of Liability"
+    standard_position: "Mutual cap at 12 months of fees paid/payable"
+    acceptable_range: "6-24 months of fees"
+    escalation_trigger: "uncapped liability, consequential damages inclusion"
+
+  - clause_type: "Indemnification"
+    standard_position: "Mutual indemnification for IP infringement and data breach"
+    acceptable_range: "Indemnification limited to third-party claims only"
+    escalation_trigger: "unilateral indemnification obligations, uncapped indemnification"
+
+  - clause_type: "IP Ownership"
+    standard_position: "Each party retains pre-existing IP; customer owns customer data"
+    acceptable_range: ""
+    escalation_trigger: "broad IP assignment clauses, work-for-hire provisions for pre-existing IP"
+
+  - clause_type: "Data Protection"
+    standard_position: "Require DPA for any personal data processing"
+    acceptable_range: "Sub-processor notification, data deletion on termination, breach notification within 72 hours"
+    escalation_trigger: "no DPA offered, cross-border transfer without safeguards"
+
+  - clause_type: "Term and Termination"
+    standard_position: "Annual term with 30-day termination for convenience"
+    acceptable_range: "Multi-year with termination for convenience after initial term"
+    escalation_trigger: "auto-renewal without notice period, no termination for convenience"
+
+  - clause_type: "Governing Law"
+    standard_position: "Washington State"
+    acceptable_range: "Major commercial jurisdictions (NY, DE, CA, England & Wales)"
+    escalation_trigger: "non-standard jurisdictions, mandatory arbitration in unfavorable venue"
+
+nda_defaults:
+  mutual_required: true
+  term_years_standard: "2-3"
+  term_years_trade_secrets: "5"
+  carveouts:
+    - "independently developed"
+    - "publicly available"
+    - "rightfully received from third party"
+    - "required by law"
+  prohibited_provisions:
+    - "non-solicitation"
+    - "non-compete"
+    - "broad residuals clause"

@@ -1,0 +1,38 @@
+{
+  "0a6a6814deaeb8a28a89ae1f0fc0b262597f15196b55aff40002d2cb43d3d908": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"Gulf Falcon Logistics FZ-LLC\",\"disclosingEntityType\":\"limited_liability_company\",\"receivingParty\":\"Sentinel Datacenters Holdings, Inc.\",\"receivingEntityType\":\"corporation\",\"effectiveDate\":\"2025-07-14\",\"mutual\":true,\"purpose\":\"confidential evaluation of a data-center colocation venture\",\"governingLaw\":\"United_Arab_Emirates\",\"disputeForum\":\"DIAC\",\"termMonths\":30,\"survivalYears\":5,\"hasResidualsClause\":false,\"hasNonSolicitation\":false,\"hasNonCompete\":false,\"nonCompeteMonths\":12,\"nonSolicitationMonths\":12,\"noticeDays\":30}"
+  },
+  "1026a79847a7fb617fe933294f06ab843a234b05368359a1ed1599c981d3b53f": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"Gulf Capital Partners DIFC Limited\",\"disclosingEntityType\":\"limited_liability_company\",\"receivingParty\":\"Levant Fintech FZ-LLC\",\"receivingEntityType\":\"limited_liability_company\",\"effectiveDate\":\"2026-09-10\",\"mutual\":true,\"purpose\":\"exploring a potential investment opportunity\",\"governingLaw\":\"United_Arab_Emirates\",\"disputeForum\":\"DIAC\",\"termMonths\":36,\"survivalYears\":3,\"hasNonCompete\":false,\"hasNonSolicitation\":false,\"hasResidualsClause\":false,\"nonCompeteMonths\":12,\"nonSolicitationMonths\":12,\"noticeDays\":30}"
+  },
+  "3cde4a93a4590aa7c442a1e3fce92eb65dd53d793faea6ae99ffbc71b3dc627b": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"Empire State Media Holdings, Inc.\",\"disclosingEntityType\":\"corporation\",\"receivingParty\":\"Hudson Analytics LLC\",\"receivingEntityType\":\"limited_liability_company\",\"effectiveDate\":\"2026-07-01\",\"governingLaw\":\"New_York\",\"purpose\":\"evaluating a data-licensing partnership\",\"mutual\":true,\"termMonths\":24,\"noticeDays\":30,\"survivalYears\":3,\"hasNonCompete\":false,\"nonCompeteMonths\":12,\"hasNonSolicitation\":false,\"nonSolicitationMonths\":12,\"hasResidualsClause\":false}"
+  },
+  "49ae80c6cc6fd86cd8cdd97d6608612d77a65542efedf0360bb9a4dceef95eb8": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"Maple Logistics Inc.\",\"disclosingEntityType\":\"corporation\",\"receivingParty\":\"Northbridge Robotics Ltd.\",\"receivingEntityType\":\"corporation\",\"effectiveDate\":\"2026-07-15\",\"mutual\":true,\"purpose\":\"exploring a supply-chain integration\",\"governingLaw\":\"Republic_of_India\",\"termMonths\":24,\"survivalYears\":3,\"hasNonCompete\":false,\"hasNonSolicitation\":false,\"hasResidualsClause\":false,\"nonCompeteMonths\":12,\"nonSolicitationMonths\":12,\"noticeDays\":30}"
+  },
+  "49c0e3896cf9d7ecc30097cdee59178b977509d3c0fbfe443ebbf0bdfd8c7586": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"Hudson Yards Media LLC\",\"disclosingEntityType\":\"limited_liability_company\",\"receivingParty\":\"Atlas Streaming Corp.\",\"receivingEntityType\":\"corporation\",\"mutual\":true,\"effectiveDate\":\"2026-08-20\",\"termMonths\":24,\"governingLaw\":\"New_York\",\"disputeForum\":\"JAMS\",\"purpose\":\"exploring a potential content-licensing relationship\",\"hasNonCompete\":false,\"hasNonSolicitation\":false,\"hasResidualsClause\":false,\"nonCompeteMonths\":12,\"nonSolicitationMonths\":12,\"noticeDays\":30,\"survivalYears\":3}"
+  },
+  "739596c8b34a024fbe2a6b1f463beeed17bc7c3193bf5ee0b8dcbf070ea6b6e7": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"Marina Bay Capital Pte. Ltd.\",\"disclosingEntityType\":\"corporation\",\"receivingParty\":\"Raffles Data Systems Pte. Ltd.\",\"receivingEntityType\":\"corporation\",\"effectiveDate\":\"2026-08-01\",\"governingLaw\":\"Republic_of_Singapore\",\"disputeForum\":\"SIAC\",\"purpose\":\"confidential fintech evaluation\",\"mutual\":true,\"termMonths\":36,\"noticeDays\":30,\"survivalYears\":5,\"hasNonCompete\":false,\"nonCompeteMonths\":12,\"hasNonSolicitation\":false,\"nonSolicitationMonths\":12,\"hasResidualsClause\":false}"
+  },
+  "b779c8a37c42d9c22895d491e546d81d096738572330900231dd005caa708d51": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"Lotus Gaming Holdings (Macau) Limited\",\"receivingParty\":\"Pearl River Hospitality Group\",\"disclosingEntityType\":\"corporation\",\"receivingEntityType\":\"corporation\",\"effectiveDate\":\"2026-10-05\",\"termMonths\":36,\"governingLaw\":\"Hong_Kong_SAR\",\"disputeForum\":\"HKIAC\",\"purpose\":\"discussions about a casino-resort technology pilot\",\"mutual\":true,\"hasNonCompete\":false,\"hasNonSolicitation\":false,\"hasResidualsClause\":false,\"nonCompeteMonths\":12,\"nonSolicitationMonths\":12,\"noticeDays\":30,\"survivalYears\":3}"
+  },
+  "baec78129caa393639006012d9dd54b21b889be9bd763aa7fbb09e71d137b573": {
+    "kind": "text",
+    "response": "```json\n{\n  \"disclosingParty\": \"Caledonian BioSciences plc\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingParty\": \"Tay Valley Pharma Ltd\",\n  \"receivingEntityType\": \"corporation\",\n  \"effectiveDate\": \"2026-08-01\",\n  \"mutual\": true,\n  \"purpose\": \"joint research program\",\n  \"governingLaw\": \"England_and_Wales\",\n  \"termMonths\": 24,\n  \"survivalYears\": 3,\n  \"noticeDays\": 30,\n  \"hasNonCompete\": false,\n  \"nonCompeteMonths\": 12,\n  \"hasNonSolicitation\": false,\n  \"nonSolicitationMonths\": 12,\n  \"hasResidualsClause\": false,\n  \"disputeForum\": \"LCIA\"\n}\n```"
+  },
+  "d5f9d955123ce068fedcdc0daf4ba4d5b961db59ec5f92600688248631815366": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"Thames Financial Group Ltd.\",\"disclosingEntityType\":\"limited_liability_company\",\"receivingParty\":\"Camden Software Ltd.\",\"receivingEntityType\":\"limited_liability_company\",\"effectiveDate\":\"2026-09-01\",\"governingLaw\":\"England_and_Wales\",\"disputeForum\":\"LCIA\",\"purpose\":\"software-licensing discussion\",\"mutual\":true,\"termMonths\":24,\"noticeDays\":30,\"survivalYears\":3,\"hasNonCompete\":false,\"nonCompeteMonths\":12,\"hasNonSolicitation\":false,\"nonSolicitationMonths\":12,\"hasResidualsClause\":false}"
+  }
+}

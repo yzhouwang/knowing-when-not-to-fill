@@ -1,0 +1,10 @@
+{
+  "name": "strategic-cooperation",
+  "version": "1.0.0",
+  "description": "Strategic Cooperation Agreement (战略合作协议) - bilingual Chinese/English",
+  "accordproject": {
+    "template": "contract",
+    "cicero": "^0.25.0"
+  },
+  "license": "Proprietary"
+}

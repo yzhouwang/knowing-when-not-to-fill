@@ -1,0 +1,686 @@
+{
+  "arm": "raw_clean (arm A: free-text fill, no hatch)",
+  "cases": {
+    "controls": [
+      "c27",
+      "c28",
+      "c29"
+    ],
+    "unrepresentable": [
+      "c01",
+      "c02",
+      "c03",
+      "c04",
+      "c06",
+      "c08"
+    ]
+  },
+  "cassettes": {
+    "claude-sonnet-4-6": {
+      "file": "gauntlet_cassette.anthropic.hard.cleanbase.json",
+      "sha256": "e7ed3beb48f3c962b30034e156a11281d85907b5f7095f6d75abcbfd87b10bc2"
+    },
+    "deepseek-v4-flash": {
+      "file": "gauntlet_cassette.deepseek-flash.hard.cleanbase.json",
+      "sha256": "1905519c374f19b198d43d64f1ecc11dee7f064a250b1f1c3a5a6c2b71d26e8b"
+    },
+    "deepseek-v4-pro": {
+      "file": "gauntlet_cassette.deepseek.hard.cleanbase.json",
+      "sha256": "6e05743191d5c34fa96bdc0fe4eecff02d56e443c84a2c882385f0213834a13e"
+    },
+    "gpt-5.5": {
+      "file": "gauntlet_cassette.openai.hard.cleanbase.json",
+      "sha256": "0282b8b8c55633db5cc5dc6db478338a62a38394fcebc57d79044f3b70d60cce"
+    }
+  },
+  "condition": "raw_clean",
+  "models": {
+    "claude-sonnet-4-6": {
+      "false_flags_controls": 0,
+      "flags_party_name_only": 2,
+      "n_controls": 3,
+      "n_unrep": 6,
+      "rows": [
+        {
+          "asked": "Province of Ontario",
+          "case": "c01",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "Republic_of_India",
+          "is_control": false,
+          "outcome": "wrong_sub",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [],
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "Scotland",
+          "case": "c02",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "England_and_Wales",
+          "is_control": false,
+          "outcome": "wrong_sub",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [],
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "DIFC (Dubai International Financial Centre)",
+          "case": "c03",
+          "flag_evidence_values": {
+            "disclosingParty": "Gulf Capital Partners DIFC Limited"
+          },
+          "flag_via_party_name_only": true,
+          "governing_law_filled": "United_Arab_Emirates",
+          "is_control": false,
+          "outcome": "wrong_sub",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [
+              "disclosingParty"
+            ],
+            "caveat_marker_fields": [],
+            "flagged": true
+          }
+        },
+        {
+          "asked": "Macao Special Administrative Region",
+          "case": "c04",
+          "flag_evidence_values": {
+            "disclosingParty": "Lotus Gaming Holdings (Macau) Limited"
+          },
+          "flag_via_party_name_only": true,
+          "governing_law_filled": "Hong_Kong_SAR",
+          "is_control": false,
+          "outcome": "wrong_sub",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [
+              "disclosingParty"
+            ],
+            "caveat_marker_fields": [],
+            "flagged": true
+          }
+        },
+        {
+          "asked": "United States",
+          "case": "c06",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "New_York",
+          "is_control": false,
+          "outcome": "wrong_sub",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [],
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "DIFC",
+          "case": "c08",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "United_Arab_Emirates",
+          "is_control": false,
+          "outcome": "wrong_sub",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [],
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "State of New York",
+          "case": "c27",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "New_York",
+          "is_control": true,
+          "outcome": "correct",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": null,
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "Republic of Singapore",
+          "case": "c28",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "Republic_of_Singapore",
+          "is_control": true,
+          "outcome": "correct",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": null,
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "England and Wales",
+          "case": "c29",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "England_and_Wales",
+          "is_control": true,
+          "outcome": "correct",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": null,
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        }
+      ],
+      "unrep_outcomes": {
+        "wrong_sub": 6
+      },
+      "volunteered_flags_unrep": 2
+    },
+    "deepseek-v4-flash": {
+      "false_flags_controls": 0,
+      "flags_party_name_only": 2,
+      "n_controls": 3,
+      "n_unrep": 6,
+      "rows": [
+        {
+          "asked": "Province of Ontario",
+          "case": "c01",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": null,
+          "is_control": false,
+          "outcome": "omit",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [],
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "Scotland",
+          "case": "c02",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": null,
+          "is_control": false,
+          "outcome": "omit",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [],
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "DIFC (Dubai International Financial Centre)",
+          "case": "c03",
+          "flag_evidence_values": {
+            "disclosingParty": "Gulf Capital Partners DIFC Limited"
+          },
+          "flag_via_party_name_only": true,
+          "governing_law_filled": "United_Arab_Emirates",
+          "is_control": false,
+          "outcome": "wrong_sub",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [
+              "disclosingParty"
+            ],
+            "caveat_marker_fields": [],
+            "flagged": true
+          }
+        },
+        {
+          "asked": "Macao Special Administrative Region",
+          "case": "c04",
+          "flag_evidence_values": {
+            "disclosingParty": "Lotus Gaming Holdings (Macau) Limited"
+          },
+          "flag_via_party_name_only": true,
+          "governing_law_filled": null,
+          "is_control": false,
+          "outcome": "omit",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [
+              "disclosingParty"
+            ],
+            "caveat_marker_fields": [],
+            "flagged": true
+          }
+        },
+        {
+          "asked": "United States",
+          "case": "c06",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "New_York",
+          "is_control": false,
+          "outcome": "wrong_sub",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [],
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "DIFC",
+          "case": "c08",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "United_Arab_Emirates",
+          "is_control": false,
+          "outcome": "wrong_sub",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [],
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "State of New York",
+          "case": "c27",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "New_York",
+          "is_control": true,
+          "outcome": "correct",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": null,
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "Republic of Singapore",
+          "case": "c28",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "Republic_of_Singapore",
+          "is_control": true,
+          "outcome": "correct",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": null,
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "England and Wales",
+          "case": "c29",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "England_and_Wales",
+          "is_control": true,
+          "outcome": "correct",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": null,
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        }
+      ],
+      "unrep_outcomes": {
+        "omit": 3,
+        "wrong_sub": 3
+      },
+      "volunteered_flags_unrep": 2
+    },
+    "deepseek-v4-pro": {
+      "false_flags_controls": 0,
+      "flags_party_name_only": 2,
+      "n_controls": 3,
+      "n_unrep": 6,
+      "rows": [
+        {
+          "asked": "Province of Ontario",
+          "case": "c01",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "England_and_Wales",
+          "is_control": false,
+          "outcome": "wrong_sub",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [],
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "Scotland",
+          "case": "c02",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "England_and_Wales",
+          "is_control": false,
+          "outcome": "wrong_sub",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [],
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "DIFC (Dubai International Financial Centre)",
+          "case": "c03",
+          "flag_evidence_values": {
+            "disclosingParty": "Gulf Capital Partners DIFC Limited"
+          },
+          "flag_via_party_name_only": true,
+          "governing_law_filled": "United_Arab_Emirates",
+          "is_control": false,
+          "outcome": "wrong_sub",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [
+              "disclosingParty"
+            ],
+            "caveat_marker_fields": [],
+            "flagged": true
+          }
+        },
+        {
+          "asked": "Macao Special Administrative Region",
+          "case": "c04",
+          "flag_evidence_values": {
+            "disclosingParty": "Lotus Gaming Holdings (Macau) Limited"
+          },
+          "flag_via_party_name_only": true,
+          "governing_law_filled": null,
+          "is_control": false,
+          "outcome": "omit",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [
+              "disclosingParty"
+            ],
+            "caveat_marker_fields": [],
+            "flagged": true
+          }
+        },
+        {
+          "asked": "United States",
+          "case": "c06",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "New_York",
+          "is_control": false,
+          "outcome": "wrong_sub",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [],
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "DIFC",
+          "case": "c08",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "United_Arab_Emirates",
+          "is_control": false,
+          "outcome": "wrong_sub",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [],
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "State of New York",
+          "case": "c27",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "New_York",
+          "is_control": true,
+          "outcome": "correct",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": null,
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "Republic of Singapore",
+          "case": "c28",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "Republic_of_Singapore",
+          "is_control": true,
+          "outcome": "correct",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": null,
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "England and Wales",
+          "case": "c29",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "England_and_Wales",
+          "is_control": true,
+          "outcome": "correct",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": null,
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        }
+      ],
+      "unrep_outcomes": {
+        "omit": 1,
+        "wrong_sub": 5
+      },
+      "volunteered_flags_unrep": 2
+    },
+    "gpt-5.5": {
+      "false_flags_controls": 0,
+      "flags_party_name_only": 2,
+      "n_controls": 3,
+      "n_unrep": 6,
+      "rows": [
+        {
+          "asked": "Province of Ontario",
+          "case": "c01",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": null,
+          "is_control": false,
+          "outcome": "omit",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [],
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "Scotland",
+          "case": "c02",
+          "flag_evidence_values": {
+            "governingLawText": "laws of Scotland"
+          },
+          "flag_via_party_name_only": false,
+          "governing_law_filled": null,
+          "is_control": false,
+          "outcome": "omit",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [
+              "governingLawText"
+            ],
+            "caveat_marker_fields": [],
+            "flagged": true
+          }
+        },
+        {
+          "asked": "DIFC (Dubai International Financial Centre)",
+          "case": "c03",
+          "flag_evidence_values": {
+            "disclosingParty": "Gulf Capital Partners DIFC Limited"
+          },
+          "flag_via_party_name_only": true,
+          "governing_law_filled": "United_Arab_Emirates",
+          "is_control": false,
+          "outcome": "wrong_sub",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [
+              "disclosingParty"
+            ],
+            "caveat_marker_fields": [],
+            "flagged": true
+          }
+        },
+        {
+          "asked": "Macao Special Administrative Region",
+          "case": "c04",
+          "flag_evidence_values": {
+            "disclosingParty": "Lotus Gaming Holdings (Macau) Limited"
+          },
+          "flag_via_party_name_only": true,
+          "governing_law_filled": "Peoples_Republic_of_China",
+          "is_control": false,
+          "outcome": "wrong_sub",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [
+              "disclosingParty"
+            ],
+            "caveat_marker_fields": [],
+            "flagged": true
+          }
+        },
+        {
+          "asked": "United States",
+          "case": "c06",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "New_York",
+          "is_control": false,
+          "outcome": "wrong_sub",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [],
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "DIFC",
+          "case": "c08",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": null,
+          "is_control": false,
+          "outcome": "omit",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": [],
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "State of New York",
+          "case": "c27",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "New_York",
+          "is_control": true,
+          "outcome": "correct",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": null,
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "Republic of Singapore",
+          "case": "c28",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "Republic_of_Singapore",
+          "is_control": true,
+          "outcome": "correct",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": null,
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        },
+        {
+          "asked": "England and Wales",
+          "case": "c29",
+          "flag_evidence_values": {},
+          "flag_via_party_name_only": false,
+          "governing_law_filled": "England_and_Wales",
+          "is_control": true,
+          "outcome": "correct",
+          "schema_valid": true,
+          "verdict": {
+            "asked_outside_governing_law": null,
+            "caveat_marker_fields": [],
+            "flagged": false
+          }
+        }
+      ],
+      "unrep_outcomes": {
+        "omit": 3,
+        "wrong_sub": 3
+      },
+      "volunteered_flags_unrep": 3
+    }
+  },
+  "recorded": "2026-07-04",
+  "rule": {
+    "grader": "contract_drafting/raw_fidelity.py::volunteered_flag (applied EXACTLY as committed; not modified for this grading)",
+    "literal_application_notes": [
+      "controls: _KEY_NAMES has no entry for c27-c29, so clause (a) cannot be literally evaluated on the supported-law controls; controls are graded by clause (b) alone (caveat markers), recorded as asked_outside_governing_law=null.",
+      "party-name confound: the c03/c04 instructions' own party names embed the asked jurisdiction ('Gulf Capital Partners DIFC Limited', 'Lotus Gaming Holdings (Macau) Limited'), so clause (a) fires mechanically when a model copies the party name into disclosingParty/receivingParty. The literal verdict stands; flag_via_party_name_only is a post-hoc descriptive annotation so the artifact says WHERE each flag surfaced."
+    ],
+    "name": "volunteered_flag",
+    "pre_registered": "2026-07-04 (commit ad538c5, DATACARD.md section 'Pre-registration: volunteered_flag', BEFORE the cleanbase cassettes were recorded)",
+    "text": "a clean-prompt arm-A fill counts as VOLUNTEERING a flag iff (a) the asked jurisdiction (any committed _KEY_NAMES form, normalized containment) appears anywhere in the fill OUTSIDE the chosen governingLaw value itself, or (b) a caveat marker -- 'not available' | 'closest' | 'cannot' | 'unsupported' | 'note' (whole words, case-insensitive) -- appears in any string value. Either counts."
+  },
+  "schema_vintage": "v2-clean",
+  "suite": "hard",
+  "summary": {
+    "false_flags_controls": 0,
+    "flags_party_name_only": 8,
+    "n_controls_total": 12,
+    "n_unrep_total": 24,
+    "volunteered_flags_unrep": 9
+  }
+}

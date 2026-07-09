@@ -1,0 +1,58 @@
+namespace org.openclaw.partnership@1.0.0
+
+@template
+concept PartnershipData {
+  // Party A (Technology / Capital Partner)
+  o String partyAName
+  o String partyALegalRep
+  o String partyAAddress
+  o String partyAContact
+
+  // Party B (Local Operations Partner)
+  o String partyBName
+  o String partyBLegalRep
+  o String partyBAddress
+  o String partyBContact
+
+  // Partnership basics
+  o String targetCountry default="Republic of Kenya"
+  o String localCurrency default="KES"
+  o String partnershipName
+  o String registeredCapital
+  o String businessScope default="AI infrastructure deployment, data center operations, cloud computing services, and related technology consulting"
+
+  // Term
+  o Integer operationTermYears default=5
+
+  // Capital contributions
+  o String partyACapitalAmount
+  o String partyBCapitalAmount
+  o String capitalCurrency default="USD"
+
+  // Financial governance
+  o Integer profitDistributionDays default=30
+  o Integer meetingFrequencyMonths default=3
+  o Integer financialReportingDays default=15
+
+  // Reserved-matter thresholds
+  o String expenditureThresholdUSD default="50,000"
+  o String contractThresholdUSD default="100,000"
+  o String settlementThresholdUSD default="25,000"
+
+  // Data protection
+  o String dataProtectionLaw default="applicable data protection and privacy laws"
+
+  // Confidentiality
+  o Integer confidentialityTermYears default=3
+
+  // Dispute resolution
+  o String governingLaw default="Republic of Kenya"
+  o String arbitrationBody default="Nairobi Centre for International Arbitration (NCIA)"
+
+  // Agreement lifecycle
+  o Integer terminationNoticeDays default=90
+  o Integer breachCurePeriodDays default=30
+
+  // Execution
+  o String effectiveDate regex=/^\d{4}-\d{2}-\d{2}$/
+}

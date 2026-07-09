@@ -1,0 +1,51 @@
+namespace org.openclaw.consulting@1.0.0
+
+@template
+concept ConsultingData {
+  // Agreement metadata
+  o String agreementNo length=[1,]
+  o String signingPlace
+  o String effectiveDate regex=/^\d{4}-\d{2}-\d{2}$/
+
+  // Party A (illustrative defaults — override for your own consulting agreements)
+  o String partyAName default="Acme AI Inc." length=[1,]
+  o String partyAAddress default="1 Example Way, #01-01 Example Tower, Singapore 000000"
+  o String partyAContact default="+65 0000 0000"
+  o String partyALegalRep length=[1,]
+
+  // Party B (the consultant)
+  o String partyBName length=[1,]
+  o String partyBAddress
+  o String partyBLegalRep
+  o String partyBContact
+  o String partyBRoleDescription length=[1,]
+
+  // Cooperation Scope
+  o String targetCountry length=[1,]
+
+  // Consulting Fee
+  o Double consultingFeePercent
+  o String consultingFeeCap default="no cap"
+
+  // Term and Termination
+  o Integer paymentTermDays default=30
+  o Integer confidentialityTermYears default=3
+  o Integer agreementTermMonths default=12
+  o Integer terminationNoticeDays default=30
+  o Integer breachCurePeriodDays default=15
+  // Tail-period for post-termination commission protection (counsel signature feature)
+  o Integer tailPeriodMonths default=6
+
+  // Compliance — additive list of jurisdiction-specific laws (renders into both
+  // anti-corruption and compliance shared clauses via _normalize_array_fields).
+  o String[] localComplianceLaws optional
+
+  // Jurisdiction
+  @description("Governing law jurisdiction")
+  o String governingLaw default="Republic of Singapore"
+  o String arbitrationBody default="Singapore International Arbitration Centre (SIAC)"
+  o Integer noticeChangeBusinessDays default=5
+
+  // Forward-compat: bilingual variant flag (unused in v0.7, enabled in v0.8)
+  o Boolean bilingualEnglishPrevails default=false
+}

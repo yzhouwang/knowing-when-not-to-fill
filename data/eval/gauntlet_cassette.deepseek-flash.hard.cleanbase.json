@@ -1,0 +1,38 @@
+{
+  "22b6a516fff4d8d77e8a25ac26de5e13928a9fe0790923538b6bad78a799c96a": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Empire State Media Holdings, Inc.\",\n  \"receivingParty\": \"Hudson Analytics LLC\",\n  \"effectiveDate\": \"2026-07-01\",\n  \"mutual\": true,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"termMonths\": 24,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3,\n  \"governingLaw\": \"New_York\",\n  \"purpose\": \"evaluating a data-licensing partnership\",\n  \"disputeForum\": \"AAA_ICDR\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"limited_liability_company\"\n}"
+  },
+  "422bfdd13bb36c26515bb3fd090f9940ddeea60dc7cdd332e6534170e95ef731": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Marina Bay Capital Pte. Ltd.\",\n  \"receivingParty\": \"Raffles Data Systems Pte. Ltd.\",\n  \"effectiveDate\": \"2026-08-01\",\n  \"mutual\": true,\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"governingLaw\": \"Republic_of_Singapore\",\n  \"termMonths\": 36,\n  \"noticeDays\": 30,\n  \"survivalYears\": 5,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"purpose\": \"confidential fintech evaluation\",\n  \"nonCompeteMonths\": 0,\n  \"nonSolicitationMonths\": 0\n}"
+  },
+  "48da75df55edcbbbcae4ca3d2acde4bd08d7811494e30d1e266e2d01e3671f96": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Lotus Gaming Holdings (Macau) Limited\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingParty\": \"Pearl River Hospitality Group\",\n  \"receivingEntityType\": \"corporation\",\n  \"effectiveDate\": \"2026-10-05\",\n  \"termMonths\": 36,\n  \"purpose\": \"discussions about a casino-resort technology pilot\",\n  \"mutual\": true\n}"
+  },
+  "4d12206134febf928d3c456da5255b0858c9188a716a6599cec6ae585cdfc2e7": {
+    "kind": "text",
+    "response": "{\n  \"disclosingEntityType\": \"limited_liability_company\",\n  \"disclosingParty\": \"Hudson Yards Media LLC\",\n  \"disputeForum\": \"AAA_ICDR\",\n  \"effectiveDate\": \"2026-08-20\",\n  \"governingLaw\": \"New_York\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"mutual\": true,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30,\n  \"purpose\": \"content-licensing exploration\",\n  \"receivingEntityType\": \"corporation\",\n  \"receivingParty\": \"Atlas Streaming Corp.\",\n  \"survivalYears\": 3,\n  \"termMonths\": 24\n}"
+  },
+  "4eb1c5ce13e0af0af16f982903ecad3632915614aabe81764945fca123561436": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Gulf Falcon Logistics FZ-LLC\",\n  \"receivingParty\": \"Sentinel Datacenters Holdings, Inc.\",\n  \"effectiveDate\": \"2025-03-21\",\n  \"mutual\": true,\n  \"termMonths\": 30,\n  \"survivalYears\": 5,\n  \"hasResidualsClause\": false,\n  \"hasNonSolicitation\": false,\n  \"hasNonCompete\": false,\n  \"purpose\": \"confidential evaluation of a data-center colocation venture\",\n  \"disclosingEntityType\": \"limited_liability_company\",\n  \"receivingEntityType\": \"corporation\",\n  \"governingLaw\": \"United_Arab_Emirates\",\n  \"noticeDays\": 30,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12\n}"
+  },
+  "84895052fb966fc366c591aa107e1c3c3fb4da329b88b181e6310fd4573a3995": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Maple Logistics Inc.\",\n  \"receivingParty\": \"Northbridge Robotics Ltd.\",\n  \"effectiveDate\": \"2026-07-15\",\n  \"mutual\": true,\n  \"purpose\": \"exploring a supply-chain integration\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"termMonths\": 24,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3\n}"
+  },
+  "9fe210cd1fd32a014172eac91a1202f9567be87bb48f18a7b85471ccaa459696": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Thames Financial Group Ltd.\",\n  \"receivingParty\": \"Camden Software Ltd.\",\n  \"effectiveDate\": \"2026-09-01\",\n  \"mutual\": true,\n  \"termMonths\": 24,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3,\n  \"governingLaw\": \"England_and_Wales\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 0,\n  \"nonSolicitationMonths\": 0,\n  \"purpose\": \"software-licensing discussion\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\"\n}"
+  },
+  "d0db1230cff451d4c9dbc71a28437d2058378958ec9e0ec03597eb8d24ad1f50": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Gulf Capital Partners DIFC Limited\",\n  \"receivingParty\": \"Levant Fintech FZ-LLC\",\n  \"effectiveDate\": \"2026-09-10\",\n  \"mutual\": true,\n  \"termMonths\": 36,\n  \"purpose\": \"potential investment\",\n  \"governingLaw\": \"United_Arab_Emirates\",\n  \"disclosingEntityType\": \"limited_liability_company\",\n  \"receivingEntityType\": \"limited_liability_company\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3\n}"
+  },
+  "f0e4023ffdbf663901129e59f46a98f36032c0ca83f98312f2655a9af9f1797c": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Caledonian BioSciences plc\",\n  \"receivingParty\": \"Tay Valley Pharma Ltd\",\n  \"effectiveDate\": \"2026-08-01\",\n  \"mutual\": true,\n  \"purpose\": \"joint research program\",\n  \"termMonths\": 24,\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"nonCompeteMonths\": 12,\n  \"nonSolicitationMonths\": 12,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3\n}"
+  }
+}

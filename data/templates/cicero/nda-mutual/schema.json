@@ -1,0 +1,266 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "org.openclaw.nda@1.0.0.NDAData": {
+      "title": "NDAData",
+      "description": "An instance of org.openclaw.nda@1.0.0.NDAData",
+      "type": "object",
+      "properties": {
+        "disclosingParty": {
+          "type": "string",
+          "minLength": 1
+        },
+        "receivingParty": {
+          "type": "string",
+          "minLength": 1
+        },
+        "disclosingEntityType": {
+          "$ref": "#/definitions/org.openclaw.nda@1.0.0.EntityType",
+          "$decorators": {
+            "description": [
+              "The disclosing party's legal entity form. Use OTHER_ENTITY (with disclosingEntityTypeRaw) when the requested form is not representable."
+            ],
+            "Abstainable": [
+              "OTHER_ENTITY",
+              "CRITICAL: if the requested entity type is NOT one of the EntityType enum values, set disclosingEntityType to \"OTHER_ENTITY\" and put the requested form verbatim in disclosingEntityTypeRaw -- do NOT substitute a different entity type."
+            ]
+          }
+        },
+        "disclosingEntityTypeRaw": {
+          "type": "string",
+          "$decorators": {
+            "description": [
+              "When disclosingEntityType is OTHER_ENTITY, the requested form verbatim, for human review."
+            ]
+          }
+        },
+        "receivingEntityType": {
+          "$ref": "#/definitions/org.openclaw.nda@1.0.0.EntityType",
+          "$decorators": {
+            "description": [
+              "The receiving party's legal entity form. Use OTHER_ENTITY (with receivingEntityTypeRaw) when the requested form is not representable."
+            ],
+            "Abstainable": [
+              "OTHER_ENTITY",
+              "CRITICAL: if the requested entity type is NOT one of the EntityType enum values, set receivingEntityType to \"OTHER_ENTITY\" and put the requested form verbatim in receivingEntityTypeRaw -- do NOT substitute a different entity type."
+            ]
+          }
+        },
+        "receivingEntityTypeRaw": {
+          "type": "string",
+          "$decorators": {
+            "description": [
+              "When receivingEntityType is OTHER_ENTITY, the requested form verbatim, for human review."
+            ]
+          }
+        },
+        "purpose": {
+          "default": "exploring a potential business relationship",
+          "type": "string"
+        },
+        "termMonths": {
+          "default": 24,
+          "type": "integer"
+        },
+        "noticeDays": {
+          "default": 30,
+          "type": "integer"
+        },
+        "survivalYears": {
+          "default": 3,
+          "type": "integer"
+        },
+        "governingLaw": {
+          "$ref": "#/definitions/org.openclaw.nda@1.0.0.Jurisdiction",
+          "$decorators": {
+            "description": [
+              "Must be a valid US state, District of Columbia, or supported international jurisdiction. Use OTHER (with governingLawRaw) when the requested law is not representable."
+            ],
+            "Abstainable": [
+              "OTHER",
+              "CRITICAL: if the requested governing law is NOT one of the Jurisdiction enum values, set governingLaw to \"OTHER\" and put the requested law verbatim in governingLawRaw -- do NOT substitute a different jurisdiction."
+            ]
+          }
+        },
+        "governingLawRaw": {
+          "type": "string",
+          "$decorators": {
+            "description": [
+              "When governingLaw is OTHER, the requested governing law verbatim, for human review. The drafting pipeline blocks render until a human resolves it."
+            ]
+          }
+        },
+        "disputeForum": {
+          "$ref": "#/definitions/org.openclaw.nda@1.0.0.DisputeForum",
+          "$decorators": {
+            "description": [
+              "Optional dispute-resolution forum, CAPTURED for downstream/audit -- NOT auto-inserted into the rendered clause (auto-rendering a speculatively-filled forum would silently change a material term, court vs arbitration, without user intent). Use OTHER_FORUM (with disputeForumRaw) when the requested forum is not a listed arbitral institution (ad-hoc, court litigation, or an unlisted institution)."
+            ],
+            "Abstainable": [
+              "OTHER_FORUM",
+              "CRITICAL: if the requested dispute-resolution forum is NOT one of the DisputeForum enum values, set disputeForum to \"OTHER_FORUM\" and put the requested forum verbatim in disputeForumRaw -- do NOT substitute a different forum."
+            ]
+          }
+        },
+        "disputeForumRaw": {
+          "type": "string",
+          "$decorators": {
+            "description": [
+              "When disputeForum is OTHER_FORUM, the requested forum verbatim, for human review."
+            ]
+          }
+        },
+        "effectiveDate": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "mutual": {
+          "default": true,
+          "type": "boolean"
+        },
+        "hasNonCompete": {
+          "default": false,
+          "type": "boolean"
+        },
+        "hasNonSolicitation": {
+          "default": false,
+          "type": "boolean"
+        },
+        "hasResidualsClause": {
+          "default": false,
+          "type": "boolean"
+        },
+        "nonCompeteMonths": {
+          "default": 12,
+          "type": "integer"
+        },
+        "nonSolicitationMonths": {
+          "default": 12,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "disclosingParty",
+        "receivingParty",
+        "effectiveDate"
+      ],
+      "$decorators": {
+        "template": []
+      }
+    },
+    "org.openclaw.nda@1.0.0.Jurisdiction": {
+      "title": "Jurisdiction",
+      "description": "An instance of org.openclaw.nda@1.0.0.Jurisdiction",
+      "enum": [
+        "Alabama",
+        "Alaska",
+        "Arizona",
+        "Arkansas",
+        "California",
+        "Colorado",
+        "Connecticut",
+        "Delaware",
+        "Florida",
+        "Georgia",
+        "Hawaii",
+        "Idaho",
+        "Illinois",
+        "Indiana",
+        "Iowa",
+        "Kansas",
+        "Kentucky",
+        "Louisiana",
+        "Maine",
+        "Maryland",
+        "Massachusetts",
+        "Michigan",
+        "Minnesota",
+        "Mississippi",
+        "Missouri",
+        "Montana",
+        "Nebraska",
+        "Nevada",
+        "New_Hampshire",
+        "New_Jersey",
+        "New_Mexico",
+        "New_York",
+        "North_Carolina",
+        "North_Dakota",
+        "Ohio",
+        "Oklahoma",
+        "Oregon",
+        "Pennsylvania",
+        "Rhode_Island",
+        "South_Carolina",
+        "South_Dakota",
+        "Tennessee",
+        "Texas",
+        "Utah",
+        "Vermont",
+        "Virginia",
+        "Washington",
+        "West_Virginia",
+        "Wisconsin",
+        "Wyoming",
+        "District_of_Columbia",
+        "Republic_of_Singapore",
+        "Hong_Kong_SAR",
+        "England_and_Wales",
+        "Republic_of_Kenya",
+        "Republic_of_Indonesia",
+        "Republic_of_India",
+        "Kingdom_of_Saudi_Arabia",
+        "United_Arab_Emirates",
+        "Peoples_Republic_of_China",
+        "Japan",
+        "Republic_of_Korea",
+        "Federal_Republic_of_Nigeria",
+        "Republic_of_South_Africa",
+        "OTHER"
+      ],
+      "$decorators": {
+        "Abstainable": []
+      }
+    },
+    "org.openclaw.nda@1.0.0.EntityType": {
+      "title": "EntityType",
+      "description": "An instance of org.openclaw.nda@1.0.0.EntityType",
+      "enum": [
+        "corporation",
+        "limited_liability_company",
+        "general_partnership",
+        "limited_partnership",
+        "limited_liability_partnership",
+        "sole_proprietorship",
+        "professional_corporation",
+        "nonprofit_corporation",
+        "trust",
+        "joint_venture",
+        "individual",
+        "OTHER_ENTITY"
+      ],
+      "$decorators": {
+        "Abstainable": []
+      }
+    },
+    "org.openclaw.nda@1.0.0.DisputeForum": {
+      "title": "DisputeForum",
+      "description": "An instance of org.openclaw.nda@1.0.0.DisputeForum",
+      "enum": [
+        "SIAC",
+        "ICC",
+        "LCIA",
+        "HKIAC",
+        "AAA_ICDR",
+        "CIETAC",
+        "DIAC",
+        "SCC",
+        "JAMS",
+        "OTHER_FORUM"
+      ],
+      "$decorators": {
+        "Abstainable": []
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+namespace org.openclaw.cooperation@1.0.0
+
+@template
+concept StrategicCooperationData {
+  // Agreement metadata
+  o String agreementNo optional
+  o String signingPlace
+
+  // Party A
+  o String partyAName
+  o String partyAAddress
+  o String partyALegalRep
+  o String partyAContact
+
+  // Party A description (what they do)
+  o String partyADescription
+
+  // Party B
+  o String partyBName
+  o String partyBAddress
+  o String partyBLegalRep
+  o String partyBContact
+
+  // Party B description (jurisdiction and capabilities)
+  o String partyBDescription
+
+  // Cooperation scope
+  o String cooperationAreas
+
+  // Key terms
+  o Integer confidentialityTermYears default=2
+  o Integer agreementTermYears default=2
+  o Integer terminationNoticeDays default=30
+
+  // Jurisdiction
+  @description("Governing law jurisdiction")
+  o String governingLaw default="Republic of Singapore"
+  o String arbitrationBody default="Singapore International Arbitration Centre (SIAC)"
+
+  // Dates
+  o String effectiveDate regex=/^\d{4}-\d{2}-\d{2}$/
+}

@@ -1,0 +1,261 @@
+{
+  "arm": "constrained_hatch",
+  "cases": [
+    "c01",
+    "c02",
+    "c03",
+    "c04",
+    "c06",
+    "c08"
+  ],
+  "models": {
+    "claude-sonnet-4-6": {
+      "ci_substring": 5,
+      "faithful": 6,
+      "missing_raw": 0,
+      "n": 6,
+      "rows": [
+        {
+          "asked": "Province of Ontario",
+          "case": "c01",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "Province of Ontario, Canada",
+          "verbatim": true
+        },
+        {
+          "asked": "Scotland",
+          "case": "c02",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "laws of Scotland",
+          "verbatim": true
+        },
+        {
+          "asked": "DIFC (Dubai International Financial Centre)",
+          "case": "c03",
+          "ci_substring": false,
+          "faithful": true,
+          "raw": "Laws of the Dubai International Financial Centre (DIFC)",
+          "verbatim": false
+        },
+        {
+          "asked": "Macao Special Administrative Region",
+          "case": "c04",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "Macao Special Administrative Region",
+          "verbatim": true
+        },
+        {
+          "asked": "United States",
+          "case": "c06",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "Laws of the United States, with venue in New York City",
+          "verbatim": false
+        },
+        {
+          "asked": "DIFC",
+          "case": "c08",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "DIFC",
+          "verbatim": true
+        }
+      ],
+      "verbatim": 4
+    },
+    "deepseek-v4-flash": {
+      "ci_substring": 6,
+      "faithful": 6,
+      "missing_raw": 0,
+      "n": 6,
+      "rows": [
+        {
+          "asked": "Province of Ontario",
+          "case": "c01",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "Province of Ontario, Canada",
+          "verbatim": true
+        },
+        {
+          "asked": "Scotland",
+          "case": "c02",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "Scotland",
+          "verbatim": true
+        },
+        {
+          "asked": "DIFC (Dubai International Financial Centre)",
+          "case": "c03",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "DIFC",
+          "verbatim": true
+        },
+        {
+          "asked": "Macao Special Administrative Region",
+          "case": "c04",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "Macao Special Administrative Region",
+          "verbatim": true
+        },
+        {
+          "asked": "United States",
+          "case": "c06",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "laws of the United States",
+          "verbatim": true
+        },
+        {
+          "asked": "DIFC",
+          "case": "c08",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "DIFC law",
+          "verbatim": true
+        }
+      ],
+      "verbatim": 6
+    },
+    "deepseek-v4-pro": {
+      "ci_substring": 6,
+      "faithful": 6,
+      "missing_raw": 0,
+      "n": 6,
+      "rows": [
+        {
+          "asked": "Province of Ontario",
+          "case": "c01",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "Province of Ontario, Canada",
+          "verbatim": true
+        },
+        {
+          "asked": "Scotland",
+          "case": "c02",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "Scotland",
+          "verbatim": true
+        },
+        {
+          "asked": "DIFC (Dubai International Financial Centre)",
+          "case": "c03",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "laws of the DIFC (Dubai International Financial Centre)",
+          "verbatim": true
+        },
+        {
+          "asked": "Macao Special Administrative Region",
+          "case": "c04",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "Macao Special Administrative Region",
+          "verbatim": true
+        },
+        {
+          "asked": "United States",
+          "case": "c06",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "United States",
+          "verbatim": true
+        },
+        {
+          "asked": "DIFC",
+          "case": "c08",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "DIFC",
+          "verbatim": true
+        }
+      ],
+      "verbatim": 6
+    },
+    "gpt-5.5": {
+      "ci_substring": 6,
+      "faithful": 6,
+      "missing_raw": 0,
+      "n": 6,
+      "rows": [
+        {
+          "asked": "Province of Ontario",
+          "case": "c01",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "the laws of the Province of Ontario, Canada",
+          "verbatim": true
+        },
+        {
+          "asked": "Scotland",
+          "case": "c02",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "laws of Scotland",
+          "verbatim": true
+        },
+        {
+          "asked": "DIFC (Dubai International Financial Centre)",
+          "case": "c03",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "laws of the DIFC (Dubai International Financial Centre)",
+          "verbatim": true
+        },
+        {
+          "asked": "Macao Special Administrative Region",
+          "case": "c04",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "laws of the Macao Special Administrative Region",
+          "verbatim": true
+        },
+        {
+          "asked": "United States",
+          "case": "c06",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "laws of the United States",
+          "verbatim": true
+        },
+        {
+          "asked": "DIFC",
+          "case": "c08",
+          "ci_substring": true,
+          "faithful": true,
+          "raw": "DIFC",
+          "verbatim": true
+        }
+      ],
+      "verbatim": 6
+    }
+  },
+  "rule": {
+    "ci_substring": "raw is a case-INSENSITIVE substring of the case instruction",
+    "faithful": "normalized raw contains >=1 of the case's key jurisdiction names (lowercase, punctuation collapsed); key names fixed a priori per case -- see _KEY_NAMES in contract_drafting/raw_fidelity.py",
+    "verbatim": "raw is a case-SENSITIVE substring of the case instruction"
+  },
+  "summary": {
+    "ci_substring": 23,
+    "ci_substring_misses": [
+      "claude-sonnet-4-6/c03"
+    ],
+    "faithful": 24,
+    "missing_raw": 0,
+    "n_total": 24,
+    "none_sighting_resolution": "Every arm-D abstention on the six un-representable cases carries a non-empty governingLawRaw (24/24; compute() raises otherwise). governingLaw=OTHER with governingLawRaw=None occurs ONLY in the instruction-only ablation (arm ablation_instr_only_governingLaw, claude-sonnet-4-6, cases c01/c04/c06), where with_abstain=False strips the hatch fields from the schema, so no raw slot exists and the bare OTHER is schema-INVALID (a visible leak, not an abstention).",
+    "verbatim": 22,
+    "verbatim_misses": [
+      "claude-sonnet-4-6/c03",
+      "claude-sonnet-4-6/c06"
+    ]
+  }
+}

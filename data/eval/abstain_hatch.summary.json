@@ -1,0 +1,24 @@
+{
+  "_note": "PR2 abstain-hatch live measurement across 3 models (hard suite). Each: 6 un-representable governing-law cases (should abstain=OTHER) + 3 representable (should NOT over-abstain). PR1 baseline on the 6 un-rep was 6/6 silent-WRONG per model (wrong_sub+omit): gpt-5.5=6 wrong_sub; deepseek-v4-pro/flash=5 wrong_sub + 1 omit each. Live-recorded, not replay cassettes; gpt-5.5=OpenAI strict json_schema, deepseek=soft json_object with the schema in-prompt.",
+  "models": [
+    {
+      "model": "deepseek-v4-flash",
+      "provider": "deepseek",
+      "abstained_unrepresentable": "6/6",
+      "over_abstentions_representable": "0/3"
+    },
+    {
+      "model": "deepseek-v4-pro",
+      "provider": "deepseek",
+      "abstained_unrepresentable": "6/6",
+      "over_abstentions_representable": "0/3"
+    },
+    {
+      "model": "gpt-5.5",
+      "provider": "openai",
+      "abstained_unrepresentable": "6/6",
+      "over_abstentions_representable": "0/3"
+    }
+  ],
+  "headline": "All 3 models abstain 6/6 on un-representable governing-law asks (vs 6/6 silent-WRONG at baseline), 0/3 over-abstention."
+}

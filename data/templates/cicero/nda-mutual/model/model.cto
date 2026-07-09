@@ -1,0 +1,258 @@
+namespace org.openclaw.nda@1.0.0
+
+@template
+concept NDAData {
+  o String disclosingParty length=[1,]
+  o String receivingParty length=[1,]
+  @description("The disclosing party's legal entity form. Use OTHER_ENTITY (with disclosingEntityTypeRaw) when the requested form is not representable.")
+  @Abstainable("OTHER_ENTITY", "CRITICAL: if the requested entity type is NOT one of the EntityType enum values, set disclosingEntityType to \"OTHER_ENTITY\" and put the requested form verbatim in disclosingEntityTypeRaw -- do NOT substitute a different entity type.")
+  o EntityType disclosingEntityType default="corporation"
+  @description("When disclosingEntityType is OTHER_ENTITY, the requested form verbatim, for human review.")
+  o String disclosingEntityTypeRaw optional
+  @description("The receiving party's legal entity form. Use OTHER_ENTITY (with receivingEntityTypeRaw) when the requested form is not representable.")
+  @Abstainable("OTHER_ENTITY", "CRITICAL: if the requested entity type is NOT one of the EntityType enum values, set receivingEntityType to \"OTHER_ENTITY\" and put the requested form verbatim in receivingEntityTypeRaw -- do NOT substitute a different entity type.")
+  o EntityType receivingEntityType default="corporation"
+  @description("When receivingEntityType is OTHER_ENTITY, the requested form verbatim, for human review.")
+  o String receivingEntityTypeRaw optional
+  o String purpose default="exploring a potential business relationship"
+  o Integer termMonths default=24
+  o Integer noticeDays default=30
+  o Integer survivalYears default=3
+  @description("Must be a valid US state, District of Columbia, or supported international jurisdiction. Use OTHER (with governingLawRaw) when the requested law is not representable.")
+  @Abstainable("OTHER", "CRITICAL: if the requested governing law is NOT one of the Jurisdiction enum values, set governingLaw to \"OTHER\" and put the requested law verbatim in governingLawRaw -- do NOT substitute a different jurisdiction.")
+  o Jurisdiction governingLaw default="Washington"
+  @description("When governingLaw is OTHER, the requested governing law verbatim, for human review. The drafting pipeline blocks render until a human resolves it.")
+  o String governingLawRaw optional
+  @description("Optional dispute-resolution forum, CAPTURED for downstream/audit -- NOT auto-inserted into the rendered clause (auto-rendering a speculatively-filled forum would silently change a material term, court vs arbitration, without user intent). Use OTHER_FORUM (with disputeForumRaw) when the requested forum is not a listed arbitral institution (ad-hoc, court litigation, or an unlisted institution).")
+  @Abstainable("OTHER_FORUM", "CRITICAL: if the requested dispute-resolution forum is NOT one of the DisputeForum enum values, set disputeForum to \"OTHER_FORUM\" and put the requested forum verbatim in disputeForumRaw -- do NOT substitute a different forum.")
+  o DisputeForum disputeForum optional
+  @description("When disputeForum is OTHER_FORUM, the requested forum verbatim, for human review.")
+  o String disputeForumRaw optional
+  o String effectiveDate regex=/^\d{4}-\d{2}-\d{2}$/
+  o Boolean mutual default=true
+  o Boolean hasNonCompete default=false
+  o Boolean hasNonSolicitation default=false
+  o Boolean hasResidualsClause default=false
+  o Integer nonCompeteMonths default=12
+  o Integer nonSolicitationMonths default=12
+}
+
+/**
+ * Single source of truth for valid governing-law jurisdictions.
+ *
+ * Each enum VALUE is a Concerto identifier (the display name with spaces -> "_"
+ * and apostrophes/punctuation removed). The human-readable name lives in the
+ * @Display decorator. concerto-helper.js extracts these decorators at codegen
+ * time into jurisdictions.map.json so the renderer can show "New York" while the
+ * data model stores "New_York".
+ *
+ * 50 US states + District of Columbia + 13 international jurisdictions = 64 representable
+ * jurisdictions; plus the OTHER abstain sentinel = 65 enum members total.
+ *
+ * @Abstainable marks this type as carrying an abstain sentinel. The abstain
+ * POLICY (sentinel + instruction) lives on the governingLaw field; codegen
+ * (concerto-helper.js) reads it into abstain-policy.json so the LLM abstain
+ * instruction is single-sourced from this .cto, not hand-duplicated in Python.
+ */
+@Abstainable
+enum Jurisdiction {
+  @Display("Alabama")
+  o Alabama
+  @Display("Alaska")
+  o Alaska
+  @Display("Arizona")
+  o Arizona
+  @Display("Arkansas")
+  o Arkansas
+  @Display("California")
+  o California
+  @Display("Colorado")
+  o Colorado
+  @Display("Connecticut")
+  o Connecticut
+  @Display("Delaware")
+  o Delaware
+  @Display("Florida")
+  o Florida
+  @Display("Georgia")
+  o Georgia
+  @Display("Hawaii")
+  o Hawaii
+  @Display("Idaho")
+  o Idaho
+  @Display("Illinois")
+  o Illinois
+  @Display("Indiana")
+  o Indiana
+  @Display("Iowa")
+  o Iowa
+  @Display("Kansas")
+  o Kansas
+  @Display("Kentucky")
+  o Kentucky
+  @Display("Louisiana")
+  o Louisiana
+  @Display("Maine")
+  o Maine
+  @Display("Maryland")
+  o Maryland
+  @Display("Massachusetts")
+  o Massachusetts
+  @Display("Michigan")
+  o Michigan
+  @Display("Minnesota")
+  o Minnesota
+  @Display("Mississippi")
+  o Mississippi
+  @Display("Missouri")
+  o Missouri
+  @Display("Montana")
+  o Montana
+  @Display("Nebraska")
+  o Nebraska
+  @Display("Nevada")
+  o Nevada
+  @Display("New Hampshire")
+  o New_Hampshire
+  @Display("New Jersey")
+  o New_Jersey
+  @Display("New Mexico")
+  o New_Mexico
+  @Display("New York")
+  o New_York
+  @Display("North Carolina")
+  o North_Carolina
+  @Display("North Dakota")
+  o North_Dakota
+  @Display("Ohio")
+  o Ohio
+  @Display("Oklahoma")
+  o Oklahoma
+  @Display("Oregon")
+  o Oregon
+  @Display("Pennsylvania")
+  o Pennsylvania
+  @Display("Rhode Island")
+  o Rhode_Island
+  @Display("South Carolina")
+  o South_Carolina
+  @Display("South Dakota")
+  o South_Dakota
+  @Display("Tennessee")
+  o Tennessee
+  @Display("Texas")
+  o Texas
+  @Display("Utah")
+  o Utah
+  @Display("Vermont")
+  o Vermont
+  @Display("Virginia")
+  o Virginia
+  @Display("Washington")
+  o Washington
+  @Display("West Virginia")
+  o West_Virginia
+  @Display("Wisconsin")
+  o Wisconsin
+  @Display("Wyoming")
+  o Wyoming
+  @Display("District of Columbia")
+  o District_of_Columbia
+  @Display("Republic of Singapore")
+  o Republic_of_Singapore
+  @Display("Hong Kong SAR")
+  o Hong_Kong_SAR
+  @Display("England and Wales")
+  o England_and_Wales
+  @Display("Republic of Kenya")
+  o Republic_of_Kenya
+  @Display("Republic of Indonesia")
+  o Republic_of_Indonesia
+  @Display("Republic of India")
+  o Republic_of_India
+  @Display("Kingdom of Saudi Arabia")
+  o Kingdom_of_Saudi_Arabia
+  @Display("United Arab Emirates")
+  o United_Arab_Emirates
+  @Display("People's Republic of China")
+  o Peoples_Republic_of_China
+  @Display("Japan")
+  o Japan
+  @Display("Republic of Korea")
+  o Republic_of_Korea
+  @Display("Federal Republic of Nigeria")
+  o Federal_Republic_of_Nigeria
+  @Display("Republic of South Africa")
+  o Republic_of_South_Africa
+  @Display("OTHER")
+  o OTHER
+}
+
+/**
+ * Legal entity form (cross-field replication, 2026-06). A curated common-law /
+ * US-default taxonomy: 11 representable forms + the OTHER_ENTITY abstain sentinel.
+ * The representability gap is foreign / civil-law legal forms (GmbH, KK, Pte Ltd,
+ * plc, SA, Anstalt, statutory body / sovereign) that have no member here.
+ *
+ * @Abstainable marks the type as carrying an abstain sentinel; the per-field abstain
+ * POLICY lives on disclosingEntityType / receivingEntityType.
+ */
+@Abstainable
+enum EntityType {
+  @Display("corporation")
+  o corporation
+  @Display("limited liability company")
+  o limited_liability_company
+  @Display("general partnership")
+  o general_partnership
+  @Display("limited partnership")
+  o limited_partnership
+  @Display("limited liability partnership")
+  o limited_liability_partnership
+  @Display("sole proprietorship")
+  o sole_proprietorship
+  @Display("professional corporation")
+  o professional_corporation
+  @Display("nonprofit corporation")
+  o nonprofit_corporation
+  @Display("trust")
+  o trust
+  @Display("joint venture")
+  o joint_venture
+  @Display("individual")
+  o individual
+  @Display("OTHER_ENTITY")
+  o OTHER_ENTITY
+}
+
+/**
+ * Dispute-resolution forum (cross-field replication, 2026-06). A finite roster of
+ * named arbitral institutions: 9 representable + the OTHER_FORUM abstain sentinel.
+ * The representability gap is ad-hoc / UNCITRAL arbitration, national-court
+ * litigation, and unlisted institutions (KCAB, VIAC, etc.).
+ *
+ * @Abstainable marks the type; the abstain POLICY lives on the disputeForum field.
+ */
+@Abstainable
+enum DisputeForum {
+  @Display("Singapore International Arbitration Centre (SIAC)")
+  o SIAC
+  @Display("International Chamber of Commerce (ICC)")
+  o ICC
+  @Display("London Court of International Arbitration (LCIA)")
+  o LCIA
+  @Display("Hong Kong International Arbitration Centre (HKIAC)")
+  o HKIAC
+  @Display("American Arbitration Association / ICDR (AAA-ICDR)")
+  o AAA_ICDR
+  @Display("China International Economic and Trade Arbitration Commission (CIETAC)")
+  o CIETAC
+  @Display("Dubai International Arbitration Centre (DIAC)")
+  o DIAC
+  @Display("Arbitration Institute of the Stockholm Chamber of Commerce (SCC)")
+  o SCC
+  @Display("JAMS")
+  o JAMS
+  @Display("OTHER_FORUM")
+  o OTHER_FORUM
+}

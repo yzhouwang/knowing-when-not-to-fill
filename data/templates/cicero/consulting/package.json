@@ -1,0 +1,10 @@
+{
+  "name": "consulting",
+  "version": "1.0.0",
+  "description": "Consulting Cooperation Agreement — non-exclusive consultant engagement with tail-period commission protection (counsel-vetted golden template)",
+  "accordproject": {
+    "template": "contract",
+    "cicero": "^0.25.0"
+  },
+  "license": "Proprietary"
+}

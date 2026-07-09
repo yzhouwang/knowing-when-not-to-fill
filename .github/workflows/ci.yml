@@ -1,0 +1,42 @@
+# CI: the full offline test suite, including the cassette replay guard
+# (tests/test_gauntlet_replay.py) -- replays every committed Gauntlet cassette
+# through the full harness and fails closed on any cache miss. No provider API
+# key is present: every test must run offline.
+name: CI
+
+permissions:
+  contents: read
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install pandoc (docx round-trip tests)
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq pandoc
+
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Install Concerto build tooling (codegen drift tests)
+        run: npm ci
+
+      - name: Run test suite offline (provider API keys explicitly absent)
+        run: |
+          env -u ANTHROPIC_API_KEY -u OPENAI_API_KEY -u DEEPSEEK_API_KEY \
+            python -m pytest tests/ -q

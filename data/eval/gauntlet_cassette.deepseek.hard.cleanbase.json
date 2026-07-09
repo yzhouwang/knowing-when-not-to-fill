@@ -1,0 +1,38 @@
+{
+  "037a15daf51ed514d44628c144f1fefa4244b182aa7411e0139a5b93466a1320": {
+    "kind": "text",
+    "response": "{\"disclosingParty\":\"Thames Financial Group Ltd.\",\"receivingParty\":\"Camden Software Ltd.\",\"effectiveDate\":\"2026-09-01\",\"mutual\":true,\"governingLaw\":\"England_and_Wales\",\"termMonths\":24,\"noticeDays\":30,\"survivalYears\":3,\"hasNonCompete\":false,\"hasNonSolicitation\":false,\"hasResidualsClause\":false,\"disclosingEntityType\":\"corporation\",\"receivingEntityType\":\"corporation\",\"purpose\":\"software-licensing discussion\"}"
+  },
+  "10c593d4620253cc184a138ca7a74df15e71116199e634357aecea644490bd48": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Gulf Capital Partners DIFC Limited\",\n  \"receivingParty\": \"Levant Fintech FZ-LLC\",\n  \"effectiveDate\": \"2026-09-10\",\n  \"disclosingEntityType\": \"limited_liability_company\",\n  \"receivingEntityType\": \"limited_liability_company\",\n  \"governingLaw\": \"United_Arab_Emirates\",\n  \"mutual\": true,\n  \"termMonths\": 36,\n  \"purpose\": \"exploring a potential investment\"\n}"
+  },
+  "285b8de939257903aa1cbf890a583eb644a6ac69cd421806cc666955790a8496": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Maple Logistics Inc.\",\n  \"receivingParty\": \"Northbridge Robotics Ltd.\",\n  \"effectiveDate\": \"2026-07-15\",\n  \"mutual\": true,\n  \"governingLaw\": \"England_and_Wales\",\n  \"termMonths\": 24,\n  \"purpose\": \"exploring a supply-chain integration\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\"\n}"
+  },
+  "52afd3ad11fd7bf1886e4b115c2cfdcfced94b86c92a53d4a44b2102a92351e0": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Caledonian BioSciences plc\",\n  \"receivingParty\": \"Tay Valley Pharma Ltd\",\n  \"effectiveDate\": \"2026-08-01\",\n  \"mutual\": true,\n  \"purpose\": \"joint research program\",\n  \"termMonths\": 24,\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\",\n  \"governingLaw\": \"England_and_Wales\"\n}"
+  },
+  "a8f01ef630496d34d2d7cd490cbd81068643af5e9ce1a9b94990c3ff1ee83128": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Empire State Media Holdings, Inc.\",\n  \"receivingParty\": \"Hudson Analytics LLC\",\n  \"effectiveDate\": \"2026-07-01\",\n  \"mutual\": true,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"termMonths\": 24,\n  \"noticeDays\": 30,\n  \"survivalYears\": 3,\n  \"governingLaw\": \"New_York\",\n  \"purpose\": \"evaluating a data-licensing partnership\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"limited_liability_company\"\n}"
+  },
+  "b475efa19be79b31a645304c66cc113e1d379eba02d6170ca8629b548adc7f9a": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Hudson Yards Media LLC\",\n  \"receivingParty\": \"Atlas Streaming Corp\",\n  \"effectiveDate\": \"2026-08-20\",\n  \"disclosingEntityType\": \"limited_liability_company\",\n  \"receivingEntityType\": \"corporation\",\n  \"mutual\": true,\n  \"governingLaw\": \"New_York\",\n  \"purpose\": \"content-licensing exploration\",\n  \"termMonths\": 24\n}"
+  },
+  "b7fd1d251697a11444f3264338e7513edf79b1308b22af2e1eea9e02fbb96e7b": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Gulf Falcon Logistics FZ-LLC\",\n  \"disclosingEntityType\": \"limited_liability_company\",\n  \"receivingParty\": \"Sentinel Datacenters Holdings, Inc.\",\n  \"receivingEntityType\": \"corporation\",\n  \"mutual\": true,\n  \"termMonths\": 30,\n  \"survivalYears\": 5,\n  \"hasResidualsClause\": false,\n  \"hasNonSolicitation\": false,\n  \"hasNonCompete\": false,\n  \"purpose\": \"confidential evaluation of a data-center colocation venture\",\n  \"governingLaw\": \"United_Arab_Emirates\",\n  \"effectiveDate\": \"2025-03-22\"\n}"
+  },
+  "ca07bdd1e9ca77f69e2e33831adfc5f0d1438cdb28326fdb039c3dd9fa880f3c": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Marina Bay Capital Pte. Ltd.\",\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingParty\": \"Raffles Data Systems Pte. Ltd.\",\n  \"receivingEntityType\": \"corporation\",\n  \"effectiveDate\": \"2026-08-01\",\n  \"governingLaw\": \"Republic_of_Singapore\",\n  \"mutual\": true,\n  \"termMonths\": 36,\n  \"noticeDays\": 30,\n  \"survivalYears\": 5,\n  \"hasNonCompete\": false,\n  \"hasNonSolicitation\": false,\n  \"hasResidualsClause\": false,\n  \"purpose\": \"confidential fintech evaluation\"\n}"
+  },
+  "ecaf7e77a51637cc61c8dfb493e65d9a2b8766e4bb808b7710806b4f86e46f42": {
+    "kind": "text",
+    "response": "{\n  \"disclosingParty\": \"Lotus Gaming Holdings (Macau) Limited\",\n  \"receivingParty\": \"Pearl River Hospitality Group\",\n  \"effectiveDate\": \"2026-10-05\",\n  \"mutual\": true,\n  \"purpose\": \"discussions about a casino-resort technology pilot\",\n  \"termMonths\": 36,\n  \"disclosingEntityType\": \"corporation\",\n  \"receivingEntityType\": \"corporation\"\n}"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "nda-mutual",
+  "version": "1.0.0",
+  "description": "Mutual Non-Disclosure Agreement template (CiceroMark)",
+  "accordproject": {
+    "template": "clause",
+    "cicero": "^0.25.0"
+  },
+  "license": "Apache-2.0"
+}

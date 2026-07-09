@@ -1,0 +1,27 @@
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+venv/
+data/drafts/*.docx
+data/demo_drafts/
+~$*.docx
+.gstack/
+# Internal research / AI-review artifacts — never publish (candid notes,
+# committee-sim scorecards, a stray SQLite DB, scripts with local home paths).
+reviews/
+idea-foundry/reviews/
+AGENTS.md
+
+# Audit/runtime databases anywhere (audit_log can hold real party data + local
+# paths); the old `data/*.db` glob missed DBs written outside data/.
+*.db
+*.sqlite
+*.sqlite3
+
+# Secret-bearing files — defense-in-depth before opening to contributors.
+.env
+.env.*
+*.key
+*.pem
+.envrc

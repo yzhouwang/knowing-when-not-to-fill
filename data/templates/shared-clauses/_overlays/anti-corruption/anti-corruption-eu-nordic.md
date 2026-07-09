@@ -1,0 +1,11 @@
+## Anti-Corruption and Compliance
+
+Each Party represents and warrants that it shall comply with all applicable anti-bribery and anti-corruption laws, including but not limited to the U.S. Foreign Corrupt Practices Act (FCPA), the UK Bribery Act 2010, the EU Framework Decision 2003/568/JHA on combating corruption in the private sector, the Swedish Penal Code (Brottsbalken) Chapter 10 on embezzlement and breach of trust and Chapter 17 on bribery-related offenses, and the OECD Convention on Combating Bribery of Foreign Public Officials in International Business Transactions.
+
+Neither Party shall, directly or indirectly, make any payment, gift, or offer of value to any government official, political party, public entity, or private counterparty in connection with the Project, whether in {{targetCountry}} or any other jurisdiction, where such payment, gift, or offer would violate any of the foregoing frameworks or {{governingLaw}}.
+
+Each Party shall bear sole responsibility for ensuring its own conduct, and that of its employees, agents, subcontractors, and representatives, complies with all applicable anti-bribery and anti-corruption laws.
+
+{{#includeAuditClause}}
+Each Party shall maintain accurate and complete books, records, and accounts reflecting all transactions related to the Project in sufficient detail to demonstrate compliance with the anti-bribery and anti-corruption frameworks referenced above. Upon a good-faith, reasonable suspicion by {{partyBName}} of a violation of this Section by {{partyAName}} or its employees, agents, or subcontractors, {{partyBName}} shall have the right, upon no less than ten (10) business days' prior written notice, to audit and inspect the relevant books, records, and accounts of {{partyAName}} during normal business hours, either directly or through an independent third-party auditor bound by customary confidentiality obligations. {{partyAName}} shall cooperate in good faith with any such audit or investigation, and each Party shall bear its own costs unless the audit substantiates a material violation, in which case the audited Party shall reimburse {{partyBName}} for reasonable audit costs. This audit right shall survive termination of this Agreement for a period of three (3) years.
+{{/includeAuditClause}}

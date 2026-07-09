@@ -1,0 +1,50 @@
+namespace org.openclaw.intermediary@1.0.0
+
+@template
+concept IntermediaryData {
+  // Agreement metadata
+  o String agreementNo optional
+  o String signingPlace
+
+  // Party A (e.g., your own operating entity in the relevant jurisdiction)
+  o String partyAName
+  o String partyALegalRep
+  o String partyAAddress
+  o String partyAContact
+
+  // Party B (Intermediary / Finder)
+  o String partyBName
+  o String partyBLegalRep
+  o String partyBAddress
+  o String partyBContact
+  o String partyBRoleDescription
+
+  // Cooperation Scope
+  o String targetCountry default="Kenya"
+
+  // Finder's Fee
+  o Double finderFeePercent
+  o String finderFeeCap
+
+  // Confidentiality
+  o Integer confidentialityTermYears default=3
+
+  // Term and Termination
+  o Integer agreementTermMonths default=12
+  o Integer terminationNoticeDays default=30
+  o Integer breachCurePeriodDays default=15
+
+  // Payment
+  o Integer paymentTermDays default=30
+
+  // Per-Project Exclusivity
+  o Integer exclusivityExpiryMonths default=6
+
+  // Jurisdiction
+  @description("Governing law jurisdiction")
+  o String governingLaw default="Republic of Singapore"
+  o String arbitrationBody default="Singapore International Arbitration Centre (SIAC)"
+
+  // Dates
+  o String effectiveDate regex=/^\d{4}-\d{2}-\d{2}$/
+}
