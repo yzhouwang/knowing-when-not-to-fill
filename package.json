@@ -1,6 +1,6 @@
 {
   "name": "contract-drafting-build",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Build-time tooling for Concerto model to schema/types generation",
   "scripts": {
