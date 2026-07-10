@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.0.1] — 2026-07-11
+
+Documentation and licensing patch — no code, cassette, or result changes.
+
+- Cite the paper by its final title: *"Knowing When Not to Fill: Contract
+  Drafting on the Accord Standard"* (EMNLP 2026 System Demonstrations).
+- Re-anchor the Table 1 reproduction docs to the paper's headline metric:
+  `silent-wrong` /6 over the six un-representable governing-law asks
+  (`c01`-`c04`, `c06`, `c08`); the numeric/intent cases and the 0/3
+  supported-law controls are reported separately, never pooled (previously
+  described as /9).
+- Publish the frozen pre-registration:
+  [`PREREGISTRATION_cross-field.md`](PREREGISTRATION_cross-field.md) — the
+  cross-field decision rule and dated amendments the paper cites.
+- Make the cassette license boundary explicit: Apache-2.0 covers the code,
+  docs, and hand-authored fixtures; rights in the recorded provider outputs
+  are scoped by the redistribution note in
+  [`data/eval/DATACARD.md`](data/eval/DATACARD.md).
+- Disclose live-mode write artifacts in the bring-your-own-key docs (audit
+  rows in `data/contract_drafting.db`, rendered drafts, `--record`
+  cassettes); key material is never written anywhere.
+
 ## [1.0.0] — 2026-07-09
 
 First public release.
