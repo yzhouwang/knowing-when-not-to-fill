@@ -105,8 +105,10 @@ venv/bin/python -m contract_drafting.demo_offline explain \
 Everything above runs offline. To watch the
 guardrail act on a *live* model — and reproduce the paper's core effect yourself
 — export the relevant key(s) and use one of the entry points below. Keys are
-read from the environment (or a local `.env`, auto-loaded by `main`); nothing is
-written to the repo.
+read from the environment (or a local `.env`, auto-loaded by `main`); no key
+material is ever written anywhere. Live runs do write local artifacts: audit
+rows to `data/contract_drafting.db`, rendered drafts under `data/drafts/`, and —
+with `--record` — the cassette file you point `--cassette` at.
 
 ```bash
 export ANTHROPIC_API_KEY=...   # --provider anthropic
