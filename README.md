@@ -301,12 +301,13 @@ it). Concerto and template authoring are documented at
 
 ## Reproducing the paper's tables
 
-- **Table 1** (headline `silent-wrong` /9 per arm x model):
+- **Table 1** (headline `silent-wrong` /6 over the six un-representable
+  governing-law asks, `c01`-`c04`, `c06`, `c08`; the numeric/intent cases and
+  the 0/3 supported-law controls are reported separately, never pooled):
   `venv/bin/python -m contract_drafting.demo_offline table1` prints it from
   committed results. Each value is also recomputable from the committed
   per-case reports (`data/eval/gauntlet_results.*.hard.json`; re-emit one by
-  adding `--json <path>` to a replay command above);
-  Table 1 is the governing-law subset (cases `c01`-`c29`) of the 57-case run.
+  adding `--json <path>` to a replay command above).
 - **Table 2** (cross-field ablation: slot-only vs instruction-only abstention
   on `governingLaw`, `disputeForum`, `entityType`): add `--ablation` to any of
   the four replay commands above; each prints that model's per-field ablation
@@ -316,6 +317,9 @@ it). Concerto and template authoring are documented at
 - **Raw-capture fidelity** (24/24 faithful, 22/24 verbatim):
   `venv/bin/python -m contract_drafting.raw_fidelity` regenerates
   `data/eval/raw_fidelity.json` byte-identically (offline, keys unset).
+- **Pre-registration** (frozen cross-field decision rule + dated amendments):
+  [`PREREGISTRATION_cross-field.md`](PREREGISTRATION_cross-field.md). The
+  freeze-before-recording provenance lives in the development history.
 
 ## Disclaimer
 
@@ -325,7 +329,9 @@ playbook conformance only — never legal correctness.
 
 ## License
 
-Apache-2.0 — see [LICENSE](LICENSE). Copyright 2026 Yuzhou Wang.
+Apache-2.0 — see [LICENSE](LICENSE). Copyright 2026 Yuzhou Wang. The recorded
+model outputs in the `data/eval/` cassettes are redistributed under the
+provider-terms note in [`data/eval/DATACARD.md`](data/eval/DATACARD.md).
 
 ---
 
