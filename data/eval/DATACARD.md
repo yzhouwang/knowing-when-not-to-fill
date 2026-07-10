@@ -132,10 +132,17 @@ estimate of recording cost, not an invoice.
 
 The cassettes are recorded completions from OpenAI (gpt-5.5), Anthropic
 (claude-sonnet-4-6), and DeepSeek (v4-pro/flash), captured for offline,
-reproducible research evaluation. They are published on the understanding that
-each provider's terms permit research use and redistribution of recorded
-outputs; confirm against the providers' current terms before relying on this.
-All case inputs are hand-authored synthetic fixtures — no real party data.
+reproducible research evaluation. The license boundary is explicit:
+
+- The repository's Apache-2.0 grant covers the code, the documentation, the
+  hand-authored case inputs (synthetic fixtures — no real party data), and
+  whatever rights, if any, the authors hold in the recorded outputs.
+- The authors claim no rights in the provider-generated text beyond those each
+  provider's terms assign to the account that generated it, and grant no
+  rights they do not hold.
+- Each provider's usage terms travel with its outputs: before redistributing
+  or reusing the recorded outputs, downstream users are responsible for their
+  own compliance with the then-current OpenAI, Anthropic, and DeepSeek terms.
 
 ## Mined-findings artifacts (added 2026-07-04)
 
